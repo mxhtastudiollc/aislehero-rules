@@ -68,8 +68,8 @@
     {
       "name": "high fructose corn syrup",
       "reason": "Concentrated free fructose is metabolised primarily by the liver and is linked to non-alcoholic fatty liver disease, elevated triglycerides, and insulin resistance at typical Western intake levels.",
-      "source": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/high-fructose-corn-syrup/faq-20058201",
+      "source": "NIH PubMed Central (Nutrients review, 2017)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5622741/",
       "penalty": 15
     },
     {
