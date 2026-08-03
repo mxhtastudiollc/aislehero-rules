@@ -1,6 +1,6 @@
 {
-    "version": 5,
-    "lastUpdated": "2026-06-07",
+    "version": 6,
+    "lastUpdated": "2026-08-03",
     "harmfulIngredients": [
         {
             "name": "palm oil",
@@ -35,13 +35,6 @@
             "reason": "Petroleum-derived synthetic dye (Allura Red AC). Linked to hyperactivity and attentional issues in sensitive children. Subject of the FDA's 2025 phase-out commitment.",
             "source": "U.S. FDA",
             "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
-            "penalty": 10
-        },
-        {
-            "name": "blue 1",
-            "reason": "Petroleum-derived synthetic dye (Brilliant Blue FCF). Possible allergen and behavioural-effect concerns; covered by the FDA's 2025 phase-out of petroleum dyes.",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/news-events/press-announcements/hhs-fda-phase-out-petroleum-based-synthetic-dyes-nations-food-supply",
             "penalty": 10
         },
         {
