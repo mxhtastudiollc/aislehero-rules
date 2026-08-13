@@ -585,5 +585,211 @@
             "low nutrient density",
             "light on nutrition"
         ]
+    },
+    "categoryOverrides": {
+        "0021130112586": {
+            "category": "en:tortillas",
+            "reason": "Plain tortillas filed under en:mexican-dinner-mixes. The single systematic OFF cluster the 2026-08-11 audit found: 9 of the 14 confirmed contradicted errors, and the top impact leaf at 17 founder-scenario pairs.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0037600085953": {
+            "category": "en:tortillas",
+            "reason": "Plain tortillas filed under en:mexican-dinner-mixes. The single systematic OFF cluster the 2026-08-11 audit found: 9 of the 14 confirmed contradicted errors, and the top impact leaf at 17 founder-scenario pairs.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0073731060001": {
+            "category": "en:tortillas",
+            "reason": "Plain tortillas filed under en:mexican-dinner-mixes. The single systematic OFF cluster the 2026-08-11 audit found: 9 of the 14 confirmed contradicted errors, and the top impact leaf at 17 founder-scenario pairs.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0074426020027": {
+            "category": "en:tortillas",
+            "reason": "Plain tortillas filed under en:mexican-dinner-mixes. The single systematic OFF cluster the 2026-08-11 audit found: 9 of the 14 confirmed contradicted errors, and the top impact leaf at 17 founder-scenario pairs.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0078858510620": {
+            "category": "en:tortillas",
+            "reason": "Plain tortillas filed under en:mexican-dinner-mixes. The single systematic OFF cluster the 2026-08-11 audit found: 9 of the 14 confirmed contradicted errors, and the top impact leaf at 17 founder-scenario pairs.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0078858520391": {
+            "category": "en:tortillas",
+            "reason": "Plain tortillas filed under en:mexican-dinner-mixes. The single systematic OFF cluster the 2026-08-11 audit found: 9 of the 14 confirmed contradicted errors, and the top impact leaf at 17 founder-scenario pairs.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0727888101871": {
+            "category": "en:tortillas",
+            "reason": "Plain tortillas filed under en:mexican-dinner-mixes. The single systematic OFF cluster the 2026-08-11 audit found: 9 of the 14 confirmed contradicted errors, and the top impact leaf at 17 founder-scenario pairs.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0729630000470": {
+            "category": "en:tortillas",
+            "reason": "Plain tortillas filed under en:mexican-dinner-mixes. The single systematic OFF cluster the 2026-08-11 audit found: 9 of the 14 confirmed contradicted errors, and the top impact leaf at 17 founder-scenario pairs.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0072036953711": {
+            "category": "en:prepared-salads",
+            "reason": "A composite prepared salad filed as the lettuce in it. Owner-corrected target.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0811847038350": {
+            "category": null,
+            "reason": "Not food. A deodorant filed under fr:condiments-a-tartiner, a spreadable-condiment food tag. Excluded from food surfaces entirely; no form word appears on either side, so no heuristic could ever have flagged it.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0072400511684": {
+            "category": "en:sweet-spreads",
+            "reason": "A sweet spread filed as an Italian corn biscuit (it:paste-di-meliga).",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0719283140708": {
+            "category": "en:chocolate-chips",
+            "reason": "Baking chips are an ingredient, not a baking mix.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0850055550308": {
+            "category": "en:jams",
+            "reason": "A jam filling filed as a pastry.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0763446000101": {
+            "category": "en:baking-mixes",
+            "reason": "A baking mix filed as the finished cake. The two behave differently in a swap.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0016000215337": {
+            "category": "en:salty-snacks",
+            "reason": "A savoury snack mix filed as caramel popcorn.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0011110157881": {
+            "category": "en:frozen-desserts",
+            "reason": "Chocolate-covered frozen fruit filed as frozen yogurt. Judged borderline in Layer 2.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0850029742760": {
+            "category": "en:protein-shakes",
+            "reason": "A ready-to-drink protein shake filed as a protein bar.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0041679725993": {
+            "category": "en:protein-shakes",
+            "reason": "A nutritional protein shake filed as an energy drink.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0054100009647": {
+            "category": "en:salty-snacks",
+            "reason": "Corn puffs filed as smooth potato chips (fr:chips-de-pommes-de-terre-lisses).",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0051000294708": {
+            "category": "en:soups",
+            "reason": "A chunky soup filed as a vegetable broth.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0011110050939": {
+            "category": "en:sauces",
+            "reason": "A prepared sauce filed under herbs and spices.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0850061075604": {
+            "category": "en:coffee-drinks",
+            "reason": "A ready-to-drink latte filed as an instant coffee substitute.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0754177830396": {
+            "category": "en:dehydrated-beverages",
+            "reason": "A powdered atole drink mix filed as corn starch.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0856624004142": {
+            "category": "en:almond-milk-yogurts",
+            "reason": "An almond-milk yogurt filed as a strawberry milk.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0075355112401": {
+            "category": "en:fruit-based-beverages",
+            "reason": "A diluted juice drink filed as apple syrup. Deliberately NOT en:apple-juices - a juice drink is not 100% juice, and swapping the two in either direction would mislead.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "01603033": {
+            "category": "en:bars",
+            "reason": "A soft-baked brownie bar filed as an almond cookie. Judged borderline in Layer 2.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0018195700001": {
+            "category": "en:fruit-chips",
+            "reason": "Dried apple chips filed as fresh apples. The target bucket is thin (1 other product), so this mostly stops apple chips being offered against fresh fruit rather than producing new swaps - which is the harm being fixed.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0755795500227": {
+            "category": null,
+            "reason": "A stuffing mix filed under pt:cereais, so it is offered against breakfast cereals. No accurate OFF bucket exists for stuffing mixes, so it is removed from category-based matching rather than moved somewhere else wrong.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "19600408": {
+            "category": "en:candies",
+            "reason": "Chewy mints filed as chewing gum - they are swallowed, gum is not. Judged borderline in Layer 2.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0795239801404": {
+            "category": "en:herbal-teas",
+            "reason": "A herbal coffee-substitute brew filed as a weight-loss tea, a claim the product does not make. en:coffee-substitutes is not a populated bucket.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0092378171000": {
+            "category": "en:crisps",
+            "reason": "Crisps filed as hummus. Suggested 117 times in the census - the highest-traffic non-catch-all error found.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0078742008080": {
+            "category": "en:ketchup",
+            "reason": "Ketchup filed as a pasta dish.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0083000269202": {
+            "category": "en:dietary-supplements",
+            "reason": "A marine collagen supplement filed under jams.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0722252068491": {
+            "category": "en:peanut-butters",
+            "reason": "Peanut butter filed as an energy bar.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        }
     }
 }
