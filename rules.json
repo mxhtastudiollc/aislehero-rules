@@ -1,6 +1,6 @@
 {
-    "version": 6,
-    "lastUpdated": "2026-08-03",
+    "version": 7,
+    "lastUpdated": "2026-08-14",
     "harmfulIngredients": [
         {
             "name": "palm oil",
@@ -587,6 +587,18 @@
         ]
     },
     "categoryOverrides": {
+        "11824077": {
+            "category": "en:creamer",
+            "reason": "Coffee-mate Italian sweet crème — a coffee CREAMER — filed under ROBUSTA COFFEES, the bean.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "19600408": {
+            "category": "en:candies",
+            "reason": "Chewy mints filed as chewing gum - they are swallowed, gum is not. Judged borderline in Layer 2.",
+            "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
         "0021130112586": {
             "category": "en:tortillas",
             "reason": "Plain tortillas filed under en:mexican-dinner-mixes. The single systematic OFF cluster the 2026-08-11 audit found: 9 of the 14 confirmed contradicted errors, and the top impact leaf at 17 founder-scenario pairs.",
@@ -755,12 +767,6 @@
             "date": "2026-08-11",
             "confidence": "owner-confirmed"
         },
-        "19600408": {
-            "category": "en:candies",
-            "reason": "Chewy mints filed as chewing gum - they are swallowed, gum is not. Judged borderline in Layer 2.",
-            "date": "2026-08-11",
-            "confidence": "owner-confirmed"
-        },
         "0795239801404": {
             "category": "en:herbal-teas",
             "reason": "A herbal coffee-substitute brew filed as a weight-loss tea, a claim the product does not make. en:coffee-substitutes is not a populated bucket.",
@@ -789,6 +795,3378 @@
             "category": "en:peanut-butters",
             "reason": "Peanut butter filed as an energy bar.",
             "date": "2026-08-11",
+            "confidence": "owner-confirmed"
+        },
+        "0000200003147": {
+            "category": "en:crisps",
+            "reason": "Salt and vinegar crisps are a savoury snack; filed under sweet snacks.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00013703": {
+            "category": "en:dark-chocolates",
+            "reason": "Lindt 70% dark chocolate bar filed under cooked shrimps.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00030823": {
+            "category": "en:broccoli",
+            "reason": "Broccoli crowns sitting in the aisle-sized en:produce rather than a real leaf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00034210": {
+            "category": "en:watermelons",
+            "reason": "Whole watermelon sitting in the aisle-sized en:produce rather than a real leaf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00035927": {
+            "category": "en:salmons",
+            "reason": "Wild Alaskan pink salmon. Its only category is the sentinel en:null, so after the sentinel fix it resolves to no bucket at all and would silently leave the swaps index; en:salmons is what the name says.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00040617": {
+            "category": "en:iceberg-lettuce",
+            "reason": "Iceberg lettuce sitting in the aisle-sized en:produce rather than a real leaf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00046893": {
+            "category": "en:sweet-peppers",
+            "reason": "Yellow bell pepper sitting in the aisle-sized en:produce rather than a real leaf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00062176": {
+            "category": "en:creams",
+            "reason": "Half and half is a cream. Its only category is the sentinel en:null, so after the sentinel fix it resolves to no bucket and would leave the index.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0007229600013": {
+            "category": "en:canned-tunas",
+            "reason": "Canned chunk light tuna filed under en:protein, a nutrient label rather than a food shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0008346957477": {
+            "category": "en:meal-replacements",
+            "reason": "A SlimFast meal replacement shake filed under instant beverages, so it would be offered as a swap for instant coffee and cocoa. Its own two siblings in this batch sit on en:meal-replacements.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0009300000765": {
+            "category": "en:dill-pickles",
+            "reason": "Kosher dill spears. Only category is the sentinel en:null, so post-fix it resolves to no bucket and would leave the index entirely.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0009300001083": {
+            "category": "en:gherkins",
+            "reason": "Sweet gherkins — a distinct product from the dill pickles beside it in this batch, hence the separate shelf. Only category is the sentinel en:null.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0009300001304": {
+            "category": "en:dill-pickles",
+            "reason": "Hamburger dill chips are sliced dill pickles. Only category is the sentinel en:null.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0009300002189": {
+            "category": "en:dill-pickles",
+            "reason": "Kosher petite dills. Only category is the sentinel en:null.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0009300004541": {
+            "category": "en:dill-pickles",
+            "reason": "Organic kosher baby dills filed under salted snacks, which on this shelf means crisps, nuts and pretzels — so a shopper comparing crisps is offered a jar of pickles. The other four Mt. Olive pickles in this same batch land nowhere at all.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0009542439668": {
+            "category": "en:bonbons",
+            "reason": "Lindt Lindor filed under trifles — a layered sponge-and-custard dessert. It reads as truffle/trifle confusion, and the six other Lindor products in this batch all sit on en:bonbons.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0010200231005": {
+            "category": "en:cornmeal",
+            "reason": "Stone ground yellow corn meal. Only category is the sentinel en:null, so post-fix it resolves to no bucket and would leave the index.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0010389573002": {
+            "category": "en:stuffed-salmon",
+            "reason": "Stuffed salmon. Only category is the sentinel en:null, so post-fix it resolves to no bucket and would leave the index; OFF has an exact node for it.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110016478": {
+            "category": "en:hot-dogs",
+            "reason": "A pack of uncured turkey hot dogs — the sausages — filed under hot dog sandwiches, which is the assembled sandwich. Cross-form: someone comparing sandwiches is offered a pack of franks, and someone comparing franks never sees it.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110019790": {
+            "category": "en:crackers",
+            "reason": "A box named simply \"Crackers\" filed under sweet snacks and biscuits-and-cakes. Crackers are savoury — a sweet cracker is always named as one (graham, honey) — so this puts a savoury box on the cake shelf and offers cakes back to it.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110020932": {
+            "category": "en:english-muffins",
+            "reason": "English muffins. Only category is the sentinel en:null, so post-fix it resolves to no bucket and would leave the index.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110024725": {
+            "category": "en:pecan-nuts",
+            "reason": "Pecan pieces. Only category is the sentinel en:null, so post-fix it resolves to no bucket and would leave the index.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110038074": {
+            "category": "en:plant-based-deli-slices",
+            "reason": "A plant based ham-style deli slice filed under en:meats. It is not meat, and the shelf would offer it real charcuterie and offer real charcuterie back — the veggie dogs in this same batch are correctly on a meat-analogue node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110058546": {
+            "category": "en:sweet-biscuits",
+            "reason": "Animal crackers are sweet biscuits, and this files them under appetizer crackers — so a shopper comparing savoury crackers is offered a box of sweetened cookies. The name is the trap: \"cracker\" here is American usage for a biscuit.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110086235": {
+            "category": "en:crackers",
+            "reason": "Peppercorn and poppy water crisps are savoury water crackers. Only category is the sentinel en:null, so post-fix it resolves to no bucket and would leave the index; OFF has no water-cracker node, so en:crackers is the closest real one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110096548": {
+            "category": "en:cone-wafer-for-ice-cream",
+            "reason": "A box of empty sugar cones. Only category is the sentinel en:null, so post-fix it resolves to no bucket. Deliberately NOT en:ice-cream-cones — that node sits under en:frozen-cones and means the frozen dessert, not the wafer.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110096555": {
+            "category": "en:cone-wafer-for-ice-cream",
+            "reason": "A box of empty waffle cones. Only category is the sentinel en:null, so post-fix it resolves to no bucket. Same node choice as the sugar cones beside it, and for the same reason.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110103482": {
+            "category": "en:frozen-onions",
+            "reason": "A bag of chopped onions filed under frozen mixed vegetables for soups. It is one vegetable, not a blend, so it is offered against mixed-veg bags and never against onions.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110106421": {
+            "category": "en:red-beans",
+            "reason": "Dark red kidney beans filed under en:food — a bucket literally named \"food\", which is the widest possible join. Its own light-red sibling in this batch sits on en:red-beans.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110119681": {
+            "category": "en:tomato-pastes",
+            "reason": "A can of tomato paste filed under en:tomatoes, the raw vegetable. Cross-form: a shopper comparing fresh tomatoes is offered concentrated paste, and the two tomato sauces beside it in this batch are correctly on their own node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110125316": {
+            "category": "en:pizzas",
+            "reason": "\"Ultra thin crust Italian style veggie\" is Simple Truth's thin crust pizza — thin crust is pizza vocabulary — filed under frozen snacks and starters. Its Greek style vegetable sibling in this batch is on en:pizzas.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110127914": {
+            "category": "en:energy-bars",
+            "reason": "Banana bread energy bars filed under biscuits, so they are offered against cookies and never against other bars — cross-form, and OFF has an exact node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110135193": {
+            "category": "en:raw-almonds",
+            "reason": "A bag of plain raw almonds filed under nut and seed MIXES. One nut is not a mix, so it competes against trail mixes instead of against other almonds.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110147349": {
+            "category": "en:syrups",
+            "reason": "Corn-syrup pancake syrup filed under MAPLE syrups — the bucket names a substance the product does not contain, so it competes directly against real maple syrup.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110152879": {
+            "category": "en:croissants",
+            "reason": "A stuffed croissant filed under shortcrust pastry with pure butter. Laminated dough is not shortcrust, and its own black-forest-ham sibling in this batch sits on viennoiseries.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110371102": {
+            "category": "en:macaroni-and-cheese",
+            "reason": "Classic macaroni and cheese. Only category is the sentinel en:null, so post-fix it resolves to no bucket and would leave the index; the Simple Truth mac and cheese in this batch shows the real node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110622211": {
+            "category": "en:sponge-cakes",
+            "reason": "Tres leches filed under CHEESECAKES. It is a milk-soaked sponge cake and contains no cheese — the bucket names an ingredient the product does not have.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110827678": {
+            "category": "en:potato-preparations",
+            "reason": "A boxed au gratin potato mix filed under en:potatoes, the raw vegetable. Cross-form: a shopper comparing fresh potatoes is offered a dry boxed mix.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110887719": {
+            "category": "en:pizzas",
+            "reason": "A frozen thin crust PIZZA filed under MARMALADES, on the strength of \"onion marmalade\" in the name. The clearest cross-type row so far: someone comparing jam is offered a pizza.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011110895943": {
+            "category": "en:canned-common-beans",
+            "reason": "A can of one bean variety filed under MIXED VEGETABLES. Same single-item-under-a-mix shape the owner ruled wrong for raw almonds under nut and seed mixes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011162102891": {
+            "category": "en:fish-breaded-frozen",
+            "reason": "Breaded pollock fish sticks filed under SURIMI, which is a fish paste product. The Alaska pollock nuggets in this same batch show the right node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011206000350": {
+            "category": "en:crackers",
+            "reason": "Savoury tamari seaweed rice snaps filed under biscuits and cakes — sweet-vs-savoury, so they compete against cookies.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011233077011": {
+            "category": "en:pies",
+            "reason": "An apple PIE filed under CAKES. `en:pies` is a separate node, not a child of cakes, and the 4-inch cherry pie in this same batch uses it.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011233077073": {
+            "category": "en:pies",
+            "reason": "A cherry PIE filed under CAKES. Same as the apple pie beside it.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0011863124550": {
+            "category": "en:cheeses",
+            "reason": "A BellaVitano CHEESE filed under LARDS. Cheese is not rendered fat.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00123105": {
+            "category": "en:pickled-capers",
+            "reason": "A jar of capers — a pickled condiment — filed under frozen ready made meals.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00129312": {
+            "category": "en:french-fries",
+            "reason": "Frozen straight cut oven chips filed under BRUSSELS SPROUTS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0013800228642": {
+            "category": "en:microwave-meals",
+            "reason": "A southwest chicken frozen meal filed under frozen RAVIOLI. It contains no pasta; the bucket names the wrong dish entirely.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0013800240583": {
+            "category": "en:microwave-meals",
+            "reason": "A marinara chicken and broccoli frozen meal filed under BROCCOLI, the raw vegetable — so it turns up against fresh produce.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0014100087823": {
+            "category": "en:chocolate-stuffed-wafers",
+            "reason": "Pirouette CHOCOLATE FUDGE wafers filed under HAZELNUT cream stuffed wafers. Its French Vanilla sibling here is correctly on the vanilla node, so the flavour nodes exist and this one names the wrong nut.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0014100096573": {
+            "category": "en:crackers",
+            "reason": "Filed under `en:proposed-for-deletion`, an OFF workflow marker being used as a shelf — it constrains nothing, like `en:food`. The name is the front-of-pack claim on Pepperidge Farm whole grain cheddar Goldfish, and other Goldfish rows in…",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0014113702751": {
+            "category": "en:flavoured-pistachios",
+            "reason": "Sweet cinnamon PISTACHIOS filed under dried FRUIT. Eleven Wonderful pistachio rows in this same batch sit on pistachio nodes; this one is the outlier.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0014500009913": {
+            "category": "en:frozen-vegetables",
+            "reason": "A frozen broccoli and cauliflower au gratin bake filed under `en:protein` — a nutrient label, not a food type, and the second time that bucket has turned up.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0014500094346": {
+            "category": "en:pasta-dishes",
+            "reason": "A rigatoni and marinara meal filed under `en:vegetables`, so it competes against raw produce.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0014800210927": {
+            "category": "en:applesauces",
+            "reason": "UNSWEETENED applesauce filed under BLUEBERRY applesauces. The bucket names a fruit the product does not contain — same shape as the pancake syrup under maple.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0015665601004": {
+            "category": "en:puffs",
+            "reason": "Pirate’s Booty rice-and-corn PUFFS filed under CHEDDAR CHEESE, so someone comparing blocks of cheese is offered a bag of snack puffs. Its own sibling in this batch is correctly on en:puffs.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0016000222915": {
+            "category": "en:potato-preparations",
+            "reason": "A boxed scalloped potato casserole mix filed under en:potatoes, the raw vegetable — the second boxed potato mix with this defect.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0016000305700": {
+            "category": "en:baking-mixes",
+            "reason": "A peanut butter COOKIE MIX filed under snack mix, which on this shelf means Chex Mix and Gardetto’s. A bag of dry baking mix is not a party snack.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0016000351714": {
+            "category": "en:fruits-cereal-bars",
+            "reason": "A soft baked filled BAR filed under fruit snacks, which on this shelf means gummies. The Mott’s soft baked berry bar in this same batch is on the cereal-bar node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0017082006035": {
+            "category": "en:beef-jerkies",
+            "reason": "Jack Link’s original beef steak — a jerky-style meat snack — filed under TEEWURST, a German spreadable raw sausage. Its own Jack Link’s siblings in this batch sit on dried-meat nodes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0017082010476": {
+            "category": "en:dried-meats",
+            "reason": "PORK jerky filed under BEEF jerkies. The bucket names the wrong animal; en:dried-meats is the shared parent and there is no pork-jerky node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0017696000726": {
+            "category": "en:microwave-meals",
+            "reason": "Frozen beef and cheese TAQUITOS filed under MEXICAN SALADS. OFF has no taquito node, so the honest fallback is the frozen-meal shelf rather than a salad one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0018200250088": {
+            "category": "en:beers",
+            "reason": "Natural Ice — Natty Ice — is BEER, filed under non-alcoholic instant beverage variety packs. Beyond the wrong shelf, alcohol is the class OFF declines to Nutri-Score at all, so the mislabel also routes it past that gate.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021000053674": {
+            "category": "en:mozzarella",
+            "reason": "A block of Kraft MOZZARELLA filed under PANINIS, a sandwich. Four other Kraft mozzarella rows in this batch are on the cheese node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021000081431": {
+            "category": "en:cheese-substitutes",
+            "reason": "Philadelphia NON-DAIRY spread filed under CREAM CHEESES. Same shape as the plant-based deli slices under en:meats that the owner ruled wrong at the gate: the bucket asserts a dairy the product does not contain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021000615421": {
+            "category": "en:grated-cheese",
+            "reason": "Kraft 100% grated parmesan filed under PARMIGIANO REGGIANO, a PDO cheese it is not. Several other rows in this batch use en:grated-cheese correctly.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021108202073": {
+            "category": "en:tortillas",
+            "reason": "Flour tortillas under en:mexican-dinner-mixes — the exact cluster Phase 1 identified and overrode by hand. Its own sibling from the same brand sits on en:flour-tortillas, and the Signature Select white corn tortillas in this batch already…",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021130006533": {
+            "category": "en:cooked-vegetables",
+            "reason": "A jar of fire roasted red bell peppers filed under SALTED SNACKS, which on this shelf means crisps and nuts.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021130122677": {
+            "category": "en:tortillas",
+            "reason": "Soft taco flour tortillas under en:mexican-dinner-mixes — the Phase 1 cluster again, on a different brand.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021130144792": {
+            "category": "en:salami",
+            "reason": "Signature Select dry salami filed under SALAMINI ITALIANI ALLA CACCIATORA, an Italian PDO. Same false-designation shape as the Kraft parmesan; the peppered salami beside it uses en:salami.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021130282586": {
+            "category": "en:rolled-oats",
+            "reason": "Old-fashioned whole grain oat cereal filed under `en:vegan` — a diet label, not a food type. Third bucket of that kind after en:protein and en:food.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021130350094": {
+            "category": "en:creamer",
+            "reason": "A sweet cream coffee CREAMER filed under \"coffee with milk with sugar\", a ready-to-drink coffee. Unlike the creamer-under-milk-substitutes row I let stand, this bucket is a different product entirely, not an adjacent one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021130501366": {
+            "category": "en:dried-split-peas",
+            "reason": "Dried green split peas filed under FRUITS. The right node is already sitting in the product’s own categories_tags — OFF simply picked the wrong one of them.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021613032578": {
+            "category": "en:steaks",
+            "reason": "An Omaha Steaks BEEF TOP SIRLOIN filed under FRUITS DESSERTS, via a tag chain that runs entirely through plant-based foods. The most absurd row in the corpus so far.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0021900982258": {
+            "category": "en:fried-pork-rind",
+            "reason": "Chicharrones — a bag of fried pork skins — filed under PORK MEALS, so a snack competes against dinners.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0023000351453": {
+            "category": "en:sauerkrauts",
+            "reason": "Shredded sauerkraut filed under SALTED SNACKS. The identically-named Silver Floss kraut in this same batch is on en:sauerkrauts.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0023700061560": {
+            "category": "en:chicken-wings",
+            "reason": "Tyson rotisserie WINGS filed under RÖSTIS, a fried potato pancake.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0023964759067": {
+            "category": "en:beef-hamburgers",
+            "reason": "Fresh ground beef BURGERS filed under BEEF STEAKS. Ground versus whole muscle is the same single-item-vs-form distinction as the earlier rows.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0024100001569": {
+            "category": "en:crackers",
+            "reason": "Cheez-It Gripz — savoury cheese crackers — filed under SWEET SNACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0024126017988": {
+            "category": "en:breads",
+            "reason": "A raisin cinnamon swirl BREAD filed under CAKES, through a sweet-snacks chain. Its name says bread and it is a bakery loaf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0024426017114": {
+            "category": "en:microwave-meals",
+            "reason": "Pepperoni pizza stuffed pockets filed under `en:products-without-gluten` — a dietary property, not a food type. Unlike the earlier ancient-grains row I abstained on, this name says exactly what the product is, so a target is available.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00246545": {
+            "category": "en:pickled-capers",
+            "reason": "Capers in vinegar filed under SALTED SNACKS. Second capers row in the corpus and the second different wrong shelf — the earlier one was frozen ready meals.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0025000136658": {
+            "category": "en:orange-juices",
+            "reason": "Simply 100% ORANGE juice filed under squeezed LEMON juices. Wrong fruit.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0025317270632": {
+            "category": "en:hot-dogs",
+            "reason": "An uncured beef hot dog — the sausage — filed under HOT DOG SANDWICHES. Second product with this exact defect; the Kroger turkey hot dogs were the first.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0025317314077": {
+            "category": "en:frittata",
+            "reason": "Egg frittata bites filed under a fortified breakfast BISCUIT node, through a sweet-snacks chain. Eggs are not a cereal biscuit.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0025600000144": {
+            "category": "en:cakes",
+            "reason": "A Tastykake iced cake snack filed under FRENCH TOAST.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0026396908294": {
+            "category": "en:kimchi",
+            "reason": "Kimchi filed under SALTED SNACKS, alongside crisps and nuts.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0026938375720": {
+            "category": "en:fruit-spread",
+            "reason": "Woodstock apple SPREAD filed under en:apples, the raw fruit — the same spread-vs-produce cross-form as the tomato paste row.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0027241594297": {
+            "category": "en:breaded-fish",
+            "reason": "Cornmeal crusted FISH STICKS filed under SURIMI, a fish paste. Second product with this exact defect after Mrs. Paul’s.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0027331032111": {
+            "category": "en:tortillas",
+            "reason": "Whole wheat flour tortilla wraps under en:mexican-dinner-mixes — the Phase 1 cluster, third brand.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0027331032227": {
+            "category": "en:tortillas",
+            "reason": "Whole wheat soft taco tortillas under en:mexican-dinner-mixes — the Phase 1 cluster, same brand as the row above.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0027800072488": {
+            "category": "en:cone-wafer-for-ice-cream",
+            "reason": "A box of empty Keebler waffle cones filed under PASTRIES. Same product and same node choice as the Kroger cones earlier — not en:ice-cream-cones, which means the frozen dessert.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0028029597103": {
+            "category": "en:salmon-patties",
+            "reason": "Alaskan SALMON burgers filed under FROZEN MEATS. OFF has an exact fish-patty node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00280723": {
+            "category": "en:salad-dressings",
+            "reason": "A bottle of balsamic salad DRESSING filed under READY MEALS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0028400168731": {
+            "category": "en:potato-crisps",
+            "reason": "Miss Vickie’s kettle cooked POTATO CHIPS filed under SMOKED ALMONDS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0028400198929": {
+            "category": "en:crisps",
+            "reason": "Chickpea veggie CRISPS filed under RICE FLOURS — the snack filed as a baking ingredient.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0028400765381": {
+            "category": "en:corn-chips",
+            "reason": "Corn TORTILLA chips filed under POTATO crisps. Wrong raw material, and the shelf is the one a potato-chip shopper is looking at.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0028400765541": {
+            "category": "en:corn-chips",
+            "reason": "Doritos — corn tortilla chips — filed under POTATO crisps. Same defect as the row above, different brand.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0028400768528": {
+            "category": "en:corn-snacks",
+            "reason": "Funyuns filed under BREADED ONION RINGS. They are an extruded corn snack shaped like a ring, not a battered vegetable.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0028800290001": {
+            "category": "en:squash",
+            "reason": "Butternut squash filed under en:produce, the aisle-sized bucket the owner already approved per-product overrides for. No butternut node exists, so en:squash is the closest real one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0028989102898": {
+            "category": "en:vegetarian-patties",
+            "reason": "MorningStar Chik’n patties — a vegetarian product — filed under FROZEN MEATS. Its Garden Veggie Burger sibling in this same batch is on en:vegetarian-patties.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0029700131463": {
+            "category": "en:potato-preparations",
+            "reason": "Idahoan butter and herb instant MASHED POTATO mix filed under en:potatoes, the raw vegetable. Third boxed potato mix with this defect.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0030223061236": {
+            "category": "en:prepared-salads",
+            "reason": "A chopped salad KIT filed under en:lettuces, the raw leaf. Its own Taylor Farms apple pecan salad sits on en:prepared-salads.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0030283170541": {
+            "category": "en:oyster-sauces",
+            "reason": "A single bottle of oyster sauce filed under SAUCES AND CONDIMENTS VARIETY PACKS, so it is offered against assortment boxes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0030796010051": {
+            "category": "en:fruit-spread",
+            "reason": "Apple butter filed under HONEY AND ROYAL JELLY MIXTURES. It contains neither.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0031000009793": {
+            "category": "en:pasta-dishes",
+            "reason": "BACON mac and cheese filed under VEGETABLE BASED frozen meals. Deliberately unlike the Lean Cuisine mac-and-cheese-with-broccoli I left alone — that one has the vegetable, this one has bacon.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0031500004878": {
+            "category": "en:cooked-vegetables",
+            "reason": "A jar of roasted peppers filed under SALTED SNACKS — second jar of roasted peppers with this exact defect.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0031506103247": {
+            "category": "en:hot-dogs",
+            "reason": "Deli beef FRANKS filed under HOT DOG SANDWICHES. Third product with this defect, third brand — this is a cluster.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0031506694134": {
+            "category": "en:pickled-cucumbers",
+            "reason": "Sour garlic pickles filed under SALTED SNACKS, which on this shelf means crisps and nuts. Second pickle jar to land there.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0031506739293": {
+            "category": "en:turkey-breasts",
+            "reason": "Organic turkey breast filed under a bucket named `en:cut` — a preparation word that constrains no food type at all, like en:food and en:protein before it.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0035493003290": {
+            "category": "en:frozen-fishes",
+            "reason": "A frozen glazed COD fillet filed under PINEAPPLE, on the strength of the glaze in its name.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0035826094278": {
+            "category": "en:yogurts",
+            "reason": "Plain nonfat YOGURT filed under DAIRY BY PRODUCTS. Yogurt is the product, not a by-product of making something else.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0036632034854": {
+            "category": "en:yogurts",
+            "reason": "Activia probiotic YOGURT filed under NON DAIRY DESSERTS. It is dairy — the bucket asserts the opposite of the product.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0036632071262": {
+            "category": "en:oat-based-drinks",
+            "reason": "Silk OAT milk filed under NON HOMOGENIZED MILKS, a dairy node. Plant drink on the cow-milk shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0036800010352": {
+            "category": "en:crackers",
+            "reason": "Thin wheat crackers filed under `en:food` — the second time that bucket has appeared, and it constrains nothing.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0037695601281": {
+            "category": "en:cakes",
+            "reason": "\"Cake Bites\" filed under FRENCH TOAST. Second product on that shelf that is plainly a snack cake.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0038000223068": {
+            "category": "en:toaster-pastries",
+            "reason": "A Pop-Tart filed under SWEET PIES while six other Pop-Tarts in this same batch sit on en:toaster-pastries.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0038000244759": {
+            "category": "en:rice-desserts",
+            "reason": "Rice Krispies TREATS — a marshmallow cereal bar — filed under en:rice, the grain. Its Kellogg’s sibling in this batch is on en:rice-desserts.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0038000269943": {
+            "category": "en:breakfast-cereals",
+            "reason": "Kellogg’s Raisin Bran filed under `en:food`. Third appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0038000300202": {
+            "category": "en:toaster-pastries",
+            "reason": "Pumpkin Pop-Tarts filed under FRESH sweet pastries and pies. They are shelf-stable toaster pastries, and the bucket puts them against bakery-case desserts.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0038900720681": {
+            "category": "en:canned-fruits-in-juice",
+            "reason": "Diced mango packed in juice filed under FROZEN tropical fruits. It is shelf-stable, and another Dole row in this same batch uses the in-juice canned node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0039978002099": {
+            "category": "en:pancake-mixes",
+            "reason": "Protein PANCAKE and waffle mix filed under CAKE MIXES. OFF has a pancake-mix node and another brand’s pancake mix in an earlier batch uses it.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0039978003959": {
+            "category": "en:pancake-mixes",
+            "reason": "Paleo pancake and waffle mix under CAKE MIXES — same defect as its Bob’s Red Mill siblings.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0039978004352": {
+            "category": "en:lentils",
+            "reason": "Red LENTILS filed under FRUITS. Second legume on the fruit shelf after the green split peas, and Bob’s Red Mill green lentils in this same batch are filed correctly.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0039978008831": {
+            "category": "en:pancake-mixes",
+            "reason": "High fibre pancake and waffle mix under CAKE MIXES — same defect as its Bob’s Red Mill siblings.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0039978114709": {
+            "category": "en:cornmeal",
+            "reason": "Dry corn GRITS filed under READY MEALS. Grits are coarse-ground cornmeal, not a prepared dish.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0039978116864": {
+            "category": "en:lentils",
+            "reason": "Green LENTILS filed under MIXED VEGETABLES. Second Bob’s Red Mill lentil misfiled this batch-run, and the brand’s other green lentils are on en:green-lentils.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0040000547273": {
+            "category": "en:protein-powders",
+            "reason": "A vanilla PROTEIN SHAKE MIX filed under SUGAR COATED CHOCOLATE CONFECTIONERIES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0040232338922": {
+            "category": "en:almond-butters",
+            "reason": "Ginger ALMOND butter filed under BUTTER & DAIRY SPREADS. It contains no dairy, and OFF has an exact almond-butter node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041190073597": {
+            "category": "en:dried-cranberries",
+            "reason": "Dried CRANBERRIES filed under DRIED MIXED FRUITS. One fruit is not a mix — the same shape the owner ruled wrong for raw almonds under nut and seed mixes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041190469499": {
+            "category": "en:cheddar-cheese",
+            "reason": "Mild CHEDDAR filed under COLBY. Two different cheeses, and the cheddar node exists.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041220017775": {
+            "category": "en:roasted-almonds",
+            "reason": "Dry roasted ALMONDS filed under CREAM CHEESES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041220604098": {
+            "category": "en:almond-butters",
+            "reason": "Almond butter filed under a bucket named `en:a` — a single letter, and the product’s only category tag. Seventh non-constraining bucket in the corpus.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041220642533": {
+            "category": "en:dietary-supplements",
+            "reason": "A tub of psyllium FIBRE filed under FLAVOURED DRINKS. Metamucil’s fibre thins in an earlier batch sit on en:dietary-supplements.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041220756421": {
+            "category": "en:trail-mix",
+            "reason": "\"Nutty Bliss Trail Mix\" filed under CARAMELIZED PEANUTS while three other H-E-B trail mixes in this same batch are on en:trail-mix.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041220830404": {
+            "category": "en:cornmeal",
+            "reason": "Quick corn GRITS filed under `en:oat`. Wrong grain entirely.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041220839513": {
+            "category": "en:fresh-legumes",
+            "reason": "Fresh washed-and-ready-to-eat sugar snap peas filed under FRIED plant based foods. Its H-E-B snow peas sibling is on en:fresh-legumes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041220841295": {
+            "category": "en:baking-mixes",
+            "reason": "A general whole wheat BAKING mix filed under CAKE MIXES — and en:baking-mixes is already sitting in the product’s own categories_tags.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041220880362": {
+            "category": "en:black-teas",
+            "reason": "Chai premium BLACK TEA filed under HERBAL TEAS — which by definition contain no tea leaf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041220990559": {
+            "category": "en:potato-crisps",
+            "reason": "H-E-B olive oil kettle CHIPS filed under `en:food`. Fourth appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041224463165": {
+            "category": "en:lentils",
+            "reason": "Le Puy LENTILS filed under MIXED VEGETABLES. Third lentil misfiling in two batches.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041224706248": {
+            "category": "en:hazelnut-oils",
+            "reason": "Roasted hazelnut OIL filed under NUTS & DRIED FRUITS. A bottle of oil is not the nut.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041268767953": {
+            "category": "en:biscuits",
+            "reason": "No-bake peanut butter fudge COOKIES filed under DAIRY CHOCOLATE DESSERTS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041303003183": {
+            "category": "en:common-beans",
+            "reason": "Great northern BEANS filed under MIXED VEGETABLES — one bean is not a mix. Its tag chain carries no bean node at all, so en:common-beans is the closest honest target; deliberately not the canned node, since nothing here says canned.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041303003664": {
+            "category": "en:tomato-purees",
+            "reason": "Tomato PUREE filed under en:tomatoes, the raw vegetable — the same processed-vs-produce cross-form as the tomato paste rows.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041303066621": {
+            "category": "en:chicken-broths",
+            "reason": "Fat free chicken BROTH filed under CHICKEN AND VERMICELLI SOUP. There is no pasta in a carton of broth.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041318302042": {
+            "category": "en:tortillas",
+            "reason": "Crunchy TACO SHELLS filed under WHEAT VERMICELLI, an Italian pasta. OFF has no taco-shell node, so the corn-tortilla family is the closest honest one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041331025164": {
+            "category": "en:lentils",
+            "reason": "Goya LENTILS filed under FRUITS. Fourth legume on the fruit shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041331062206": {
+            "category": "en:nougats",
+            "reason": "Turrón de Alicante — an almond NOUGAT — filed under CHOCOLATE CANDIES. It contains no chocolate.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041387416008": {
+            "category": "en:energy-drinks",
+            "reason": "\"Energy rush\" filed under a bucket named `en:e` — a single letter, the second such after `en:a`. And `en:energy-drinks` is already in the product’s own tags, so OFF had the right answer and chose the junk one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041415077089": {
+            "category": "en:cone-wafer-for-ice-cream",
+            "reason": "Empty waffle ICE CREAM BOWLS filed under ICE CREAMS AND SORBETS — the vessel filed as the dessert. Third cone-or-bowl row with this defect.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041415123533": {
+            "category": "en:quinoa",
+            "reason": "Southwest style QUINOA filed under RICE. Different grain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041415230057": {
+            "category": "en:biscuits",
+            "reason": "An iced oatmeal COOKIE filed under CEREAL BARS — the mirror of the energy-bar-under-biscuits row from an earlier batch.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041415481435": {
+            "category": "en:ice-pops",
+            "reason": "Strawberry FRUIT bars filed under ICE CREAM BARS. The bucket claims dairy, which is exactly what someone reaching for a fruit ice bar is avoiding; the Outshine fruit bars in this same batch sit on frozen-dessert nodes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041420001536": {
+            "category": "en:candies",
+            "reason": "Candy coated PEANUTS filed under en:legumes, the raw pulse.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041420255977": {
+            "category": "en:dried-fruits",
+            "reason": "Black Forest fruit STRIPS — fruit leather — filed under DRIED APPLES, which names a fruit the grape and berry strips do not contain. OFF has no fruit-leather node, so the dried-fruit parent is the closest honest one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041449056265": {
+            "category": "en:cornmeal",
+            "reason": "Yellow CORN MEAL filed under CORN STARCH. Same grain, different product — one is ground corn, the other is extracted starch.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041449107905": {
+            "category": "en:dessert-mixes",
+            "reason": "A lemon bar MIX filed under a bucket spelled `en:desert` — a typo of dessert, and a new kind of junk bucket: not a diet label or a letter, just a misspelling that became a shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041497121021": {
+            "category": "en:almond-butters",
+            "reason": "Creamy ALMOND butter filed under dairy BUTTERS. Second almond butter on a dairy shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041498209261": {
+            "category": "en:vegetarian-patties",
+            "reason": "A veggie burger filed under FROZEN MEATS. Fourth plant protein on a meat shelf, and its own Aldi vegan patty sibling in this batch is on a meat-analogue node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041500936017": {
+            "category": "en:ketchup",
+            "reason": "French’s KETCHUP filed under SALAD DRESSING.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041570109090": {
+            "category": "en:crackers",
+            "reason": "Blue Diamond Nut-Thins — savoury rice crackers — filed under BISCUITS AND CAKES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041570109106": {
+            "category": "en:crackers",
+            "reason": "Blue Diamond rice cracker snacks filed under `en:proposed-for-deletion`, an OFF workflow marker. Second product on that shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041668079670": {
+            "category": "en:chocolate-covered-nuts",
+            "reason": "Chocolate peppermint ALMONDS filed under DAIRY CHOCOLATE DESSERTS. The Blue Diamond chocolate-dipped almonds in this same batch are on en:chocolate-covered-nuts.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041679843833": {
+            "category": "en:nutritional-supplement",
+            "reason": "A Boost nutritional DRINK filed under `en:protein` — a nutrient label, third appearance. Its own Boost sibling in this batch uses en:nutritional-supplement.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0041780192639": {
+            "category": "en:puffed-salty-snacks",
+            "reason": "Utz mini cheese balls filed under HALLOWEEN FOODS AND DRINKS — an OCCASION, not a food type, and a new member of the junk-bucket family. The identically-named Utz cheese balls in this same batch are on en:puffed-salty-snacks.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0042222447928": {
+            "category": "en:turkey-breasts",
+            "reason": "Sliced turkey breast filed under `en:cut`. Second product on that bucket, which is a preparation word rather than a food.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0042563602192": {
+            "category": "en:peanut-butters",
+            "reason": "Organic PEANUT butter filed under dairy BUTTER. Third nut butter on a dairy shelf in three batches.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0043000293201": {
+            "category": "en:cooking-helpers",
+            "reason": "Sure-Jell fruit PECTIN — a gelling agent you add to fruit — filed under BERRY JAMS, the thing you make with it. OFF has no pectin node, so the cooking-helper parent is the honest one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0043182008105": {
+            "category": "en:meat-alternatives",
+            "reason": "Young jackfruit MEATLESS ALTERNATIVE filed under en:meats. Fifth plant protein on a meat shelf, and the name says meatless.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0043454090203": {
+            "category": "en:tempeh",
+            "reason": "Organic flax TEMPEH filed under en:meats — while the same brand’s original tempeh, in this same batch, sits on en:tempeh.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0044000054953": {
+            "category": "en:crackers",
+            "reason": "Nabisco Premium saltine CRACKERS filed under en:biscuits, a sweet-baked node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0044082534619": {
+            "category": "en:almond-butters",
+            "reason": "Once Again ALMOND butter filed under VEGETABLE FATS — while the same brand’s roasted almond butter, four rows away in this batch, is on en:almond-butters.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0044325120074": {
+            "category": "en:vegetarian-patties",
+            "reason": "A beet and kale PLANT BASED patty filed under FROZEN MEATS. Seventh plant protein on a meat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0044325152037": {
+            "category": "en:tofu",
+            "reason": "Organic firm TOFU filed under MEAT ANALOGUES while two other Franklin Farms tofus in this same batch are on en:tofu. Tofu is a soy food in its own right, not an imitation of anything.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0044500201956": {
+            "category": "en:hams",
+            "reason": "Black Forest HAM — pork — filed under POULTRY HAMS. Wrong animal.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0044700092156": {
+            "category": "en:sauerkrauts",
+            "reason": "Claussen SAUERKRAUT filed under SALTED SNACKS. Second sauerkraut to land there.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0046000811819": {
+            "category": "en:tortillas",
+            "reason": "Old El Paso taco SHELLS filed under en:biscuits. Same call as the Schnucks taco shells: no taco-shell node exists, so the corn-tortilla family is the closest honest one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0046567689647": {
+            "category": "en:microwave-meals",
+            "reason": "Verde chicken ENCHILADAS filed under SANDWICHES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00480888": {
+            "category": "en:microwave-meals",
+            "reason": "A Trader Joe’s Indian vegetable meal pouch filed under en:potatoes, the raw vegetable.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0048564000159": {
+            "category": "en:tortillas",
+            "reason": "Guerrero TORTILLAS filed under `en:licensed-products` — a rights-and-branding label, and a new member of the junk-bucket family.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0048594200031": {
+            "category": "en:frozen-meals-with-meat",
+            "reason": "CHICKEN lau lau filed under PORK. Its Ono Ono pork sibling in this same batch is on the frozen-meals node — the two are swapped in effect.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0048802021342": {
+            "category": "en:tortillas",
+            "reason": "Fiesta TORTILLAS under en:mexican-dinner-mixes — fifth brand in the Phase 1 cluster.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0049000081169": {
+            "category": "en:sodas",
+            "reason": "Sprite Cranberry filed under `en:products-without-gluten`, a dietary property. Unlike the ancient-grains row, the product here is unambiguous.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0049705310625": {
+            "category": "en:dry-pastas",
+            "reason": "A box of dry CAVATAPPI filed under PASTA DISHES — the ingredient filed as the prepared meal.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0049705544549": {
+            "category": "en:breads",
+            "reason": "Mini BAGELS filed under BREAD COVERINGS — the spread you put on bread, not the bread. OFF has no bagel node, so en:breads is the honest fallback.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0049705544723": {
+            "category": "en:hamburger-buns",
+            "reason": "Sliced hamburger ROLLS filed under `en:food`. Sixth appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0050000388684": {
+            "category": "en:creamer",
+            "reason": "A coffee CREAMER filed under DAIRY BY PRODUCTS. Second product on that bucket after the plain yogurt.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0050428073629": {
+            "category": "en:snack-mix",
+            "reason": "A Cajun SNACK MIX filed under SALTED PEANUTS — the mix filed as one of its ingredients, and the same brand’s sweet-and-salty snack mix is on en:snack-mix two rows away.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0051000286215": {
+            "category": "en:pasta-sauces",
+            "reason": "Prego chunky tomato basil and garlic SAUCE filed under `en:tomato`, the raw vegetable — while four other Prego sauces in this same batch are on pasta-sauce nodes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0051497329730": {
+            "category": "en:salsa",
+            "reason": "A jar of salsa macha filed under CANNED RAVIOLIS FILLED WITH MEAT IN TOMATO SAUCE.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0051500902882": {
+            "category": "en:peanut-butters",
+            "reason": "Santa Cruz PEANUT BUTTER filed under SNACKS VARIETY PACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0051943304267": {
+            "category": "en:meat-snacks",
+            "reason": "Tillamook mini meat SNACK STICKS filed under TEEWURST, a German spreadable raw sausage. Second product sent to that node — the first was Jack Link’s beef steak.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0052000015942": {
+            "category": "en:flavored-waters",
+            "reason": "Propel Fitness Water — a ready-to-drink bottle — filed under ELECTROLYTE DRINK MIX, a powder. Six other Propel rows in this batch are on water nodes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0052200010310": {
+            "category": "en:baby-foods",
+            "reason": "A Beech-Nut baby VEGETABLE BLEND whose only category tag is `en:snacks`, a catch-all the leaf resolver refuses — so post-Phase-1 it resolves to NO bucket and would leave the index. It is baby food.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0053000063360": {
+            "category": "en:sliced-cheeses",
+            "reason": "Sliced Colby Jack filed under `en:ultra-processed`. Its ENTIRE tag list is nutrient and processing descriptors — en:low-fiber, en:low-iron, en:low-sugars, en:low-vitamin-c, en:high-calcium — with no food category anywhere.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0053213812168": {
+            "category": "en:lentils",
+            "reason": "Pappy’s LENTILS filed under `en:plant-based`, a diet-shaped bucket — while `en:lentils` sits in the product’s own tags. Fifth lentil misfiling, and the third time OFF held the right node and picked junk.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00533904": {
+            "category": "en:pancake-mixes",
+            "reason": "Trader Joe’s gluten free pumpkin pancake MIX filed under PANCAKES — the mix filed as the finished food.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0054002042810": {
+            "category": "en:refried-beans",
+            "reason": "Great Value traditional REFRIED BEANS filed under `en:fats`.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0054100123787": {
+            "category": "en:pickled-cucumbers",
+            "reason": "Vlasic Stackers kosher dill PICKLES filed under SALTED SNACKS. Third pickle jar on that shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00561716": {
+            "category": "en:crisps",
+            "reason": "Trader Joe’s crispy crunchy OKRA — a vegetable snack — whose only tag is `en:snacks`, a catch-all the leaf resolver refuses, so it resolves to NO bucket and would leave the index. Second such product after the Beech-Nut baby blend.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0057356350457": {
+            "category": "en:spring-rolls",
+            "reason": "Pork LUMPIA filed under MEAL KITS while the same brand’s \"Pork Lumpia Filipino-Style Spring Rolls\", two rows away, is on en:spring-rolls.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0059290290608": {
+            "category": "en:crackers",
+            "reason": "Jacob’s CREAM CRACKERS — savoury — filed under BISCUITS AND CAKES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0059290571110": {
+            "category": "en:crackers",
+            "reason": "Carr’s TABLE WATER CRACKERS filed under en:biscuits. Fourth savoury cracker sent to a sweet-baked node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0063100005818": {
+            "category": "en:sandwiches",
+            "reason": "A sausage SANDWICH filed under BREAKFAST BISCUIT WITH CHOCOLATE.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0064144004102": {
+            "category": "en:cooking-spray",
+            "reason": "PAM non-stick cooking spray filed under `en:open-beauty-facts` — the name of OFF’s COSMETICS sister database. The junk-bucket family now includes a whole other product database.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0064170100458": {
+            "category": "en:pizza-dough",
+            "reason": "Oven-fired PIZZA CRUSTS filed under PIE DOUGH.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00644310": {
+            "category": "en:sodas",
+            "reason": "A sparkling apple-cider-vinegar BEVERAGE filed under VINEGARS, the condiment. Its Trader Joe’s sibling in this batch is on en:sodas. Note the override moves only compared_to_category, so the en:vinegars TAG — and with it the not-applicable…",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0065651023143": {
+            "category": "en:egg-preparations",
+            "reason": "Five cheese EGG BITES filed under `en:brick-sheets` through a CEREALS chain. There is no cereal in an egg bite.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0066857104117": {
+            "category": "en:hamburger-buns",
+            "reason": "A low carb BURGER BUN filed under BREAD COVERINGS — the spread rather than the bread. Second product on that bucket after the mini bagels.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0067312051526": {
+            "category": "en:brownies",
+            "reason": "Voortman mini fudge BROWNIES filed under CHOCOLATE CHIP COOKIES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070077004522": {
+            "category": "en:spring-rolls",
+            "reason": "Ajinomoto chicken EGG ROLLS filed under `en:food`. Seventh appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070163992306": {
+            "category": "en:doughnuts",
+            "reason": "Chocolate DONUT HOLES filed under CONFECTIONARY BASED SPREADS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070200838192": {
+            "category": "en:italian-dressing",
+            "reason": "Olive Garden signature Italian DRESSING filed under CHEESE SAUCES — while the same brand’s balsamic vinaigrette, one row away, is on en:vinaigrettes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070253297588": {
+            "category": "en:baking-mixes",
+            "reason": "An ALL-PURPOSE baking mix filed under CAKE MIXES. Same call as the H-E-B whole wheat baking mix.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070253467790": {
+            "category": "en:black-eyed-peas",
+            "reason": "Black eyed PEAS filed under MIXED VEGETABLES — one legume is not a mix.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070253467813": {
+            "category": "en:black-beans",
+            "reason": "Black BEANS filed under MIXED VEGETABLES, same brand and same defect as the row above.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070253467837": {
+            "category": "en:butter-beans",
+            "reason": "Baby lima BEANS filed under MIXED VEGETABLES — third of three consecutive single-legume rows from this brand on the same wrong bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070253498572": {
+            "category": "en:pizza-dough",
+            "reason": "Ultra thin PIZZA CRUST filed under PIE DOUGH. Second brand with this defect.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070253498596": {
+            "category": "en:pizza-dough",
+            "reason": "Thin PIZZA CRUST filed under PIE DOUGH, same brand as the row above.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070552306103": {
+            "category": "en:apple-juices",
+            "reason": "Apple JUICE filed under APPLE SYRUPS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070552504202": {
+            "category": "en:peanut-butters",
+            "reason": "Crunchy PEANUT BUTTER filed under FRUITS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070552602205": {
+            "category": "en:potato-preparations",
+            "reason": "Boxed scalloped POTATOES filed under en:potatoes, the raw vegetable. Fourth boxed potato dish with this defect.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070552704367": {
+            "category": "en:canned-legumes",
+            "reason": "Chilli BEANS in tomato sauce filed under `en:protein`, a nutrient label. Fourth appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070690015370": {
+            "category": "en:nut-flours",
+            "reason": "PECAN flour filed under CEREAL FLOURS. A nut flour is not a grain flour, and OFF has the node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070796330742": {
+            "category": "en:wheat-flours",
+            "reason": "100% durum WHEAT semolina filed under BARLEY. Wrong grain; OFF has no semolina node, so the wheat-flour parent is the honest target.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0070969004104": {
+            "category": "en:garlic",
+            "reason": "A jar of minced GARLIC filed under SALTED SNACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071012060139": {
+            "category": "en:cornmeal",
+            "reason": "Masa harina — nixtamalised corn FLOUR — filed under `en:corn`, the raw grain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071018010763": {
+            "category": "en:peanut-butters",
+            "reason": "Chunky PEANUT BUTTER filed under VEGETABLE FATS, while four other peanut butters from the same brand in this batch are on the right node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071026000350": {
+            "category": "en:plantain-chips",
+            "reason": "Lime PLANTAIN CHIPS filed under `en:products-without-gluten`, a dietary property — while the same brand’s original plantain chips, one row away, are on en:plantain-chips.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071109991339": {
+            "category": "en:canned-common-beans",
+            "reason": "Pork and beans filed under CANNED FLAGEOLET BEANS — a specific French varietal these are not, in the same family as the Colby-for-cheddar row.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071146009035": {
+            "category": "en:crisps",
+            "reason": "Harvest Snaps baked veggie snacks resolving to NO bucket, while five other Harvest Snaps rows in this same batch sit on crisp and puffed-snack nodes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071156500690": {
+            "category": "en:coffee-drinks",
+            "reason": "A Rutter’s COFFEE filed under SKIMMED MILKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071159073115": {
+            "category": "en:corn-snacks",
+            "reason": "Corn Nuts — deep-fried toasted corn kernels — filed under CORN GRAIN, the raw cereal.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071203087723": {
+            "category": "en:ice-creams",
+            "reason": "Umpqua Rocky Road ICE CREAM filed under `en:proposed-for-deletion`. Third product on that workflow marker.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071210004300": {
+            "category": "en:half-milk-and-half-cream",
+            "reason": "Half and half filed under `en:protein`, a nutrient label. Fifth appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071300800690": {
+            "category": "en:dry-pastas",
+            "reason": "Ronzoni dry veggie PASTA filed under PASTA DISHES, the prepared meal.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071314051316": {
+            "category": "en:hot-dog-buns",
+            "reason": "Whole grain HOT DOG BUNS filed under DURUM WHEAT SEMOLINAS — the flour rather than the bread.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0071720539774": {
+            "category": "en:chocolate-candies",
+            "reason": "JUNIOR MINTS filed under FRESH AROMATIC PLANTS. The word \"mint\" did the damage; these are chocolate-covered mint creams, not herbs.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072036200280": {
+            "category": "en:almond-butters",
+            "reason": "Harris Teeter smooth ALMOND BUTTER filed under VEGETABLE FATS. Fourth almond butter on a fat or dairy shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072036410559": {
+            "category": "en:canned-tomatoes",
+            "reason": "Canned DICED TOMATOES filed under TOMATO JUICES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072036735843": {
+            "category": "en:pasta-sauces",
+            "reason": "Low sodium MARINARA filed under MEAT BASED pasta sauces. Marinara is meatless by definition.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072320113319": {
+            "category": "en:biscuits",
+            "reason": "Chocolate ANIMAL CRACKERS filed under CHOCOLATES — while the same brand’s original animal crackers, one row away, are on en:biscuits.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072392659913": {
+            "category": "en:ice-pops",
+            "reason": "Fat free FREEZER POPS filed under CANDIES. They are a frozen novelty, not a confection.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072486001307": {
+            "category": "en:baking-mixes",
+            "reason": "PIZZA CRUST mix filed under CAKE MIXES. Third baking mix sent to the cake-mix node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072623140104": {
+            "category": "en:ice-creams-and-sorbets",
+            "reason": "Schoep’s vanilla ICE CREAM and orange sherbet filed under ORANGE JUICES WITH PULP — the word \"orange\" doing the damage, same mechanism as Junior Mints under fresh herbs.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072700000994": {
+            "category": "en:cereal-flours",
+            "reason": "MATZO MEAL — ground matzo used like a flour or crumb — filed under CAKE MIXES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072718100747": {
+            "category": "en:lemonade",
+            "reason": "Peach LEMONADE, a ready-to-drink, filed under LEMON JUICE CONCENTRATES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0072981001321": {
+            "category": "en:crackers",
+            "reason": "Rovira SODA CRACKERS filed under BISCUITS AND CAKES. Fifth savoury cracker on a sweet-baked node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0073042450843": {
+            "category": "en:almonds",
+            "reason": "Sliced ALMONDS filed under `en:toppings` — a bucket defined by how you use a food rather than what it is, so it mixes nuts with sprinkles and sauces. Same family as en:protein and en:cut.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0073124004025": {
+            "category": "en:tortillas",
+            "reason": "Toufayan WRAPS under en:mexican-dinner-mixes — sixth brand in the Phase 1 cluster.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0073214001040": {
+            "category": "en:cooked-vegetables",
+            "reason": "A jar of roasted red bell PEPPERS filed under SALTED SNACKS. Third jar of roasted peppers on that shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0073214001446": {
+            "category": "en:cooked-vegetables",
+            "reason": "Roasted red pepper STRIPS filed under SALTED SNACKS — same brand and defect as the row above, and the same brand’s Jeff’s Garden strips are on a pickled-vegetable node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0073472002001": {
+            "category": "en:tortillas",
+            "reason": "Ezekiel sprouted grain TORTILLAS under en:mexican-dinner-mixes — seventh brand in the Phase 1 cluster.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0073575010781": {
+            "category": "en:natto",
+            "reason": "Natto — fermented soybeans eaten as a food — filed under CONDIMENTS. OFF has an exact node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0074265001560": {
+            "category": "en:oilseed-purees",
+            "reason": "TAHINI filed under BUTTER & DAIRY SPREADS. Fifth seed or nut butter on a dairy shelf; OFF has no sesame-paste node, so the oilseed-puree node other tahinis in this corpus use is the target.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0074333476269": {
+            "category": "en:red-lentils",
+            "reason": "Organic RED LENTILS filed under MIXED VEGETABLES — while the same brand’s green lentils, one row above, sit on en:green-lentils.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0074426001040": {
+            "category": "en:tortillas",
+            "reason": "CORN tortillas filed under WHEAT flatbreads. Wrong grain, and the other brand’s corn tortillas in this batch are on en:tortillas.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0074653501269": {
+            "category": "en:frozen-snacks-and-starters",
+            "reason": "A cheeseburger PIZZA STICK filed under FRIED PLANT BASED FOODS. There is beef and cheese in it.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0074714088463": {
+            "category": "en:crisps",
+            "reason": "Mrs. Cubbison’s CHEDDAR CRISPS filed under SAUCES & CONDIMENTS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0074956182639": {
+            "category": "en:hot-dogs",
+            "reason": "Hebrew National BEEF FRANKS filed under BEEF DISHES, the prepared-meal node. Fourth hot-dog product filed as something other than a hot dog.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0075049002162": {
+            "category": "en:chocolate-covered-nuts",
+            "reason": "Cocoa dusted PEANUTS filed under COCOA TRUFFLES — a different confection.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0075130546995": {
+            "category": "en:evaporated-milks",
+            "reason": "Evaporated milk filed under `en:halal` — a CERTIFICATION, and the newest member of the junk-bucket family after a holiday, a database name and a misspelling.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0075202301019": {
+            "category": "en:tortillas",
+            "reason": "Sonora style flour TORTILLAS filed under `en:specific-products`, a structural node. Eighth tortilla product, and the second time that bucket has held a product whose identity was obvious.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0075370160081": {
+            "category": "en:lentils",
+            "reason": "\"Lentils Lentejas\" filed under MIXED VEGETABLES. Seventh lentil misfiling.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0075450150667": {
+            "category": "en:common-beans",
+            "reason": "Great Northern BEANS filed under MIXED VEGETABLES — one bean is not a mix. Deliberately not the canned node; nothing here says canned.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0075669105021": {
+            "category": "en:red-beans",
+            "reason": "Red KIDNEY BEANS filed under MIXED VEGETABLES — one bean is not a mix.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0075720481279": {
+            "category": "en:mayonnaises",
+            "reason": "Hellmann’s Light MAYONNAISE filed under SPRING WATERS. The single most absurd bucket in the corpus after the Omaha Steaks sirloin under fruit desserts.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0076371034029": {
+            "category": "en:tofu",
+            "reason": "House Foods organic TOFU CUTLET filed under en:meats — while the same brand’s bulk organic tofu cutlet, one row above, is on en:tofu. Eighth plant protein on a meat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0076808006841": {
+            "category": "en:pastas",
+            "reason": "Barilla READY PASTA elbows filed under `en:wheats`, the raw grain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0076808012019": {
+            "category": "en:dry-pastas",
+            "reason": "Barilla protein PASTA — a dry box — filed under PASTA DISHES, the prepared meal. Third dry pasta sent to that node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0077110001104": {
+            "category": "en:tempeh",
+            "reason": "Surata organic soy TEMPEH filed under en:meats. Ninth plant protein on a meat shelf and the second tempeh.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0077745276786": {
+            "category": "en:prepared-salads",
+            "reason": "A fresh Bonduelle salad BOWL filed under CANNED prepared salads, while two of its own siblings in this batch are on en:prepared-salads.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0077890436141": {
+            "category": "en:relish",
+            "reason": "Sweet RELISH filed under `en:toppings` — a use-based bucket, second appearance. OFF has a relish node another brand’s sweet relish already uses.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0077890544501": {
+            "category": "en:dumplings",
+            "reason": "Cooked chicken DUMPLING BITES filed under PIE DOUGH, a raw ingredient.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0077890554111": {
+            "category": "en:breads",
+            "reason": "Multigrain ROLLS filed under BREAD COVERINGS. Third product on that bucket, after mini bagels and a burger bun — the spread filed where the bread goes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0077890595596": {
+            "category": "en:cheese-sauces",
+            "reason": "Parmesan Romano SAUCE filed under TOMATO SAUCES. It is a cheese sauce.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0077958592369": {
+            "category": "en:macaroni-and-cheese",
+            "reason": "Panera Asiago mac and cheese filed under `en:ready-to-eat` — a preparation state rather than a food.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00782999": {
+            "category": "en:dark-chocolates",
+            "reason": "Dark chocolate BARK with raspberries filed under FRUITS DESSERTS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742006260": {
+            "category": "en:corn-chips",
+            "reason": "Chili cheese CORN chips filed under POTATO crisps. Third corn-versus-potato mix-up.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742028354": {
+            "category": "en:baking-mixes",
+            "reason": "All purpose baking mix filed under a bucket named `en:baking` — an activity, not a food.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742061313": {
+            "category": "en:almond-butters",
+            "reason": "Slow roasted ALMOND BUTTER filed under VEGETABLE FATS. Fifth almond butter on a fat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742108858": {
+            "category": "en:parsley",
+            "reason": "PARSLEY FLAKES filed under HERBES DE PROVENCE, a specific multi-herb blend this is not.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742122045": {
+            "category": "en:roasted-peanuts",
+            "reason": "Dry roasted SHELLED peanuts filed under UNSHELLED PEANUTS — the bucket says the opposite of the product.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742141657": {
+            "category": "en:flax-seeds",
+            "reason": "Cold milled ground FLAXSEED filed under DEHYDRATED BEVERAGES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742189444": {
+            "category": "en:cheese-dip",
+            "reason": "Salsa con queso CHEESE DIP filed under en:cheeses, the block-and-slice shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742229492": {
+            "category": "en:baking-mixes",
+            "reason": "PIZZA CRUST mix filed under CAKE MIXES. Second pizza crust mix with this defect.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742231433": {
+            "category": "en:cone-wafer-for-ice-cream",
+            "reason": "Wafer ICE CREAM CUPS filed under BISCUITS AND CAKES. Fourth empty ice-cream vessel filed as something else.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742231471": {
+            "category": "en:cone-wafer-for-ice-cream",
+            "reason": "Empty WAFFLE CONES filed under en:ice-cream-cones — which is the FROZEN DESSERT node, not the wafer. Fifth vessel row, and the one that shows why the distinction matters: the bucket looks right and is not.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742294773": {
+            "category": "en:rice-desserts",
+            "reason": "Crispy rice TREATS filed under CAKES. Same product family as the Rice Krispies Treats filed under en:rice earlier.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742309675": {
+            "category": "en:baking-decorations",
+            "reason": "Gel FOOD COLORS filed under HALLOWEEN FOODS AND DRINKS — an occasion, second appearance — while the same brand’s gel food colors, forty rows later, sit on en:baking-decorations.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742330754": {
+            "category": "en:chicken-eggs",
+            "reason": "RAW cage free eggs filed under BOILED EGGS. The bucket names a preparation the product has not had.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742352282": {
+            "category": "en:apple-juices",
+            "reason": "Frozen concentrated APPLE JUICE filed under APPLE SYRUPS. Second apple juice sent to the syrup node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742366708": {
+            "category": "en:black-pitted-olives",
+            "reason": "Pitted KALAMATA olives filed under GREEN pitted olives. Kalamata are dark purple-black; the bucket names the wrong olive.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742369884": {
+            "category": "en:canned-fruits",
+            "reason": "Canned SLICED PEACHES filed under GRAPE JAMS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742371344": {
+            "category": "en:dried-split-peas",
+            "reason": "Green SPLIT PEAS filed under MIXED VEGETABLES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0078742371474": {
+            "category": "en:pinto-beans",
+            "reason": "PINTO BEANS filed under MIXED VEGETABLES, same brand and defect as the split peas above.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0079200083014": {
+            "category": "en:gummi-candies",
+            "reason": "Nerds GUMMY Clusters filed under HARD CANDIES — the bucket names the opposite texture, which is the whole product.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0081652199816": {
+            "category": "en:tofu",
+            "reason": "Premium firm TOFU filed under en:meats. Tenth plant protein on a meat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0082256723100": {
+            "category": "en:tortillas",
+            "reason": "El Encanto organic flour TORTILLAS under en:mexican-dinner-mixes — eighth brand in the cluster.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0082876000216": {
+            "category": "en:fruit-spread",
+            "reason": "Strawberry FRUIT SPREAD filed under `en:food`. Eighth appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0083168101017": {
+            "category": "en:tortillas",
+            "reason": "CORN tortillas filed under WHEAT flatbreads. Second brand with the wrong grain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085239029923": {
+            "category": "en:pizza-dough",
+            "reason": "Mini PIZZA CRUSTS filed under PIE DOUGH. Fourth pizza crust with this defect, fourth brand.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085239043059": {
+            "category": "en:milks",
+            "reason": "MILK filed under DAIRY BY PRODUCTS. Third product on that bucket, and the least defensible: milk is the source, not the residue.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085239053119": {
+            "category": "en:red-beans",
+            "reason": "Light red KIDNEY BEANS filed under MIXED VEGETABLES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085239085721": {
+            "category": "en:mixed-nuts",
+            "reason": "Unsalted roasted MIXED NUTS filed under UNSALTED CASHEWS — the inverse of the usual defect: a mix filed as one of its members.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085239125793": {
+            "category": "en:egg-white",
+            "reason": "Real EGG WHITES filed under EGG SUBSTITUTES. The bucket says the product is an imitation of itself.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085239156698": {
+            "category": "en:trail-mix",
+            "reason": "Black and white TRAIL MIX filed under FRUIT PASTES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085239238509": {
+            "category": "en:breakfast-cereals",
+            "reason": "Cookies and creme GRANOLA filed under COOKIES & BISCUITS — the flavour name pulling a breakfast cereal onto the biscuit shelf. OFF has no granola node (checked: neither en:granola nor en:granolas exists) and en:mueslis names raw muesli,…",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085239270448": {
+            "category": "en:flavoured-almonds",
+            "reason": "Honey and lavender GLAZED almonds filed under SMOKED almonds — a process the product has not had.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085693101043": {
+            "category": "en:crackers",
+            "reason": "Sesmark savoury RICE THINS filed under BISCUITS AND CAKES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085693107007": {
+            "category": "en:crackers",
+            "reason": "Sesmark sesame RICE THINS filed under BISCUITS AND CAKES — same brand, same defect, three rows running.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085693107021": {
+            "category": "en:crackers",
+            "reason": "Sesmark brown rice THINS filed under BISCUITS AND CAKES — third of three consecutive rows from this brand.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0085696607207": {
+            "category": "en:tofu",
+            "reason": "Lite firm TOFU filed under en:meats. Eleventh plant protein on a meat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0087848120114": {
+            "category": "en:milks",
+            "reason": "High protein whole MILK filed under DAIRY BY PRODUCTS. Fourth product on that bucket, second that is milk itself.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00911825": {
+            "category": "en:prepared-salads",
+            "reason": "A Trader Joe’s white CHICKEN SALAD filed under en:lettuces, the raw leaf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0092378600036": {
+            "category": "en:meat-alternatives",
+            "reason": "VEGGIE NUGGETS filed under en:meats. Twelfth plant protein on a meat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00940740": {
+            "category": "en:sweet-potatoes",
+            "reason": "Organic red SWEET POTATOES filed under `en:natural-organic` — a certification-shaped label, joining en:halal in the junk-bucket family.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0094922149992": {
+            "category": "en:almond-butters",
+            "reason": "Barney Butter crunchy ALMOND BUTTER filed under VEGETABLE FATS. Sixth almond butter on a fat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0094922351241": {
+            "category": "en:almond-butters",
+            "reason": "Barney Bare smooth ALMOND BUTTER under VEGETABLE FATS — while the near-identically-named Bare Smooth almond butter, one row away, is on en:almond-butters.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0094922365712": {
+            "category": "en:almond-butters",
+            "reason": "Bare crunchy ALMOND BUTTER under VEGETABLE FATS. Eighth almond butter on a fat shelf, third in this batch alone.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0095188013744": {
+            "category": "en:flavoured-drinks",
+            "reason": "Tampico CITRUS PUNCH filed under en:orange-juices, which claims 100% juice. The same brand’s citrus punch, two rows away, is on a sweetened-beverage node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0095768610257": {
+            "category": "en:baking-mixes",
+            "reason": "A blueberry french toast MIX filed under FRENCH TOAST, the finished dish.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00961776": {
+            "category": "en:extra-virgin-olive-oils",
+            "reason": "Plain Spanish extra virgin OLIVE OIL filed under GARLIC FLAVOURED olive oils — an ingredient it does not contain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0096619132072": {
+            "category": "en:dietary-supplements",
+            "reason": "GINKGO BILOBA capsules filed under SPREADS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0096619189182": {
+            "category": "en:chocolate-chips",
+            "reason": "Semi-sweet CHOCOLATE CHIPS filed under `en:toppings`, a use-based bucket — third appearance — while several other brands’ chocolate chips in this corpus are on en:chocolate-chips.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0096619987788": {
+            "category": "en:tofu",
+            "reason": "Kirkland extra firm TOFU filed under REFRIGERATED FALAFEL. Both are chilled plant proteins, but falafel is a fried chickpea fritter.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "00975605": {
+            "category": "en:dried-fruits",
+            "reason": "Apple blueberry FRUIT LEATHER filed under PUFFED SALTY SNACKS — sweet under savoury, and the same call as the Black Forest fruit strips.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0099482424534": {
+            "category": "en:pancake-mixes",
+            "reason": "Whole wheat pancake and waffle MIX filed under PANCAKES, the finished food. Second pancake mix with this defect.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0099482460778": {
+            "category": "en:corn-starch",
+            "reason": "CORN STARCH filed under `en:non-gmo` — a certification, third of that shape after en:halal and en:natural-organic.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0099482473303": {
+            "category": "en:pancake-mixes",
+            "reason": "Spiced pumpkin PANCAKE and waffle MIX filed under CAKE MIXES. Third pancake mix on that node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0099482516512": {
+            "category": "en:pancakes",
+            "reason": "Puffy PANCAKE BITES filed under BREAKFAST BISCUIT WITH CHOCOLATE.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0099482517083": {
+            "category": "en:misos",
+            "reason": "White MISO — a fermented soybean paste — filed under HERBS AND SPICES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0099482527006": {
+            "category": "en:almond-based-drinks",
+            "reason": "Original ALMOND non-dairy beverage filed under FRUIT AND MILK BEVERAGES, a dairy node, on a product whose name says non-dairy.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0099482527433": {
+            "category": "en:apricot-jams",
+            "reason": "A jar of apricot FRUIT SPREAD filed under VARIETY PACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0099900178902": {
+            "category": "en:chocolate-covered-nuts",
+            "reason": "GOOBERS — chocolate-covered peanuts — filed under NUTS & DRIED FRUITS, while the Raisinets one row away are correctly on a chocolate-covered node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0111152687428": {
+            "category": "en:mochi",
+            "reason": "A daifuku RED BEAN CAKE filed under PUFFED RICE CAKES, the savoury snack. Both are rice, neither is the other.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "01596233": {
+            "category": "en:bologna",
+            "reason": "Turkey BOLOGNA — an emulsified sausage — filed under TURKEY BREASTS, which is whole muscle.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0185255000576": {
+            "category": "en:dried-fruits",
+            "reason": "Freeze-dried apple CRISPS filed under en:apples, the raw fruit — while the same brand’s freeze dried pineapple, two rows away, is on en:dried-fruits.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0185255000590": {
+            "category": "en:dried-fruits",
+            "reason": "DRIED strawberries filed under en:berries, the fresh fruit. Same brand and defect as the row above.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0192484123501": {
+            "category": "en:candies",
+            "reason": "Buc-ee’s marshmallow MINTS filed under `en:mint`, the herb. Same mechanism as Junior Mints under fresh aromatic plants.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0193476002743": {
+            "category": "en:muffins-mix",
+            "reason": "Blueberry muffin MIX filed under BLUEBERRY MUFFINS, the finished food. Fourth mix-filed-as-dish in two batches.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0193908007193": {
+            "category": "en:bars",
+            "reason": "An RXBAR protein bar filed under `en:fats`.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0193968066123": {
+            "category": "en:shrimps",
+            "reason": "RAW Argentine red shrimp filed under COOKED SHRIMPS. The bucket states the opposite of the product.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0193968502652": {
+            "category": "en:fruit-snack",
+            "reason": "Organic FRUITY SNACKS — gummies — filed under MIXED NUTS AND DRIED FRUITS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0193968510541": {
+            "category": "en:walnuts",
+            "reason": "IN-SHELL walnuts filed under SHELLED NUTS. Second inverted shelled/unshelled row after the Great Value peanuts.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0194261000227": {
+            "category": "en:fruit-juices",
+            "reason": "100% POMEGRANATE JUICE filed under FRUIT AND MILK BEVERAGES, a dairy-blend node. Second pure juice sent there.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0194346001613": {
+            "category": "en:frozen-sandwiches",
+            "reason": "Pepperoni and cheese filled SANDWICHES filed under `en:food`. Tenth appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0194346028214": {
+            "category": "en:biscuits",
+            "reason": "Peanut butter fudge no-bake COOKIES filed under ARTISAN CHEESES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0194346067022": {
+            "category": "en:crackers",
+            "reason": "Baked cheddar cheese CRACKERS filed under CHIPS AND FRIES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0194346391325": {
+            "category": "en:waffles",
+            "reason": "Custard filled WAFFLES filed under SEMOLINA PUDDINGS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0194346480593": {
+            "category": "en:flavoured-nuts",
+            "reason": "Maple honey sesame CASHEWS filed under NUT AND SEED MIXES — one flavoured nut is not a mix.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0196633928177": {
+            "category": "en:honeys",
+            "reason": "Raw unfiltered HONEY filed under HONEY AND ROYAL JELLY MIXTURES. There is no royal jelly in it; second product sent to that node after the apple butter.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0196761356576": {
+            "category": "en:frozen-fruits",
+            "reason": "A pineapple, strawberry and guava BLEND filed under en:pineapple — one of its three fruits.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0196761492267": {
+            "category": "en:breads",
+            "reason": "Rosemary and garlic FOCACCIA filed under WHEAT VERMICELLI, an Italian pasta.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0207202804997": {
+            "category": "en:guacamoles",
+            "reason": "GUACAMOLE filed under HERBS AND SPICES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0211748117916": {
+            "category": "en:meal-kits",
+            "reason": "A chicken quesadilla KIT filed under `en:food`. Eleventh appearance.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0221100118000": {
+            "category": "en:turkey-breasts",
+            "reason": "Herb roasted TURKEY BREAST filed under `en:cut` — third product on that bucket, and the same brand’s identically-named turkey breast, one row away, is on a deli-meat node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0247492012528": {
+            "category": "en:prepared-salads",
+            "reason": "A grain and celery SALAD filed under BULGUR, one of its ingredients — while the same brand’s grain-and-celery salad, one row away, is on en:prepared-salads.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "02520609": {
+            "category": "en:candies",
+            "reason": "Duvalin — a Mexican two-flavour cream CANDY — filed under APPLE JUICES FROM CONCENTRATE. The brand field is corrupted (it reads Minute Maid), but the product name is specific and unambiguous.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0259646018546": {
+            "category": "en:beef-steaks",
+            "reason": "Angus RIBEYE STEAK filed under `en:cut`. Fourth product on that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0262323304542": {
+            "category": "en:salami",
+            "reason": "Hard SALAMI filed under WRAPS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0400919564387": {
+            "category": "en:ice-pops",
+            "reason": "Disney POPSICLES — a frozen novelty — filed under LOLLIPOPS, which are hard candy on a stick.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "04132400": {
+            "category": "en:sports-drink",
+            "reason": "A Gatorade flavour filed under INSTANT NOODLE SOUPS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0602652171840": {
+            "category": "en:breakfast-cereals",
+            "reason": "KIND Healthy Grains GRANOLA filed under CEREAL GRAINS, the raw grain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0602652249020": {
+            "category": "en:nut-bars",
+            "reason": "A KIND nuts-and-spices BAR filed under DARK CHOCOLATES WITH ALMONDS — a confection node, where twenty other KIND rows in this batch sit on bar nodes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0606274329061": {
+            "category": "en:meat-snacks",
+            "reason": "An uncured TURKEY pepperoni STICK filed under CHICKEN DRUMSTICKS. Wrong bird and wrong form at once.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0606541601159": {
+            "category": "en:frozen-pizzas",
+            "reason": "Four cheese cauliflower PIZZA filed under FROZEN PIES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0606541803010": {
+            "category": "en:crackers",
+            "reason": "Everything gluten free CRACKERS filed under BISCUITS AND CAKES, while the same brand’s jalapeño crackers one row away are on en:crackers. Ninth savoury cracker on a sweet-baked node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0606995003318": {
+            "category": "en:frozen-snacks-and-starters",
+            "reason": "JALAPEÑO POPPERS — cheese-stuffed peppers — filed under MEATS AND THEIR PRODUCTS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0618551602804": {
+            "category": "en:rice-crackers",
+            "reason": "KAKI MOCHI — Japanese rice crackers — filed under `en:food`. Twelfth appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0627843577850": {
+            "category": "en:meat-alternatives",
+            "reason": "Smoked paprika PLANT-BASED sausage filed under en:meats. Thirteenth plant protein on a meat shelf, and the name says plant-based.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0633622555810": {
+            "category": "en:hot-sauces",
+            "reason": "A bottle of HOT SAUCE filed under en:cheese, on the strength of \"New York Cheddar Cheese\" being the flavour.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0637273000200": {
+            "category": "en:sandwiches",
+            "reason": "A pepperoni and cheese ROLL filed under `en:food`. Thirteenth appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0638031301041": {
+            "category": "en:meat-alternatives",
+            "reason": "Field Roast Celebration ROAST — a seitan product — filed under en:tofu. Both are plant proteins; neither is the other.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0638882002036": {
+            "category": "en:sweet-potatoes",
+            "reason": "SWEET POTATO puree filed under COOKED POTATOES. Different vegetable, same shape as the kalamata-under-green-olives row.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0642461247497": {
+            "category": "en:chocolate-covered-nuts",
+            "reason": "Dark chocolate almond CLUSTERS filed under TRAIL MIX.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0646670311369": {
+            "category": "en:waters",
+            "reason": "Purified WATER filed under `en:sprouts` — which is both the retailer’s name and, in OFF, an actual food (bean sprouts). A brand name colliding with a real taxonomy node is a new way for this to go wrong.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0646670318320": {
+            "category": "en:jams",
+            "reason": "Blackberry PRESERVES filed under `en:sprouts`. Second product on that bucket, same retailer.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0646670515859": {
+            "category": "en:pickled-cucumbers",
+            "reason": "A jar of bread and butter PICKLE CHIPS filed under a VARIETY PACKS node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0646670522840": {
+            "category": "en:mozzarella",
+            "reason": "Real part-skim MOZZARELLA filed under SHREDDED CHEESE SUBSTITUTES — the bucket says the product is an imitation of itself. Eighth inverted row.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0646670681691": {
+            "category": "en:protein-powders",
+            "reason": "Strawberry vegan PROTEIN powder filed under FRUIT SMOOTHIES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0655852006405": {
+            "category": "en:lentils",
+            "reason": "Organic French LENTILS filed under MIXED VEGETABLES. Eighth lentil misfiling in the corpus.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0661475114434": {
+            "category": "en:canned-legumes",
+            "reason": "Canned LENTILS filed under CANNED SOUPS — the ingredient filed as the dish.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0669809201942": {
+            "category": "en:gummies",
+            "reason": "Sour melon GUMMY BITES filed under ICE CREAM CANDY CHOCOLATE BARS, while the same brand’s Sour Blast Buddies one row away are on en:gummies.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0669896008806": {
+            "category": "en:potato-crisps",
+            "reason": "Sour cream and onion POTATO chips filed under FLAVOURED CORN CRISPS. Fourth corn-versus-potato mix-up, and the first in this direction.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0671635709820": {
+            "category": "en:noodles",
+            "reason": "Organic shiitake NOODLES filed under CEREAL GRAINS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0681131282598": {
+            "category": "en:biscuits",
+            "reason": "White chocolate macadamia nut COOKIES filed under a bucket named `en:4`. Third single-character junk bucket after en:a and en:e.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0686700026467": {
+            "category": "en:pancake-mixes",
+            "reason": "Traditional HOT CAKE mix — pancake mix — filed under CAKE MIXES. Fourth pancake mix on that node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0688267544408": {
+            "category": "en:tortillas",
+            "reason": "White flour TORTILLAS under en:mexican-dinner-mixes — ninth brand in the Phase 1 cluster.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0688267577109": {
+            "category": "en:instant-oatmeal",
+            "reason": "Instant OATMEAL filed under a fortified breakfast BISCUIT node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0688267577444": {
+            "category": "en:dry-pastas",
+            "reason": "Dry macaroni ELBOWS filed under INSTANT PASTA.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0692243700351": {
+            "category": "en:frozen-vegetables",
+            "reason": "A frozen VEGETABLE blend filed under MEAT ALTERNATIVES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0692623018168": {
+            "category": "en:tofu",
+            "reason": "Soft TOFU filed under en:meats. Fourteenth plant protein on a meat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0697658690037": {
+            "category": "en:protein-powders",
+            "reason": "Hemp Yeah! Max PROTEIN filed under a bucket named `en:powder` — a physical form, not a food.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0701722747708": {
+            "category": "en:dried-fruits",
+            "reason": "Organic GOJI berries filed under DRIED BILBERRIES. Wrong berry; OFF has no goji node, so the dried-fruit parent is the honest target.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0701722747838": {
+            "category": "en:dried-fruits",
+            "reason": "Organic GOJI berries under DRIED BILBERRIES — same brand and defect as the row above.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0702564302308": {
+            "category": "en:tortillas",
+            "reason": "Authentic yellow CORN TORTILLAS under en:mexican-dinner-mixes — tenth brand.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0704863030036": {
+            "category": "en:frozen-snacks-and-starters",
+            "reason": "Broccoli cheddar breakfast POTATO BAKES filed under en:broccoli, the raw vegetable — while the same brand’s cornbread is on the frozen-starter node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0705814728361": {
+            "category": "en:black-olives",
+            "reason": "Sliced California ripe OLIVES filed under SALTED SNACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0708820026339": {
+            "category": "en:protein-powders",
+            "reason": "Strawberry whey PROTEIN POWDER filed under PROTEIN BARS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0708820204492": {
+            "category": "en:mozzarella",
+            "reason": "Fresh MOZZARELLA filed under DAIRY BY PRODUCTS. Fifth product on that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0711381309117": {
+            "category": "en:sweet-spreads",
+            "reason": "Maple pumpkin BUTTER — a spread — filed under PUMPKIN AND SQUASH PLANT PRODUCTS, the raw vegetable.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0711381311578": {
+            "category": "en:crackers",
+            "reason": "Everything flatbread CRISPS filed under BISCUITS AND CAKES. Tenth savoury cracker on a sweet-baked node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0711381327432": {
+            "category": "en:snack-mix",
+            "reason": "A spicy bar SNACK MIX filed under SALTED PEANUTS — the mix filed as one ingredient, second time in the corpus.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0711575102104": {
+            "category": "en:salty-snacks",
+            "reason": "Dry roasted wasabi EDAMAME resolving to NO bucket, while five other Seapoint Farms rows in this batch sit on frozen-vegetable nodes. This one is a shelf-stable snack, not frozen.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0713733359399": {
+            "category": "en:trail-mix",
+            "reason": "\"TRAIL MIX - Power Mix\" filed under DRIED FRUITS, while the same brand’s chocolate cherry trail mix one row away is on a nut-and-fruit node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0713733467742": {
+            "category": "en:potato-crisps",
+            "reason": "A bag of kettle POTATO CHIPS filed under SNACKS VARIETY PACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0716123128100": {
+            "category": "en:sweeteners",
+            "reason": "Stevia SWEETENER packets filed under en:sugars. Stevia contains no sugar, and the same brand’s liquid stevia in this batch is on en:sweeteners.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0716123128148": {
+            "category": "en:sweeteners",
+            "reason": "Stevia sweetener packets under en:sugars — same brand and defect as the row above.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0716123128216": {
+            "category": "en:sweeteners",
+            "reason": "SweetLeaf caramel stevia drops under en:sugars — third of three from this brand.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0718940000010": {
+            "category": "en:garlic",
+            "reason": "Fresh peeled GARLIC filed under the coarse Sauces & Condiments bucket, while the same brand’s identically-named garlic one row away is on en:garlic.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0719283594402": {
+            "category": "en:maple-syrups",
+            "reason": "MAPLE SYRUP filed under SWEET PIES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0720054111124": {
+            "category": "en:honeys",
+            "reason": "Raw HONEY filed under HONEY AND ROYAL JELLY MIXTURES. Second pure honey sent there.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0722252313218": {
+            "category": "en:energy-bars",
+            "reason": "Clif crunchy peanut butter ENERGY BARS filed under DIETARY SUPPLEMENTS, while five other Clif rows in this batch are on en:energy-bars.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0725342260133": {
+            "category": "en:canned-tomatoes",
+            "reason": "Muir Glen whole peeled TOMATOES filed under `en:organic` — a certification, fourth of that shape after halal, natural-organic and non-gmo.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0729630000180": {
+            "category": "en:tortillas",
+            "reason": "Frescados spinach WRAPS under en:mexican-dinner-mixes — eleventh brand in the cluster.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0729630000487": {
+            "category": "en:tortillas",
+            "reason": "\"Frescados yellow\" under en:mexican-dinner-mixes. The name is truncated, but three sibling Frescados rows in this same batch are tortillas and one is already on en:tortillas.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0730555001817": {
+            "category": "en:cashew-butters",
+            "reason": "Organic CASHEW BUTTER filed under CASHEW NUTS, the whole nut.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0735143004355": {
+            "category": "en:flavored-waters",
+            "reason": "Orange blossom water filed under HERBAL TEAS, while the same brand’s rose water one row away is on en:flavored-waters.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0736490841099": {
+            "category": "en:pork",
+            "reason": "Cajun style PORK LOIN filed under FROZEN POULTRY. Wrong animal.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0737539190499": {
+            "category": "en:sunflower-seed-butters",
+            "reason": "SunButter — a SUNFLOWER SEED butter — filed under NUT BUTTERS. This one matters beyond taxonomy: the product exists precisely because it is nut-free, and the shelf says otherwise.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0740881212191": {
+            "category": "en:french-fries",
+            "reason": "Sweet potato FRIES filed under CRISPS. Fries and crisps are different products on different shelves.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0742753347253": {
+            "category": "en:egg-preparations",
+            "reason": "Mushroom and asiago EGG BITES filed under MUFFINS — while the identically-named product from the same brand, one row away, is on a boiled-egg node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0753519471006": {
+            "category": "en:mixed-nuts",
+            "reason": "A tub of MIXED NUTS filed under en:peanuts — the mix filed as one of its members.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0755355498148": {
+            "category": "en:salty-snacks",
+            "reason": "A bag of fruit and veggie STRAWS filed under SNACKS VARIETY PACKS, while the same brand’s avocado oil veggie straws are on a salty-snack node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0766694301181": {
+            "category": "en:soup-mixes",
+            "reason": "Mushroom barley SOUP MIX filed under en:seeds.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0767335011018": {
+            "category": "en:dehydrated-soups",
+            "reason": "Vegan SPLIT PEA soup filed under INSTANT NOODLE SOUPS. There are no noodles in it; the same brand’s pad thai noodle soup, correctly on that node, is what the bucket is for.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0775239919262": {
+            "category": "en:chicken-patties",
+            "reason": "CHICKEN breast patties filed under BEEF PATTIES. Wrong animal.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0780994777736": {
+            "category": "en:relish",
+            "reason": "Pepper and onion RELISH filed under `en:toppings`. Fourth product on that use-based bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "07826900": {
+            "category": "en:sodas",
+            "reason": "A&W CREAM SODA filed under COLA SODAS WITHOUT CAFFEINE. Cream soda is not a cola.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0782733011552": {
+            "category": "en:microwave-meals",
+            "reason": "Tasty Bite madras LENTILS — a single ready-to-eat pouch — filed under PREPARED FOODS VARIETY PACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "07828005": {
+            "category": "en:sodas",
+            "reason": "Regular Sunkist ORANGE SODA filed under DIET SODAS. Deliberately unlike the Gatorade Zero rows I left on \"sweetened beverages\" — those really are sweetened; this one really is not diet.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0790429272002": {
+            "category": "en:dried-mangoes",
+            "reason": "DRIED mango slices filed under TROPICAL FRUITS, the fresh fruit.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0797330004173": {
+            "category": "en:almond-butters",
+            "reason": "Bare smooth ALMOND BUTTER filed under `en:fats`. Ninth almond butter on a fat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0807176769645": {
+            "category": "en:rices",
+            "reason": "Sticky white RICE filed under QUINOA DISHES. Wrong grain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810001560522": {
+            "category": "en:pancake-mixes",
+            "reason": "Complete PANCAKE and waffle MIX filed under PANCAKES, the finished food. Fifth mix-filed-as-dish.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810033740633": {
+            "category": "en:meat-snacks",
+            "reason": "BISON snack STICKS filed under TERRINES — the third meat snack sent to a spreadable-charcuterie node, after two Teewurst rows.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810036563369": {
+            "category": "en:pineapple-juices",
+            "reason": "100% PINEAPPLE juice filed under GRAPE JUICES. Wrong fruit, same shape as the orange juice under lemon juices.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0782706996381": {
+            "category": "en:chicken-feet",
+            "reason": "Cooked pickled CHICKEN FEET filed under `en:artisan-products`, a provenance label rather than a food type. OFF has an exact node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810044578911": {
+            "category": "en:protein-powders",
+            "reason": "MRE whole food PROTEIN powder filed under SOY BASED MINCED PREPACKED.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810070070816": {
+            "category": "en:fruit-puree",
+            "reason": "SOURSOP fruit pulp filed under en:kiwis. Wrong fruit entirely. (en:fruit-purees does not exist; the singular node does.)",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810083070704": {
+            "category": "en:coffee-drinks",
+            "reason": "A canned COFFEE and energy drink filed under MILK SUBSTITUTES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810089956774": {
+            "category": "en:protein-shakes",
+            "reason": "Vital Proteins collagen and PROTEIN SHAKE filed under an artificially-sweetened ENERGY DRINK node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810155810078": {
+            "category": "en:animal-fats",
+            "reason": "BEEF TALLOW — rendered fat — filed under en:beef, the meat, while another brand’s beef tallow in this same batch is on en:animal-fats.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810165019867": {
+            "category": "en:candies",
+            "reason": "YumEarth Organic Giggles — gummy sweets — filed under HALLOWEEN FOODS AND DRINKS. Third occasion-shaped bucket, and six other YumEarth rows in this batch are on real confectionery nodes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810172557093": {
+            "category": "en:microwave-meals",
+            "reason": "A mashed potato and pork frozen MEAL filed under CANNED NUTS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810179082505": {
+            "category": "en:gummi-candies",
+            "reason": "\"Fizzy peach\" gummies filed under CANDY CANES, while three other Amos Peelerz gummies in this batch are on gummy nodes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810197553940": {
+            "category": "en:pork",
+            "reason": "Pork CARNITAS filed under ARTISAN CHEESES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810197553957": {
+            "category": "en:salmons",
+            "reason": "Teriyaki SALMON filed under SALMON ROE — the fish filed as its own eggs.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0810609020244": {
+            "category": "en:microwave-meals",
+            "reason": "An eggplant curry with steamed rice filed under NON DAIRY FERMENTED FOODS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0811288030074": {
+            "category": "en:caramel-stuffed-wafers",
+            "reason": "A Daelmans STROOPWAFEL filed under PUFFED SALTY SNACKS MADE FROM MAIZE WITH PEANUTS, while two other Daelmans stroopwafels in this same batch are on the caramel-wafer node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0814784029832": {
+            "category": "en:protein-powders",
+            "reason": "Sunwarrior Organic Active PROTEIN filed under FREEZE DRIED INSTANT COFFEES, while the same brand’s protein one row away is on en:protein-powders.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0815154021418": {
+            "category": "en:energy-drinks",
+            "reason": "REIGN Total Body Fuel — an ENERGY DRINK — filed under FROZEN DESSERTS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0815369012898": {
+            "category": "en:microwave-popcorn",
+            "reason": "Organic UNSALTED microwave popcorn filed under SALTED POPCORN. Ninth inverted row.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0815887010710": {
+            "category": "en:hemp-seeds",
+            "reason": "Shelled HEMP SEEDS filed under FRESH BLUEBERRIES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0816536011010": {
+            "category": "en:tahini",
+            "reason": "Organic sesame TAHINI filed under BUTTER & DAIRY SPREADS. Sixth seed or nut butter on a dairy shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0818290015334": {
+            "category": "en:greek-style-yogurts",
+            "reason": "A single Chobani Greek YOGURT filed under DAIRY VARIETY PACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0818290015952": {
+            "category": "en:creamer",
+            "reason": "Chobani pumpkin spice COFFEE CREAMER filed under CANDIES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0818780011877": {
+            "category": "en:popcorn",
+            "reason": "Popped KETTLE CORN filed under `en:corn`, the raw grain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0819388019111": {
+            "category": "en:meat-snacks",
+            "reason": "A real CHICKEN snack stick filed under MEAT ANALOGUES — the bucket says the product imitates meat when it is meat. Tenth inverted row, and the mirror of the fourteen plant proteins filed under en:meats.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0819388020827": {
+            "category": "en:meat-snacks",
+            "reason": "An \"Original Beef Stick\" filed under MEAT ASPIC, a jellied meat. Fourth meat snack sent to a charcuterie-preparation node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0819393022045": {
+            "category": "en:yogurts",
+            "reason": "Nonfat YOGURT filed under DAIRY BY PRODUCTS. Sixth product on that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0825120012678": {
+            "category": "en:microwave-meals",
+            "reason": "Butter paneer WITH BASMATI RICE — a complete ready meal — filed under CURRY SAUCES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0826676100581": {
+            "category": "en:dips",
+            "reason": "A DILL DIP filed under MUHAMMARA, which is a roasted red pepper and walnut dip.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0828093003834": {
+            "category": "en:sweet-snacks",
+            "reason": "Date and hazelnut FITBALLS filed under CHRISTMAS SWEETS — fourth occasion-shaped bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0829262004508": {
+            "category": "en:oat-bar",
+            "reason": "A Bobo’s PB&J oat bar filed under BREAKFAST CRACKERS, while the same brand’s peanut butter chocolate chip oat bite is on en:oat-bar.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0832250020756": {
+            "category": "en:breads",
+            "reason": "Multigrain BREAD filed under WHEAT BREAD FLOUR — the loaf filed as the flour.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0840379100242": {
+            "category": "en:almond-butters",
+            "reason": "Justin’s maple ALMOND BUTTER filed under VEGETABLE FATS. Tenth almond butter on a fat shelf, across seven brands.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0842379197703": {
+            "category": "en:grated-cheese",
+            "reason": "Happy Belly grated PARMESAN filed under PARMIGIANO REGGIANO. Third false PDO designation, and the same call as the Kraft grated parmesan.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0845561010309": {
+            "category": "en:stews",
+            "reason": "Loma Linda vegetarian CHILI filed under `en:vegetarian` — a diet label, not a food type.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0849455000032": {
+            "category": "en:tortillas",
+            "reason": "Carb-wise multigrain WRAPS under en:mexican-dinner-mixes — twelfth brand in the cluster.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850004143056": {
+            "category": "en:flours",
+            "reason": "CAULIFLOWER FLOUR filed under `en:products-without-gluten`, a dietary property, while the same brand’s chickpea flour is on en:chickpea-flours.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850007372156": {
+            "category": "en:breads",
+            "reason": "Cauliflower SANDWICH THINS — a bread product — filed under en:cauliflowers, the raw vegetable.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850009173027": {
+            "category": "en:syrups",
+            "reason": "Organic vanilla SYRUP filed under en:sugars, while the same brand’s pancake syrup is on a syrup node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850010613529": {
+            "category": "en:animal-fats",
+            "reason": "BEEF TALLOW filed under BUTTER OIL OR CONCENTRATED BUTTER, a dairy node. Second tallow row after one under en:beef.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850011381342": {
+            "category": "en:dried-meats",
+            "reason": "TURKEY jerky filed under BEEF JERKIES. Second wrong-animal jerky after the pork one.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850012117001": {
+            "category": "en:chocolate-coated-fruits",
+            "reason": "Chocolate-covered frozen RASPBERRIES filed under ICE CREAMS AND SORBETS, while the same brand’s chocolate-covered mangoes one row away are on en:chocolate-coated-fruits.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850012316206": {
+            "category": "en:coffees",
+            "reason": "Vitacup focus COFFEE filed under VARIETY PACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850013189373": {
+            "category": "en:sweeteners",
+            "reason": "A keto HONEY SUBSTITUTE filed under en:honeys. It contains no honey — the bucket names the product it replaces.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850016249180": {
+            "category": "en:coconut-waters",
+            "reason": "A single carton of COCONUT WATER filed under BEVERAGE VARIETY PACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850017468207": {
+            "category": "en:snack-mix",
+            "reason": "A bag of protein SNACK MIX filed under SNACKS VARIETY PACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850017702134": {
+            "category": "en:beverage-preparations",
+            "reason": "A single baobab DRINK MIX filed under a variety-pack node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850020143887": {
+            "category": "en:microwave-meals",
+            "reason": "A \"Bang bang chicken\" frozen meal filed under BREAKFAST BISCUIT WITH CEREALS FORTIFIED WITH VITAMINS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850021228446": {
+            "category": "en:chocolate-candies",
+            "reason": "Chocolate covered CACAO BEANS filed under LEGUMES & BEANS. Cacao beans are seeds of a fruit, not pulses, and this one is coated in chocolate.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850023946393": {
+            "category": "en:protein-powders",
+            "reason": "Coconut chocolate PROTEIN POWDER filed under INSTANT CHOCOLATE POWDERS, the hot-cocoa node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850027792620": {
+            "category": "en:sweet-snacks",
+            "reason": "A bag of granola BITES filed under SNACKS VARIETY PACKS. Fifth single product on a variety-pack node this run.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850028051689": {
+            "category": "en:ice-pops",
+            "reason": "Jonny Pops \"Fruit Burst Minis\" filed under ICE CREAMS, while two other Jonny Pops rows in this batch are on en:ice-pops.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850034592800": {
+            "category": "en:chocolate-covered-almonds",
+            "reason": "Dark chocolate-covered ALMONDS filed under NUTS & DRIED FRUITS — the same call as the Goobers row.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850037507344": {
+            "category": "en:ice-creams",
+            "reason": "Key lime pie ICE CREAM filed under `en:desert` — the misspelling-of-dessert bucket, second appearance.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850038717018": {
+            "category": "en:plant-based-milk",
+            "reason": "Chocolate banana plant MILK filed under FERMENTED plant milk drinks, while the same brand’s strawberry banana milk one row away is on en:plant-based-milk.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850041392066": {
+            "category": "en:doughnuts",
+            "reason": "Pink dipped vanilla cake MINI DONUTS filed under FRESH SWEET PASTRIES AND PIES, while the same brand’s chocolate chip donuts are on en:doughnuts.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850042519608": {
+            "category": "en:protein-powders",
+            "reason": "An all-in-one PROTEIN SMOOTHIE POWDER filed under FRUIT SMOOTHIES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850044599400": {
+            "category": "en:trail-mix",
+            "reason": "Kirkland TRAIL MIX filed under SNACKS VARIETY PACKS. Sixth single product on a variety-pack node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850046491399": {
+            "category": "en:tortillas",
+            "reason": "Organic blue corn TORTILLAS filed under BREAD FLOURS. Thirteenth tortilla brand, and the third distinct wrong bucket for them.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850047620798": {
+            "category": "en:wafers",
+            "reason": "Raspberry and dark chocolate WAFERS filed under en:chocolates, while the same brand’s golden vanilla wafer is on a cookie node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850058395074": {
+            "category": "en:dumplings",
+            "reason": "Real CHICKEN potstickers filed under CHICKEN KIEV SUBSTITUTES — the bucket calls a chicken product an imitation of one. Eleventh inverted row.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850059286524": {
+            "category": "en:pasta-dishes",
+            "reason": "Rigatoni shrimp alfredo filed under FROZEN LASAGNE. Different pasta entirely.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850069093068": {
+            "category": "en:coffee-drinks",
+            "reason": "Chike protein iced COFFEE filed under COFFEE CAPSULES. That brand makes powders and ready-to-drink, not capsules.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850139004710": {
+            "category": "en:pancake-mixes",
+            "reason": "Mochi pancake and waffle MIX filed under PANCAKES, the finished food. Sixth mix-filed-as-dish.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850196003015": {
+            "category": "en:sweeteners",
+            "reason": "Organic STEVIA granular sweetener filed under en:sugars. Fourth stevia product on that node, across two brands.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850403000059": {
+            "category": "en:pancake-mixes",
+            "reason": "Waffle and pancake MIX filed under CAKE MIXES, while the same brand’s identically-named mix one row away is on en:pancake-mixes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0850565007521": {
+            "category": "en:tofu",
+            "reason": "Organic miso TOFU filed under MEAT ANALOGUES, while the same brand’s firm tofu one row away is on en:tofu.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0851554006754": {
+            "category": "en:smoothies",
+            "reason": "Noka \"Superfood Smoothies\" filed under SNACKS VARIETY PACKS, while two identically-named Noka rows in this batch are on en:fruit-smoothies. Seventh single product on a variety-pack node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0852795005612": {
+            "category": "en:tortillas",
+            "reason": "Bfree sweet potato WRAPS under en:mexican-dinner-mixes — fourteenth brand in the cluster.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0852932008070": {
+            "category": "en:almond-butters",
+            "reason": "Barney Butter ALMOND POWDER filed under VEGETABLE FATS. Eleventh almond product from that family on a fat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0853069005390": {
+            "category": "en:peas",
+            "reason": "GREEN PEAS filed under `en:plant-based` — a diet label, second appearance.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0853085008641": {
+            "category": "en:shortbread-cookies",
+            "reason": "Baked spruce tip SHORTBREAD COOKIES filed under BISCUIT MIXES — the inverse of the six mix-filed-as-dish rows.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0853222001405": {
+            "category": "en:sauces",
+            "reason": "A sweet and spicy BANANA PEPPER SAUCE filed under en:mustard.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0853404002695": {
+            "category": "en:meat-alternatives",
+            "reason": "Hodo organic thai curry NUGGETS — a tofu product — filed under en:meats. Fifteenth plant protein on a meat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0854074006013": {
+            "category": "en:skyrs",
+            "reason": "Wild blueberry SKYR — an Icelandic cultured dairy — filed under CREAM CHEESES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0854262003619": {
+            "category": "en:meat-alternatives",
+            "reason": "Organic apple maple MEATLESS breakfast sausage filed under FROZEN MEATS. Sixteenth plant protein on a meat shelf, and the name says meatless.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0854775002079": {
+            "category": "en:pastas",
+            "reason": "Vietnamese rice SPRING ROLL WRAPPERS filed under PIE DOUGH. OFF has no rice-paper node (checked), so the pasta family — where rice noodles and wrappers already live — is the closest honest target.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0854934007679": {
+            "category": "en:pizzas",
+            "reason": "An Italian sausage and vegetable PIZZA filed under SAUSAGES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0855019000615": {
+            "category": "en:cooked-vegetables",
+            "reason": "Fire roasted sweet red PEPPERS filed under SALTED SNACKS. Fifth jar of roasted peppers on that shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0856312002757": {
+            "category": "en:milks",
+            "reason": "Fairlife fat free MILK filed under `en:protein` — a nutrient label, sixth appearance.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0856576005006": {
+            "category": "en:peanut-butters",
+            "reason": "Powdered PEANUT BUTTER filed under VEGETABLE FATS. Twelfth nut or seed butter on a fat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0856587004265": {
+            "category": "en:macaroni-and-cheese",
+            "reason": "Boxed MACARONI AND CHEESE filed under SHELF STABLE COOKING HELPERS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0856716008843": {
+            "category": "en:biscuits",
+            "reason": "\"Aussie bites\" filed under `en:food`. Fourteenth appearance of that bucket, and another Aussie Bites row earlier in the corpus is on a biscuit node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0856717007807": {
+            "category": "en:dried-meats",
+            "reason": "VENISON jerky filed under BEEF JERKIES. Third wrong-animal jerky, after pork and turkey.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0856820160536": {
+            "category": "en:iced-teas",
+            "reason": "Steaz GREEN TEA HIBISCUS filed under PEACH FLAVORED iced teas — a fruit it does not contain.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0857183005670": {
+            "category": "en:pastas",
+            "reason": "Banza chickpea ROTINI — a dry box — filed under INSTANT PASTA, while six other Banza rows in this batch are on en:pastas.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0857683008140": {
+            "category": "en:rolled-oats",
+            "reason": "Plain QUICK OATS filed under CHOCOLATE ROLLED OATS BISCUITS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0857851005063": {
+            "category": "en:oilseed-purees",
+            "reason": "PUMPKIN SEED BUTTER filed under VEGETABLE FATS. Thirteenth seed or nut butter on a fat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0857851005070": {
+            "category": "en:sunflower-seed-butters",
+            "reason": "Dark chocolate SUNFLOWER SEED BUTTER filed under VEGETABLE FATS — fourteenth.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0857851005186": {
+            "category": "en:sunflower-seed-butters",
+            "reason": "Maple SUNFLOWER SEED BUTTER filed under VEGETABLE FATS — fifteenth, and the third from this brand alone.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0858982001665": {
+            "category": "en:sweeteners",
+            "reason": "Whole Earth sweetener filed under en:sugars. Fifth sweetener on that node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0858982001733": {
+            "category": "en:sweeteners",
+            "reason": "ERYTHRITOL — a sugar alcohol — filed under en:sugars.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0858982001795": {
+            "category": "en:sweeteners",
+            "reason": "Organic ERYTHRITOL filed under en:sugars, same brand and defect as the row above.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0859412006045": {
+            "category": "en:tortillas",
+            "reason": "La Tortilla Factory power greens WRAPS under en:mexican-dinner-mixes — fifteenth brand.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0859429005215": {
+            "category": "en:beef",
+            "reason": "Italian BEEF filed under ROAST VEAL. Wrong meat, and the same brand’s sliced beef one row away is on a meat-preparation node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0859691001304": {
+            "category": "en:dips",
+            "reason": "A Turkish DIP filed under `en:groceries` — the aisle-sized catch-all Phase 1 was built to refuse.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0859739002829": {
+            "category": "en:sausages",
+            "reason": "A sausage twin pack filed under BACON RASHERS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0859750003294": {
+            "category": "en:dried-fruits",
+            "reason": "Organic dried PINEAPPLE filed under `en:organic` — a certification, fifth of that shape.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0859806003834": {
+            "category": "en:meat-alternatives",
+            "reason": "Crispy nuggets MADE FROM JACKFRUIT filed under CHICKEN NUGGETS. Seventeenth plant protein on a meat node, and the same brand’s Crispy Jack tenders are on en:meat-alternatives.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0859941005915": {
+            "category": "en:puffed-snacks",
+            "reason": "Shelf-stable sorghum CAULIFLOWER PUFFS filed under FROZEN CAULIFLOWER FLORETS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0860000542609": {
+            "category": "en:bars",
+            "reason": "A Keto Bars dark chocolate bar filed under SNACKS VARIETY PACKS. Eighth single product on a variety-pack node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0860001530803": {
+            "category": "en:sweeteners",
+            "reason": "MONK FRUIT sweetener filed under en:sugars.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0860002765228": {
+            "category": "en:plant-based-spreads",
+            "reason": "COCONUT SPREAD filed under dairy BUTTERS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0860003770160": {
+            "category": "en:hearts-of-palm",
+            "reason": "Hearts of palm \"rice\" filed under `en:vegan` — a diet label, fourth appearance.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0860003966907": {
+            "category": "en:bars",
+            "reason": "A nut butter BAR filed under DAIRY SUBSTITUTES.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0860007322037": {
+            "category": "en:protein-bars",
+            "reason": "A Protein Puck bar filed under SMOKED ALMONDS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0860007406218": {
+            "category": "en:plant-based-milk",
+            "reason": "Unsweetened SUNFLOWER MILK filed under `en:plant-based` — a diet label rather than a food.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0861620000098": {
+            "category": "en:egg-substitutes",
+            "reason": "\"The egg substitute\" filed under en:eggs. The bucket says it is the thing it replaces — twelfth inverted row, and OFF has the exact node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0864383000312": {
+            "category": "en:lollipops",
+            "reason": "Lolleez — throat-soothing LOLLIPOPS — filed under `en:food`. Fifteenth appearance of that bucket.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0870001002569": {
+            "category": "en:almond-butters",
+            "reason": "Artisana organic raw ALMOND BUTTER filed under VEGETABLE FATS, while the same brand’s almond butter two rows away is on en:almond-butters. Sixteenth nut or seed butter on a fat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0871459005553": {
+            "category": "en:cheese-substitutes",
+            "reason": "Daiya MOZZARELLA SHREDS — dairy-free — filed under STRETCHED CURD CHEESES, while eight other Daiya rows in this batch are on cheese-substitute nodes.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0874896001270": {
+            "category": "en:fresh-mixed-vegetables",
+            "reason": "A mixed VEGETABLE MEDLEY filed under FRESH BROCCOLI, one of its components.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0876063006408": {
+            "category": "en:protein-shakes",
+            "reason": "A NON-DAIRY protein shake filed under en:milks, the dairy node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0879890002018": {
+            "category": "en:crackers",
+            "reason": "Crunchmaster multi-seed baked RICE CRACKERS filed under BISCUITS AND CAKES, while six other Crunchmaster rows in this batch are on cracker nodes. Eleventh savoury cracker on a sweet-baked node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0884912381743": {
+            "category": "en:breakfast-cereals",
+            "reason": "Post Chocolate HONEYCOMB — a breakfast cereal — filed under SWEET SPREADS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0888670007686": {
+            "category": "en:extra-virgin-olive-oils",
+            "reason": "100% natural extra virgin OLIVE OIL filed under SALTED SNACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0888670081440": {
+            "category": "en:pretzel",
+            "reason": "Peanut butter filled PRETZELS filed under LEGUMES & BEANS, on the strength of the peanut filling.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0888849017232": {
+            "category": "en:crisps",
+            "reason": "Quest tortilla-style protein CHIPS filed under CRISPS MADE FROM RECONSTITUTED POTATO, while the same brand’s chili lime protein chips are on a general chip node.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0894697002276": {
+            "category": "en:nut-butters",
+            "reason": "NuttZo Peanut Pro nut butter filed under VEGETABLE FATS. Seventeenth nut or seed butter on a fat shelf.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0894697002382": {
+            "category": "en:nut-butters",
+            "reason": "NuttZo organic Powerfuel filed under VEGETABLE FATS — eighteenth, and the same brand’s Powerfuel Smooth one row away is on en:oilseed-purees.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0899039002785": {
+            "category": "en:pancakes",
+            "reason": "Frozen blueberry PANCAKE BALLS filed under PANCAKE MIXES — the finished food filed as the mix, the inverse of the six mix-filed-as-dish rows.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "09281868": {
+            "category": "en:greek-style-yogurts",
+            "reason": "GREEK YOGHURT filed under SWEET SNACKS.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "4056489487319": {
+            "category": "en:chickpea-pasta",
+            "reason": "Organic chickpea RISONI — a pasta — filed under en:pulses, the raw legume.",
+            "date": "2026-08-14",
+            "confidence": "inferred"
+        },
+        "0609249920225": {
+            "category": null,
+            "reason": "ZYN 6mg NICOTINE POUCHES. Not a food by any reading: a tobacco-alternative nicotine product placed under the lip and not swallowed, regulated as tobacco rather than food. This is the first row in 5,350 to meet the deodorant standard, and it is currently sitting on a paid FOOD surface under en:dietary-supplements. Owner-ratified 2026-08-14 under the standing line: nutritional supplements stay, dosed pharmacological products go.",
+            "date": "2026-08-14",
+            "confidence": "owner-confirmed"
+        },
+        "0857084000569": {
+            "category": null,
+            "reason": "LIPODRENE — a stimulant weight-loss TABLET, filed by OFF itself under `en:medicine` and sitting on a paid food surface. Deliberately unlike the vitamins and protein powders in this corpus, which I have consistently left as `correct`: those are nutritional supplements taken as food, while this is a pharmacologically-active diet pill and OFF has already said so. Second not-a-food in 8,000 rows. Owner-ratified 2026-08-14 under the standing line: nutritional supplements stay, dosed pharmacological products go.",
+            "date": "2026-08-14",
+            "confidence": "owner-confirmed"
+        },
+        "0897233709028": {
+            "category": null,
+            "reason": "ZARBEE’S BABY COUGH SYRUP for 12-24 months, filed under SIMPLE SYRUPS — the culinary sugar syrup node — on a paid food surface. A dosed infant remedy is not a food, and this bucket in particular would let it be compared against maple and pancake syrups. Third not-a-food in 8,700 rows. Owner-ratified 2026-08-14 under the standing line: nutritional supplements stay, dosed pharmacological products go.",
+            "date": "2026-08-14",
             "confidence": "owner-confirmed"
         }
     }
