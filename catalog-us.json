@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "lastUpdated": "2026-08-14T23:56:06.532Z",
+  "lastUpdated": "2026-08-15T03:57:02.695Z",
   "region": "us",
   "categories": [
     {
@@ -282427,7 +282427,7 @@
           "unique_scans_n": 8
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 374
     },
     {
       "tag": "en:milks",
@@ -284122,7 +284122,7 @@
           }
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 303
     },
     {
       "tag": "en:yogurts",
@@ -285706,7 +285706,7 @@
           }
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 867
     },
     {
       "tag": "en:cheeses",
@@ -286939,7 +286939,7 @@
           "unique_scans_n": 1
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 74
     },
     {
       "tag": "en:eggs",
@@ -288156,7 +288156,7 @@
           "unique_scans_n": 7
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 444
     },
     {
       "tag": "en:breads",
@@ -290104,7 +290104,7 @@
           "unique_scans_n": 193
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 908
     },
     {
       "tag": "en:breakfast-cereals",
@@ -291598,7 +291598,7 @@
           }
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 396
     },
     {
       "tag": "en:olive-oils",
@@ -293209,7 +293209,7 @@
           "unique_scans_n": 6
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 300
     },
     {
       "tag": "en:pastas",
@@ -294870,7 +294870,7 @@
           }
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 742
     },
     {
       "tag": "en:canned-fishes",
@@ -296253,7 +296253,7 @@
           "unique_scans_n": 12
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 249
     },
     {
       "tag": "en:canned-legumes",
@@ -297810,7 +297810,7 @@
           "unique_scans_n": 4
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 277
     },
     {
       "tag": "en:tomatoes-and-their-products",
@@ -299494,7 +299494,7 @@
           "unique_scans_n": 2
         }
       ],
-      "scoredCount": 49
+      "scoredCount": 142
     },
     {
       "tag": "en:sauces",
@@ -301129,7 +301129,7 @@
           "unique_scans_n": 3
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 217
     },
     {
       "tag": "en:nut-butters",
@@ -302997,7 +302997,7 @@
           "unique_scans_n": 2
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 121
     },
     {
       "tag": "en:nuts",
@@ -304270,7 +304270,7 @@
           "unique_scans_n": 45
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 259
     },
     {
       "tag": "en:meals",
@@ -306361,7 +306361,7 @@
           "unique_scans_n": 9
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 516
     },
     {
       "tag": "en:frozen-foods",
@@ -307839,7 +307839,7 @@
           "unique_scans_n": 4
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 592
     },
     {
       "tag": "en:snacks",
@@ -309414,7 +309414,7 @@
           "unique_scans_n": 9
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 442
     },
     {
       "tag": "en:plant-based-beverages",
@@ -311183,7 +311183,7 @@
           }
         }
       ],
-      "scoredCount": 46
+      "scoredCount": 103
     },
     {
       "tag": "en:carbonated-drinks",
@@ -312619,7 +312619,7 @@
           "unique_scans_n": 3
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 246
     },
     {
       "tag": "en:meat-alternatives",
@@ -314668,7 +314668,7 @@
           }
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 79
     },
     {
       "tag": "en:dairy-substitutes",
@@ -316628,7 +316628,7 @@
           "unique_scans_n": 4
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 159
     },
     {
       "tag": "en:flatbreads",
@@ -318466,7 +318466,7 @@
           "unique_scans_n": 3
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 143
     },
     {
       "tag": "en:crisps",
@@ -320457,7 +320457,7 @@
           "unique_scans_n": 4
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 59
     },
     {
       "tag": "en:ice-creams",
@@ -323426,7 +323426,7 @@
           "unique_scans_n": 1
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 61
     },
     {
       "tag": "en:teas",
@@ -324943,7 +324943,7 @@
           "unique_scans_n": 2
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 77
     },
     {
       "tag": "en:soups",
@@ -326143,7 +326143,7 @@
           }
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 127
     },
     {
       "tag": "en:jams",
@@ -328799,7 +328799,7 @@
           "unique_scans_n": 4
         }
       ],
-      "scoredCount": 50
+      "scoredCount": 440
     }
   ]
 }
