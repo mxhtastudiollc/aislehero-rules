@@ -1,139 +1,146 @@
 {
-    "version": 7,
-    "lastUpdated": "2026-08-14",
+    "version": 8,
+    "lastUpdated": "2026-09-01",
     "harmfulIngredients": [
         {
-            "name": "palm oil",
-            "reason": "About 50% saturated fat — raises LDL cholesterol and cardiovascular risk. Production is also a leading driver of tropical deforestation.",
-            "source": "Harvard Health",
-            "sourceUrl": "https://www.health.harvard.edu/healthy-aging-and-longevity/by_the_way_doctor_is_palm_oil_good_for_you",
-            "penalty": 15
-        },
-        {
-            "name": "high fructose corn syrup",
-            "reason": "Concentrated free fructose is metabolised primarily by the liver and is linked to non-alcoholic fatty liver disease, elevated triglycerides, and insulin resistance at typical Western intake levels.",
-            "source": "NIH PubMed Central (Nutrients review, 2017)",
-            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5622741/",
-            "penalty": 15
-        },
-        {
-            "name": "corn syrup",
-            "reason": "A glucose syrup with a high glycemic load. Drives rapid blood-sugar spikes and contributes to total added-sugar intake far above AHA daily limits.",
-            "source": "Harvard Health",
-            "sourceUrl": "https://www.health.harvard.edu/staying-healthy/which-is-better-high-fructose-corn-syrup-or-table-sugar",
-            "penalty": 15
-        },
-        {
-            "name": "hydrogenated",
-            "reason": "Industrial trans fats. Raise LDL ('bad') cholesterol and lower HDL ('good') cholesterol — the only dietary fat with no safe intake level. Banned by the FDA in PHOs since 2018 but residuals remain.",
-            "source": "AHA Guidelines",
-            "sourceUrl": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/trans-fat",
-            "penalty": 20
-        },
-        {
             "name": "red 40",
-            "reason": "Petroleum-derived synthetic dye (Allura Red AC). Linked to hyperactivity and attentional issues in sensitive children. Subject of the FDA's 2025 phase-out commitment.",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
-            "penalty": 10
+            "reason": "Synthetic dye from the Southampton study mixtures linked to increased hyperactivity and attention problems in children.",
+            "source": "EHP/PMC 2012",
+            "penalty": 15,
+            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3261946/"
         },
         {
             "name": "yellow 5",
-            "reason": "Tartrazine — petroleum-derived synthetic dye linked to hypersensitivity reactions (urticaria, asthma) and behavioural effects in sensitive children.",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
-            "penalty": 10
+            "reason": "Synthetic dye from the Southampton study mixtures linked to increased hyperactivity and attention problems in children.",
+            "source": "EHP/PMC 2012",
+            "penalty": 15,
+            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3261946/"
         },
         {
             "name": "yellow 6",
-            "reason": "Sunset Yellow FCF — petroleum-derived synthetic dye; one of the 'Southampton six' linked to hypersensitivity reactions and behavioural effects (hyperactivity) in sensitive children.",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
-            "penalty": 10
+            "reason": "Synthetic dye from the Southampton study mixtures linked to increased hyperactivity and attention problems in children.",
+            "source": "EHP/PMC 2012",
+            "penalty": 15,
+            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3261946/"
         },
         {
             "name": "aspartame",
-            "reason": "Non-nutritive sweetener classified by the WHO/IARC in 2023 as 'possibly carcinogenic to humans' (Group 2B), based on limited evidence. The WHO's JECFA reviewed the same data and retained the acceptable daily intake of 40 mg/kg body weight, finding no sufficient reason to change it.",
-            "source": "WHO/IARC",
-            "sourceUrl": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released",
-            "penalty": 10
+            "reason": "Artificial sweetener classified by IARC as Group 2B, possibly carcinogenic to humans (limited evidence).",
+            "source": "WHO 2023",
+            "penalty": 20,
+            "sourceUrl": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released"
         },
         {
             "name": "sucralose",
-            "reason": "Heat-stable synthetic sweetener. Recent research on its metabolite sucralose-6-acetate raises genotoxicity concerns. May also disrupt gut microbiome composition.",
-            "source": "WHO Guidelines",
-            "sourceUrl": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline",
-            "penalty": 10
-        },
-        {
-            "name": "maltodextrin",
-            "reason": "Refers to standard (non-resistant) maltodextrin — a highly processed starch with a high glycemic index (~85–105) that can spike blood glucose. Distinct from resistant maltodextrin, a prebiotic soluble fibre, which this entry does not flag.",
-            "source": "Medical News Today",
-            "sourceUrl": "https://www.medicalnewstoday.com/articles/322426",
-            "penalty": 15
+            "reason": "Artificial sweetener whose heat-derivative shows genotoxic, DNA-damaging effects, plus gut microbiome and inflammatory changes.",
+            "source": "PMC 2024",
+            "penalty": 15,
+            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12251854/"
         },
         {
             "name": "sodium nitrite",
-            "reason": "Curing agent in processed meats. WHO/IARC classifies processed meats as Group 1 carcinogenic, in part driven by N-nitroso compounds formed from nitrites during cooking and digestion.",
-            "source": "IARC Monographs",
-            "sourceUrl": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
-            "penalty": 15
+            "reason": "Preservative in processed meat (IARC Group 1 carcinogen) that forms carcinogenic N-nitroso compounds.",
+            "source": "WHO/IARC",
+            "penalty": 25,
+            "sourceUrl": "https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat"
         },
         {
             "name": "sodium nitrate",
-            "reason": "Converted to sodium nitrite during digestion; same N-nitroso carcinogenicity pathway as nitrite. Found primarily in cured and processed meats.",
-            "source": "IARC Monographs",
-            "sourceUrl": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
-            "penalty": 15
+            "reason": "Preservative that converts to nitrite in processed meat (IARC Group 1), feeding carcinogenic N-nitroso compound formation.",
+            "source": "WHO/IARC",
+            "penalty": 25,
+            "sourceUrl": "https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat"
         },
         {
             "name": "titanium dioxide",
-            "reason": "White pigment (E171) in candies, gum, and frosting. The European Food Safety Authority concluded in 2021 it can no longer be considered safe due to potential genotoxicity; banned as a food additive across the EU since 2022. Still permitted in the U.S.",
-            "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/news/titanium-dioxide-e171-no-longer-considered-safe-when-used-food-additive",
-            "penalty": 15
+            "reason": "Whitening additive (E171) that EFSA concluded can no longer be considered safe due to genotoxicity concerns; banned in the EU.",
+            "source": "EFSA 2021",
+            "penalty": 20,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/titanium-dioxide-e171-no-longer-considered-safe-when-used-food-additive"
         },
         {
             "name": "potassium bromate",
-            "reason": "Flour 'improver' used in commercial bread and rolls. Classified by IARC as 'possibly carcinogenic to humans' (Group 2B). Banned for food use in the EU, UK, Canada, Brazil, and several U.S. states; still federally permitted in the U.S.",
-            "source": "IARC Monographs",
-            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Some-Chemicals-That-Cause-Tumours-Of-The-Kidney-Or-Urinary-Bladder-In-Rodents-And-Some-Other-Substances-1999",
-            "penalty": 15
+            "reason": "Flour treatment agent classified by IARC as Group 2B, possibly carcinogenic, with animal evidence of kidney tumors.",
+            "source": "WHO/IARC",
+            "penalty": 20,
+            "sourceUrl": "https://cdn.who.int/media/docs/default-source/wash-documents/wash-chemicals/bromate-backgound.pdf?sfvrsn=a676385a_4"
         },
         {
             "name": "brominated vegetable oil",
-            "reason": "Emulsifier formerly used in citrus-flavoured sodas. The FDA revoked authorisation for its use in food in 2024 over concerns about bromine accumulation in body tissues, but stocks may persist on shelves.",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/cfsan-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food",
-            "penalty": 15
-        },
-        {
-            "name": "tbhq",
-            "reason": "Tert-butylhydroquinone — synthetic preservative used to extend shelf life of oils and processed snacks. JECFA's acceptable daily intake is 0.7 mg/kg; chronic exposure above this is associated with immunological concerns in animal studies.",
-            "source": "WHO JECFA",
-            "sourceUrl": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2098",
-            "penalty": 10
+            "reason": "Emulsifier whose authorization for use in food was revoked by the FDA over safety concerns.",
+            "source": "FDA 2024",
+            "penalty": 20,
+            "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food"
         },
         {
             "name": "red 3",
-            "reason": "Erythrosine — synthetic dye the FDA formally revoked authorisation for in food and ingested drugs in January 2025 after evidence of carcinogenicity in animal studies (thyroid tumours in rats).",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
-            "penalty": 15
+            "reason": "Synthetic dye (erythrosine); FDA revoked its authorization after it caused thyroid tumors in male rats.",
+            "source": "FDA 2025",
+            "penalty": 20,
+            "sourceUrl": "https://www.fda.gov/industry/color-additives/fdc-red-no-3"
         },
         {
             "name": "propylparaben",
-            "reason": "Antimicrobial preservative removed from the EU permitted-additives list over endocrine-disruption (estrogenic) concerns; the EFSA was unable to set a safe acceptable daily intake.",
-            "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/1110",
-            "penalty": 10
+            "reason": "Preservative with endocrine effects on sex hormones and male reproductive organs; EFSA could not set a safe intake level.",
+            "source": "EFSA",
+            "penalty": 15,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-advises-safety-paraben-usage-food"
         },
         {
             "name": "bha",
-            "reason": "Butylated hydroxyanisole — synthetic antioxidant preservative listed by the U.S. National Toxicology Program as 'reasonably anticipated to be a human carcinogen' based on rodent forestomach tumours.",
-            "source": "NTP Report on Carcinogens",
-            "sourceUrl": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/butylatedhydroxyanisole.pdf",
-            "penalty": 12
+            "reason": "Preservative listed by the NTP as reasonably anticipated to be a human carcinogen, with forestomach tumors in animals.",
+            "source": "NTP RoC 15th",
+            "penalty": 18,
+            "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK590883/"
+        },
+        {
+            "name": "tbhq",
+            "reason": "Synthetic preservative with a peer-reviewed immunotoxicity signal affecting immune response at above-ADI exposure.",
+            "source": "PMC/ToxCast",
+            "penalty": 12,
+            "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8036665/"
+        },
+        {
+            "name": "palm oil",
+            "reason": "Roughly 50% saturated fat, which raises LDL cholesterol and cardiovascular risk.",
+            "source": "Harvard Health",
+            "penalty": 8,
+            "sourceUrl": "https://www.health.harvard.edu/healthy-aging-and-longevity/by_the_way_doctor_is_palm_oil_good_for_you"
+        },
+        {
+            "name": "high fructose corn syrup",
+            "reason": "Free-fructose load linked to fatty liver disease, elevated triglycerides, and insulin resistance.",
+            "source": "NIH PubMed Central (Nutrients review, 2017)",
+            "penalty": 12,
+            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5622741/"
+        },
+        {
+            "name": "corn syrup",
+            "reason": "High-glycemic added sugar that drives blood-sugar spikes and excess sugar intake.",
+            "source": "Harvard Health",
+            "penalty": 10,
+            "sourceUrl": "https://www.health.harvard.edu/staying-healthy/which-is-better-high-fructose-corn-syrup-or-table-sugar"
+        },
+        {
+            "name": "hydrogenated",
+            "reason": "Industrial trans fat that raises LDL and lowers HDL cholesterol, with no safe intake level.",
+            "source": "AHA Guidelines",
+            "penalty": 25,
+            "sourceUrl": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/trans-fat"
+        },
+        {
+            "name": "maltodextrin",
+            "reason": "Highly refined carbohydrate with a very high glycemic index that causes rapid glucose spikes.",
+            "source": "Medical News Today",
+            "penalty": 8,
+            "sourceUrl": "https://www.medicalnewstoday.com/articles/322426"
+        },
+        {
+            "name": "sodium benzoate",
+            "reason": "Preservative (E211) included in the Southampton study mixtures linked to increased hyperactivity and attentional effects in children.",
+            "source": "EFSA/EHP",
+            "penalty": 12,
+            "sourceUrl": "https://www.efsa.europa.eu/en/press/news/091112"
         }
     ],
     "thresholds": {
@@ -172,27 +179,27 @@
         "en:cereals-and-potatoes": null,
         "en:meats-and-their-products": null,
         "en:fermented-foods": null,
-        "en:fermented-milk-products": "Cultured Dairy",
+        "en:fermented-milk-products": null,
         "en:fruits-and-vegetables-based-foods": null,
-        "en:condiments": "Condiments",
-        "en:meats": null,
-        "en:desserts": null,
-        "en:biscuits-and-cakes": null,
-        "en:meals": null,
+        "en:condiments": "Condiments & Sauces",
+        "en:meats": "Meat",
+        "en:desserts": "Desserts",
+        "en:biscuits-and-cakes": "Cookies & Cakes",
+        "en:meals": "Ready Meals",
         "en:cereals-and-their-products": null,
-        "en:spreads": null,
+        "en:spreads": "Spreads",
         "en:cheeses": "Cheese",
-        "en:sauces": "Sauces",
-        "en:confectioneries": null,
+        "en:sauces": "Condiments & Sauces",
+        "en:confectioneries": "Candy & Confectionery",
         "en:frozen-foods": null,
-        "en:groceries": null,
         "en:breakfasts": null,
+        "en:groceries": null,
         "en:prepared-meats": "Deli & Prepared Meats",
         "en:plant-based-beverages": "Plant-Based Drinks",
         "en:beverages-and-beverages-preparations": null,
         "en:vegetables-based-foods": null,
         "en:cocoa-and-its-products": "Cocoa & Chocolate",
-        "en:seafood": "Seafood",
+        "en:seafood": "Fish & Seafood",
         "en:canned-foods": null,
         "en:biscuits": "Cookies & Biscuits",
         "en:sweet-spreads": "Sweet Spreads",
@@ -200,31 +207,31 @@
         "en:dairy-desserts": "Dairy Desserts",
         "en:breads": "Bread",
         "en:plant-based-spreads": "Plant-Based Spreads",
-        "en:fats": null,
-        "en:fishes-and-their-products": "Fish",
+        "en:fats": "Fats & Oils",
+        "en:fishes-and-their-products": "Fish & Seafood",
         "en:fermented-dairy-desserts": "Dairy Desserts",
         "en:salty-snacks": "Savory Snacks",
-        "en:fishes": "Fish",
+        "en:fishes": "Fish & Seafood",
         "en:pastas": "Pasta",
-        "en:alcoholic-beverages": null,
+        "en:alcoholic-beverages": "Alcoholic Drinks",
         "en:yogurts": "Yogurt",
         "en:poultries": "Poultry",
         "en:sweeteners": "Sweeteners",
-        "en:legumes-and-their-products": "Legumes",
+        "en:legumes-and-their-products": "Beans & Legumes",
         "en:seeds": "Seeds",
-        "en:frozen-desserts": "Frozen Desserts",
         "en:appetizers": "Appetizers",
-        "en:vegetable-fats": "Cooking Fats",
+        "en:frozen-desserts": "Frozen Desserts",
+        "en:vegetable-fats": "Fats & Oils",
         "en:cakes": "Cakes",
         "en:canned-plant-based-foods": null,
         "en:chocolates": "Chocolate",
         "en:nuts-and-their-products": "Nuts",
-        "en:farming-products": null,
         "en:fruit-based-beverages": "Fruit Drinks",
-        "en:dried-products": null,
+        "en:farming-products": null,
         "en:vegetables": "Vegetables",
+        "en:dried-products": null,
+        "en:fatty-fishes": "Fish & Seafood",
         "en:vegetable-oils": "Cooking Oils",
-        "en:fatty-fishes": "Fish",
         "en:dietary-supplements": "Supplements",
         "en:juices-and-nectars": "Juices & Nectars",
         "en:chocolate-candies": "Chocolate Candy",
@@ -234,7 +241,7 @@
         "en:carbonated-drinks": "Soda & Soft Drinks",
         "en:fruit-and-vegetable-preserves": "Preserves",
         "en:bee-products": "Honey & Bee Products",
-        "en:legumes": "Legumes",
+        "en:legumes": "Beans & Legumes",
         "en:olive-tree-products": "Olives & Olive Products",
         "en:cow-cheeses": "Cheese",
         "en:honeys": "Honey",
@@ -242,25 +249,25 @@
         "en:candies": "Candy",
         "en:fruits": "Fruit",
         "en:chips-and-fries": "Chips & Fries",
-        "en:hams": "Ham",
         "en:nuts": "Nuts",
         "en:sodas": "Soda & Soft Drinks",
         "en:crisps": "Chips & Crisps",
         "en:fruit-juices": "Fruit Juice",
-        "en:sausages": "Sausages",
         "en:salted-spreads": "Savory Spreads",
         "en:ice-creams-and-sorbets": "Ice Cream & Sorbet",
-        "en:jams": "Jams & Jellies",
-        "en:cereal-grains": "Grains",
+        "en:sausages": "Sausages",
+        "en:jams": "Jam",
+        "en:hams": "Ham",
         "en:milks": "Milk",
+        "en:cereal-grains": "Grains",
         "en:canned-vegetables": "Canned Vegetables",
-        "en:soups": "Soups",
-        "en:dairy-substitutes": "Dairy Alternatives",
+        "en:soups": "Soup",
         "en:dried-plant-based-foods": null,
-        "en:biscuits-and-crackers": "Crackers",
+        "en:biscuits-and-crackers": "Cookies & Crackers",
+        "en:dairy-substitutes": "Dairy Alternatives",
         "en:teas": "Tea",
-        "en:meals-with-meat": null,
         "en:wines": "Wine",
+        "en:meals-with-meat": "Ready Meals",
         "en:olive-oils": "Olive Oil",
         "en:waters": "Water"
     },
@@ -268,67 +275,90 @@
         "Cheese": [
             "en:cheeses"
         ],
-        "Cheese - Specialty": [
+        "Cheese - Natural": [
+            "en:cheeses"
+        ],
+        "Cheese - Processed": [
             "en:cheeses"
         ],
         "Yogurt": [
             "en:yogurts"
         ],
+        "Yogurt/Yogurt Substitutes": [
+            "en:yogurts"
+        ],
         "Milk": [
             "en:milks"
         ],
-        "Flavored Milk": [
+        "Milk/Milk Substitutes": [
             "en:milks"
         ],
-        "Milk Substitute": [
-            "en:milks",
-            "en:plant-based-beverages"
-        ],
         "Butter & Spread": [
+            "en:butters"
+        ],
+        "Butter/Butter Substitutes": [
             "en:butters"
         ],
         "Ice Cream & Frozen Yogurt": [
             "en:ice-creams"
         ],
+        "Ice Cream/Frozen Yogurt/Novelties": [
+            "en:ice-creams"
+        ],
         "Cereal": [
             "en:breakfast-cereals"
         ],
-        "Cereal/Granola Bars": [
-            "en:breakfast-cereals",
-            "en:protein-bars"
+        "Breakfast Cereals": [
+            "en:breakfast-cereals"
+        ],
+        "Breakfast Foods": [
+            "en:breakfast-cereals"
         ],
         "Bread & Buns": [
             "en:breads"
         ],
-        "Bread": [
+        "Bread & Muffins": [
             "en:breads"
         ],
-        "Rolls & Buns": [
+        "Breads & Buns": [
             "en:breads"
         ],
         "Pasta by Shape & Type": [
             "en:pastas"
         ],
         "Pasta Dinners": [
+            "en:pastas"
+        ],
+        "Prepared Pasta & Pizza Mixes": [
             "en:pastas",
-            "en:meals"
+            "en:pizzas"
         ],
         "Rice": [
             "en:rices"
         ],
+        "Rice/Grains/Beans/Legumes - Prepared/Processed": [
+            "en:rices",
+            "en:legumes"
+        ],
         "Flours & Corn Meal": [
+            "en:flours"
+        ],
+        "Baking Additives & Extracts": [
             "en:flours"
         ],
         "Cookies & Biscuits": [
             "en:cookies"
         ],
-        "Crackers & Biscotti": [
-            "en:crackers"
-        ],
         "Cakes, Cupcakes, Snack Cakes": [
             "en:cakes"
         ],
+        "Cakes - Prepared/Processed": [
+            "en:cakes"
+        ],
         "Pastry": [
+            "en:pastries"
+        ],
+        "Pastry Shells & Fillings": [
             "en:pastries"
         ],
         "Popcorn, Peanuts, Seeds & Related Snacks": [
@@ -338,106 +368,111 @@
         "Chips, Pretzels & Snacks": [
             "en:chips-and-fries"
         ],
+        "Snack, Energy & Granola Bars": [
+            "en:protein-bars"
+        ],
         "Chocolate": [
             "en:chocolates"
+        ],
+        "Chocolate Candy": [
+            "en:chocolates",
+            "en:candies"
         ],
         "Candy": [
             "en:candies"
         ],
-        "Candy Without Chocolate": [
-            "en:candies"
+        "Candy/Chocolate/Gum - Prepared/Processed": [
+            "en:candies",
+            "en:chocolates"
         ],
         "Nuts": [
             "en:nuts"
         ],
-        "Nut & Seed Butters": [
+        "Nuts, Seeds & Trail Mix": [
             "en:nuts"
         ],
-        "Breakfast Sandwiches, Biscuits & Meals": [
-            "en:meals",
-            "en:breakfasts"
-        ],
         "Water": [
+            "en:waters"
+        ],
+        "Water - Flavored/Enhanced": [
             "en:waters"
         ],
         "Soda": [
             "en:carbonated-drinks"
         ],
-        "Carbonated Beverages": [
+        "Carbonated Drinks": [
             "en:carbonated-drinks"
         ],
         "Soft Drinks": [
             "en:carbonated-drinks"
         ],
-        "Juice": [
+        "Fruit Juice": [
             "en:juices"
         ],
         "Fruit & Vegetable Juice, Nectars & Fruit Drinks": [
             "en:juices"
         ],
-        "Tea Bags": [
+        "Tea Bags & Loose Tea": [
             "en:teas"
         ],
-        "Tea - Ready to Drink": [
+        "Tea - Ready To Drink": [
             "en:teas"
         ],
         "Coffee": [
             "en:coffees"
         ],
-        "Coffee & Tea": [
-            "en:coffees",
-            "en:teas"
-        ],
-        "Frozen Pizza": [
-            "en:pizzas"
+        "Coffee - Ready To Drink": [
+            "en:coffees"
         ],
         "Pizza": [
             "en:pizzas"
         ],
-        "Soup": [
-            "en:soups"
+        "Pizza - Frozen": [
+            "en:pizzas"
         ],
         "Prepared Soups": [
+            "en:soups"
+        ],
+        "Soups - Prepared": [
             "en:soups"
         ],
         "Frozen Dinners & Entrees": [
             "en:meals"
         ],
-        "Meals/Entrees/Sides - Not Ready to Eat - Frozen": [
+        "Meals & Sides - Prepared/Processed": [
             "en:meals"
         ],
-        "Other Frozen Meals": [
+        "Prepared Meals": [
             "en:meals"
         ],
-        "Gravies/Sauces/Marinades & Dips - Shelf Stable": [
-            "en:sauces",
+        "Herbs & Spices": [
             "en:condiments"
+        ],
+        "Seasoning Mixes, Salts, Marinades & Tenderizers": [
+            "en:condiments",
+            "en:sauces"
         ],
         "Sauces & Marinades": [
-            "en:sauces",
-            "en:condiments"
+            "en:sauces"
         ],
         "Pasta Sauce": [
             "en:sauces"
         ],
+        "Gravies, Sauces & Marinades": [
+            "en:sauces"
+        ],
         "Ketchup, Mustard, BBQ & Cheese Sauce": [
-            "en:sauces",
-            "en:condiments"
+            "en:condiments",
+            "en:sauces"
         ],
         "Salad Dressing & Mayonnaise": [
             "en:condiments",
             "en:sauces"
         ],
-        "Condiments": [
-            "en:condiments"
-        ],
         "Pickles, Olives, Peppers & Relishes": [
             "en:condiments"
         ],
-        "Vegetable Oil": [
-            "en:cooking-oils"
-        ],
-        "Cooking Oils & Fats": [
+        "Vegetable & Cooking Oils": [
             "en:cooking-oils"
         ],
         "Olive Oil": [
@@ -446,94 +481,69 @@
         "Eggs & Egg Substitutes": [
             "en:eggs"
         ],
-        "Beans, Peas & Lentils - Canned & Shelf Stable": [
+        "Beans": [
             "en:legumes"
         ],
-        "Tofu": [
+        "Beans, Peas & Lentils - Prepared/Processed": [
+            "en:legumes"
+        ],
+        "Tofu & Meat Alternatives": [
             "en:tofu-and-products"
         ],
         "Meat/Poultry/Other Animals - Prepared/Processed": [
             "en:meat-preparations",
             "en:meats-and-their-products"
         ],
-        "Bacon, Sausages & Ribs": [
+        "Meat/Poultry/Other Animals Sausages": [
             "en:meat-preparations",
-            "en:meats-and-their-products"
-        ],
-        "Sausages, Hotdogs & Brats": [
-            "en:meat-preparations",
-            "en:meats-and-their-products"
-        ],
-        "Ham": [
-            "en:meats-and-their-products"
-        ],
-        "Lunch Meat": [
-            "en:meat-preparations",
-            "en:meats-and-their-products"
-        ],
-        "Beef": [
-            "en:meats-and-their-products"
-        ],
-        "Pork": [
-            "en:meats-and-their-products"
-        ],
-        "Lamb & Veal": [
             "en:meats-and-their-products"
         ],
         "Frozen Poultry, Chicken & Turkey": [
             "en:chicken-preparations",
             "en:poultry"
         ],
-        "Chicken - Unprepared/Unprocessed": [
-            "en:poultry"
-        ],
-        "Fish & Seafood": [
-            "en:fish-and-seafood"
-        ],
-        "Canned Seafood": [
-            "en:fish-and-seafood"
+        "Bacon, Sausages & Ribs": [
+            "en:meat-preparations",
+            "en:meats-and-their-products"
         ],
         "Frozen Fish & Seafood": [
             "en:fish-and-seafood"
         ],
-        "Vegetables - Canned": [
+        "Fish & Seafood - Prepared/Processed": [
+            "en:fish-and-seafood"
+        ],
+        "Fish & Seafood": [
+            "en:fish-and-seafood"
+        ],
+        "Frozen Bacon, Sausages & Ribs": [
+            "en:meat-preparations",
+            "en:meats-and-their-products"
+        ],
+        "Deli - Prepared Meats": [
+            "en:meat-preparations",
+            "en:meats-and-their-products"
+        ],
+        "Canned Meat": [
+            "en:meat-preparations",
+            "en:meats-and-their-products"
+        ],
+        "Vegetables - Prepared/Processed": [
             "en:vegetables"
         ],
-        "Vegetables - Frozen": [
-            "en:vegetables"
-        ],
-        "Fruit - Canned": [
-            "en:fruits"
-        ],
-        "Fruit - Frozen": [
+        "Fruits - Prepared/Processed": [
             "en:fruits"
         ],
         "Jam, Jelly & Fruit Spreads": [
-            "en:fruits"
+            "en:sweet-spreads"
         ],
         "Honey": [
-            "en:bee-products"
+            "en:sweet-spreads"
         ],
         "Syrups & Molasses": [
             "en:sweeteners"
         ],
-        "Sugar": [
+        "Sugars & Sweeteners": [
             "en:sweeteners"
-        ],
-        "Sugar & Sweeteners": [
-            "en:sweeteners"
-        ],
-        "Protein Bars": [
-            "en:protein-bars"
-        ],
-        "Energy, Protein & Muscle Recovery Drinks": [
-            "en:beverages"
-        ],
-        "Frozen Desserts": [
-            "en:ice-creams"
-        ],
-        "Cream": [
-            "en:milks"
         ]
     },
     "summaryPhrases": {
@@ -541,13 +551,15 @@
             "ultra-processed",
             "heavily refined",
             "highly processed",
-            "engineered in a factory"
+            "engineered in a factory",
+            "built from refined parts"
         ],
         "processing.minimal": [
             "minimally processed",
             "kept simple",
             "mostly whole-food",
-            "close to its raw form"
+            "close to its raw form",
+            "barely touched"
         ],
         "seedOils.flagged": [
             "heavy on seed oils",
@@ -557,33 +569,39 @@
         "palmOil.present": [
             "contains palm oil",
             "made with palm oil",
-            "palm oil in the mix"
+            "palm oil in the mix",
+            "leans on palm oil"
         ],
         "additives.many": [
             "additive-heavy",
             "long additive list",
-            "stacked with additives"
+            "stacked with additives",
+            "crowded with additives"
         ],
         "sodium.high": [
             "salty enough to watch",
             "sodium-forward",
             "high on the salt",
-            "carries a heavy salt load"
+            "carries a heavy salt load",
+            "leans salty"
         ],
         "sugars.high": [
             "sweet enough to watch",
             "sugar-forward",
-            "heavy on added sugar"
+            "heavy on added sugar",
+            "loaded with added sugar"
         ],
         "nutrient.excellent": [
             "nutrient-dense",
             "reads clean",
-            "packed with real nutrition"
+            "packed with real nutrition",
+            "genuinely nourishing"
         ],
         "nutrient.poor": [
             "weak on nutrients",
             "low nutrient density",
-            "light on nutrition"
+            "light on nutrition",
+            "thin on real nutrients"
         ]
     },
     "categoryOverrides": {
