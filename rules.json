@@ -3,144 +3,137 @@
     "lastUpdated": "2026-09-01",
     "harmfulIngredients": [
         {
-            "name": "red 40",
-            "reason": "Synthetic dye from the Southampton study mixtures linked to increased hyperactivity and attention problems in children.",
-            "source": "EHP/PMC 2012",
-            "penalty": 15,
-            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3261946/"
-        },
-        {
-            "name": "yellow 5",
-            "reason": "Synthetic dye from the Southampton study mixtures linked to increased hyperactivity and attention problems in children.",
-            "source": "EHP/PMC 2012",
-            "penalty": 15,
-            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3261946/"
-        },
-        {
-            "name": "yellow 6",
-            "reason": "Synthetic dye from the Southampton study mixtures linked to increased hyperactivity and attention problems in children.",
-            "source": "EHP/PMC 2012",
-            "penalty": 15,
-            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3261946/"
-        },
-        {
-            "name": "aspartame",
-            "reason": "Artificial sweetener classified by IARC as Group 2B, possibly carcinogenic to humans (limited evidence).",
-            "source": "WHO 2023",
-            "penalty": 20,
-            "sourceUrl": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released"
-        },
-        {
-            "name": "sucralose",
-            "reason": "Artificial sweetener whose heat-derivative shows genotoxic, DNA-damaging effects, plus gut microbiome and inflammatory changes.",
-            "source": "PMC 2024",
-            "penalty": 15,
-            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12251854/"
-        },
-        {
-            "name": "sodium nitrite",
-            "reason": "Preservative in processed meat (IARC Group 1 carcinogen) that forms carcinogenic N-nitroso compounds.",
-            "source": "WHO/IARC",
-            "penalty": 25,
-            "sourceUrl": "https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat"
-        },
-        {
-            "name": "sodium nitrate",
-            "reason": "Preservative that converts to nitrite in processed meat (IARC Group 1), feeding carcinogenic N-nitroso compound formation.",
-            "source": "WHO/IARC",
-            "penalty": 25,
-            "sourceUrl": "https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat"
-        },
-        {
-            "name": "titanium dioxide",
-            "reason": "Whitening additive (E171) that EFSA concluded can no longer be considered safe due to genotoxicity concerns; banned in the EU.",
-            "source": "EFSA 2021",
-            "penalty": 20,
-            "sourceUrl": "https://www.efsa.europa.eu/en/news/titanium-dioxide-e171-no-longer-considered-safe-when-used-food-additive"
-        },
-        {
-            "name": "potassium bromate",
-            "reason": "Flour treatment agent classified by IARC as Group 2B, possibly carcinogenic, with animal evidence of kidney tumors.",
-            "source": "WHO/IARC",
-            "penalty": 20,
-            "sourceUrl": "https://cdn.who.int/media/docs/default-source/wash-documents/wash-chemicals/bromate-backgound.pdf?sfvrsn=a676385a_4"
-        },
-        {
-            "name": "brominated vegetable oil",
-            "reason": "Emulsifier whose authorization for use in food was revoked by the FDA over safety concerns.",
-            "source": "FDA 2024",
-            "penalty": 20,
-            "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food"
-        },
-        {
-            "name": "red 3",
-            "reason": "Synthetic dye (erythrosine); FDA revoked its authorization after it caused thyroid tumors in male rats.",
-            "source": "FDA 2025",
-            "penalty": 20,
-            "sourceUrl": "https://www.fda.gov/industry/color-additives/fdc-red-no-3"
-        },
-        {
-            "name": "propylparaben",
-            "reason": "Preservative with endocrine effects on sex hormones and male reproductive organs; EFSA could not set a safe intake level.",
-            "source": "EFSA",
-            "penalty": 15,
-            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-advises-safety-paraben-usage-food"
-        },
-        {
-            "name": "bha",
-            "reason": "Preservative listed by the NTP as reasonably anticipated to be a human carcinogen, with forestomach tumors in animals.",
-            "source": "NTP RoC 15th",
-            "penalty": 18,
-            "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK590883/"
-        },
-        {
-            "name": "tbhq",
-            "reason": "Synthetic preservative with a peer-reviewed immunotoxicity signal affecting immune response at above-ADI exposure.",
-            "source": "PMC/ToxCast",
-            "penalty": 12,
-            "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8036665/"
-        },
-        {
             "name": "palm oil",
-            "reason": "Roughly 50% saturated fat, which raises LDL cholesterol and cardiovascular risk.",
+            "reason": "About 50% saturated fat — raises LDL cholesterol and cardiovascular risk. Production is also a leading driver of tropical deforestation.",
             "source": "Harvard Health",
-            "penalty": 8,
-            "sourceUrl": "https://www.health.harvard.edu/healthy-aging-and-longevity/by_the_way_doctor_is_palm_oil_good_for_you"
+            "sourceUrl": "https://www.health.harvard.edu/healthy-aging-and-longevity/by_the_way_doctor_is_palm_oil_good_for_you",
+            "penalty": 15
         },
         {
             "name": "high fructose corn syrup",
-            "reason": "Free-fructose load linked to fatty liver disease, elevated triglycerides, and insulin resistance.",
+            "reason": "Concentrated free fructose is metabolised primarily by the liver and is linked to non-alcoholic fatty liver disease, elevated triglycerides, and insulin resistance at typical Western intake levels.",
             "source": "NIH PubMed Central (Nutrients review, 2017)",
-            "penalty": 12,
-            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5622741/"
+            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5622741/",
+            "penalty": 15
         },
         {
             "name": "corn syrup",
-            "reason": "High-glycemic added sugar that drives blood-sugar spikes and excess sugar intake.",
+            "reason": "A glucose syrup with a high glycemic load. Drives rapid blood-sugar spikes and contributes to total added-sugar intake far above AHA daily limits.",
             "source": "Harvard Health",
-            "penalty": 10,
-            "sourceUrl": "https://www.health.harvard.edu/staying-healthy/which-is-better-high-fructose-corn-syrup-or-table-sugar"
+            "sourceUrl": "https://www.health.harvard.edu/staying-healthy/which-is-better-high-fructose-corn-syrup-or-table-sugar",
+            "penalty": 15
         },
         {
             "name": "hydrogenated",
-            "reason": "Industrial trans fat that raises LDL and lowers HDL cholesterol, with no safe intake level.",
+            "reason": "Industrial trans fats. Raise LDL ('bad') cholesterol and lower HDL ('good') cholesterol — the only dietary fat with no safe intake level. Banned by the FDA in PHOs since 2018 but residuals remain.",
             "source": "AHA Guidelines",
-            "penalty": 25,
-            "sourceUrl": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/trans-fat"
+            "sourceUrl": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/trans-fat",
+            "penalty": 20
+        },
+        {
+            "name": "red 40",
+            "reason": "Petroleum-derived synthetic dye (Allura Red AC). Linked to hyperactivity and attentional issues in sensitive children. Subject of the FDA's 2025 phase-out commitment.",
+            "source": "U.S. FDA",
+            "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
+            "penalty": 10
+        },
+        {
+            "name": "yellow 5",
+            "reason": "Tartrazine — petroleum-derived synthetic dye linked to hypersensitivity reactions (urticaria, asthma) and behavioural effects in sensitive children.",
+            "source": "U.S. FDA",
+            "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
+            "penalty": 10
+        },
+        {
+            "name": "yellow 6",
+            "reason": "Sunset Yellow FCF — petroleum-derived synthetic dye; one of the 'Southampton six' linked to hypersensitivity reactions and behavioural effects (hyperactivity) in sensitive children.",
+            "source": "U.S. FDA",
+            "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
+            "penalty": 10
+        },
+        {
+            "name": "aspartame",
+            "reason": "Non-nutritive sweetener classified by the WHO/IARC in 2023 as 'possibly carcinogenic to humans' (Group 2B), based on limited evidence. The WHO's JECFA reviewed the same data and retained the acceptable daily intake of 40 mg/kg body weight, finding no sufficient reason to change it.",
+            "source": "WHO/IARC",
+            "sourceUrl": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released",
+            "penalty": 10
+        },
+        {
+            "name": "sucralose",
+            "reason": "Heat-stable synthetic sweetener. Recent research on its metabolite sucralose-6-acetate raises genotoxicity concerns. May also disrupt gut microbiome composition.",
+            "source": "WHO Guidelines",
+            "sourceUrl": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline",
+            "penalty": 10
         },
         {
             "name": "maltodextrin",
-            "reason": "Highly refined carbohydrate with a very high glycemic index that causes rapid glucose spikes.",
+            "reason": "Refers to standard (non-resistant) maltodextrin — a highly processed starch with a high glycemic index (~85–105) that can spike blood glucose. Distinct from resistant maltodextrin, a prebiotic soluble fibre, which this entry does not flag.",
             "source": "Medical News Today",
-            "penalty": 8,
-            "sourceUrl": "https://www.medicalnewstoday.com/articles/322426"
+            "sourceUrl": "https://www.medicalnewstoday.com/articles/322426",
+            "penalty": 15
         },
         {
-            "name": "sodium benzoate",
-            "reason": "Preservative (E211) included in the Southampton study mixtures linked to increased hyperactivity and attentional effects in children.",
-            "source": "EFSA/EHP",
-            "penalty": 12,
-            "sourceUrl": "https://www.efsa.europa.eu/en/press/news/091112"
+            "name": "sodium nitrite",
+            "reason": "Curing agent in processed meats. WHO/IARC classifies processed meats as Group 1 carcinogenic, in part driven by N-nitroso compounds formed from nitrites during cooking and digestion.",
+            "source": "IARC Monographs",
+            "sourceUrl": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
+            "penalty": 15
+        },
+        {
+            "name": "sodium nitrate",
+            "reason": "Converted to sodium nitrite during digestion; same N-nitroso carcinogenicity pathway as nitrite. Found primarily in cured and processed meats.",
+            "source": "IARC Monographs",
+            "sourceUrl": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
+            "penalty": 15
+        },
+        {
+            "name": "titanium dioxide",
+            "reason": "White pigment (E171) in candies, gum, and frosting. The European Food Safety Authority concluded in 2021 it can no longer be considered safe due to potential genotoxicity; banned as a food additive across the EU since 2022. Still permitted in the U.S.",
+            "source": "EFSA Opinion",
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/titanium-dioxide-e171-no-longer-considered-safe-when-used-food-additive",
+            "penalty": 15
+        },
+        {
+            "name": "potassium bromate",
+            "reason": "Flour 'improver' used in commercial bread and rolls. Classified by IARC as 'possibly carcinogenic to humans' (Group 2B). Banned for food use in the EU, UK, Canada, Brazil, and several U.S. states; still federally permitted in the U.S.",
+            "source": "IARC Monographs",
+            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Some-Chemicals-That-Cause-Tumours-Of-The-Kidney-Or-Urinary-Bladder-In-Rodents-And-Some-Other-Substances-1999",
+            "penalty": 15
+        },
+        {
+            "name": "brominated vegetable oil",
+            "reason": "Emulsifier formerly used in citrus-flavoured sodas. The FDA revoked authorisation for its use in food in 2024 over concerns about bromine accumulation in body tissues, but stocks may persist on shelves.",
+            "source": "U.S. FDA",
+            "sourceUrl": "https://www.fda.gov/food/cfsan-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food",
+            "penalty": 15
+        },
+        {
+            "name": "tbhq",
+            "reason": "Tert-butylhydroquinone — synthetic preservative used to extend shelf life of oils and processed snacks. JECFA's acceptable daily intake is 0.7 mg/kg; chronic exposure above this is associated with immunological concerns in animal studies.",
+            "source": "WHO JECFA",
+            "sourceUrl": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2098",
+            "penalty": 10
+        },
+        {
+            "name": "red 3",
+            "reason": "Erythrosine — synthetic dye the FDA formally revoked authorisation for in food and ingested drugs in January 2025 after evidence of carcinogenicity in animal studies (thyroid tumours in rats).",
+            "source": "U.S. FDA",
+            "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
+            "penalty": 15
+        },
+        {
+            "name": "propylparaben",
+            "reason": "Antimicrobial preservative removed from the EU permitted-additives list over endocrine-disruption (estrogenic) concerns; the EFSA was unable to set a safe acceptable daily intake.",
+            "source": "EFSA Opinion",
+            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/1110",
+            "penalty": 10
+        },
+        {
+            "name": "bha",
+            "reason": "Butylated hydroxyanisole — synthetic antioxidant preservative listed by the U.S. National Toxicology Program as 'reasonably anticipated to be a human carcinogen' based on rodent forestomach tumours.",
+            "source": "NTP Report on Carcinogens",
+            "sourceUrl": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/butylatedhydroxyanisole.pdf",
+            "penalty": 12
         }
     ],
     "thresholds": {
