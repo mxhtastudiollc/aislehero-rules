@@ -1,6 +1,6 @@
 {
-    "version": 8,
-    "lastUpdated": "2026-09-01",
+    "version": 9,
+    "lastUpdated": "2026-10-01",
     "harmfulIngredients": [
         {
             "name": "palm oil",
@@ -265,8 +265,504 @@
         "en:waters": "Water"
     },
     "usdaCategoryMap": {
+        "Vegetable & Cooking Oils": [
+            "en:cooking-oils",
+            "en:fats"
+        ],
+        "Water": [
+            "en:waters"
+        ],
+        "Cereal": [
+            "en:breakfast-cereals"
+        ],
+        "Nut & Seed Butters": [
+            "en:nut-butters",
+            "en:spreads"
+        ],
+        "Pasta by Shape & Type": [
+            "en:pastas"
+        ],
+        "Popcorn, Peanuts, Seeds & Related Snacks": [
+            "en:popcorns",
+            "en:nuts",
+            "en:salty-snacks"
+        ],
+        "Milk/Milk Substitutes": [
+            "en:milks",
+            "en:dairy-substitutes"
+        ],
+        "Breads & Buns": [
+            "en:breads"
+        ],
+        "Canned Tuna": [
+            "en:fish-and-seafood",
+            "en:canned-foods"
+        ],
+        "Soda": [
+            "en:carbonated-drinks",
+            "en:sodas"
+        ],
+        "Chips, Pretzels & Snacks": [
+            "en:chips-and-fries",
+            "en:salty-snacks"
+        ],
         "Cheese": [
             "en:cheeses"
+        ],
+        "Fruit & Vegetable Juice, Nectars & Fruit Drinks": [
+            "en:juices-and-nectars",
+            "en:fruit-juices"
+        ],
+        "Tomatoes": [
+            "en:vegetables",
+            "en:canned-vegetables"
+        ],
+        "Yogurt": [
+            "en:yogurts"
+        ],
+        "Eggs & Egg Substitutes": [
+            "en:eggs"
+        ],
+        "Prepared Soups": [
+            "en:soups"
+        ],
+        "Canned & Bottled Beans": [
+            "en:legumes",
+            "en:canned-foods"
+        ],
+        "Candy": [
+            "en:candies",
+            "en:confectioneries"
+        ],
+        "Jam, Jelly & Fruit Spreads": [
+            "en:jams",
+            "en:sweet-spreads"
+        ],
+        "Plant Based Milk": [
+            "en:plant-based-beverages",
+            "en:dairy-substitutes"
+        ],
+        "Milk": [
+            "en:milks"
+        ],
+        "Snack, Energy & Granola Bars": [
+            "en:protein-bars",
+            "en:snacks"
+        ],
+        "Other Meats": [
+            "en:meats",
+            "en:meats-and-their-products"
+        ],
+        "Pizza": [
+            "en:pizzas"
+        ],
+        "Tea Bags": [
+            "en:teas"
+        ],
+        "Rice": [
+            "en:rices"
+        ],
+        "Ice Cream & Frozen Yogurt": [
+            "en:ice-creams-and-sorbets",
+            "en:frozen-desserts"
+        ],
+        "Iced & Bottle Tea": [
+            "en:teas",
+            "en:beverages"
+        ],
+        "Vegetable and Lentil Mixes": [
+            "en:legumes",
+            "en:vegetables"
+        ],
+        "Non Alcoholic Beverages - Ready to Drink": [
+            "en:beverages"
+        ],
+        "Other Soups": [
+            "en:soups"
+        ],
+        "Crackers & Biscotti": [
+            "en:biscuits-and-crackers",
+            "en:biscuits"
+        ],
+        "Vegetables - Prepared/Processed": [
+            "en:vegetables",
+            "en:canned-vegetables"
+        ],
+        "Plant Based Water": [
+            "en:waters",
+            "en:plant-based-beverages"
+        ],
+        "Frozen Dinners & Entrees": [
+            "en:meals",
+            "en:frozen-foods"
+        ],
+        "Prepared Pasta & Pizza Sauces": [
+            "en:sauces",
+            "en:condiments"
+        ],
+        "Frozen Fish & Seafood": [
+            "en:fishes-and-their-products",
+            "en:frozen-foods"
+        ],
+        "Chewing Gum & Mints": [
+            "en:candies",
+            "en:confectioneries"
+        ],
+        "Dips & Salsa": [
+            "en:sauces",
+            "en:condiments"
+        ],
+        "Energy, Protein & Muscle Recovery Drinks": [
+            "en:beverages"
+        ],
+        "Frozen Patties and Burgers": [
+            "en:meat-preparations",
+            "en:frozen-foods"
+        ],
+        "Vegetarian Frozen Meats": [
+            "en:meat-analogues",
+            "en:frozen-foods"
+        ],
+        "Mexican Dinner Mixes": [
+            "en:meals"
+        ],
+        "Vegetable Based Products / Meals": [
+            "en:vegetables-based-foods",
+            "en:meals"
+        ],
+        "Coffee": [
+            "en:coffees"
+        ],
+        "Frozen Appetizers & Hors D'oeuvres": [
+            "en:appetizers",
+            "en:frozen-foods"
+        ],
+        "Canned Soup": [
+            "en:soups",
+            "en:canned-foods"
+        ],
+        "Chocolate": [
+            "en:chocolates",
+            "en:cocoa-and-its-products"
+        ],
+        "Processed Cereal Products": [
+            "en:breakfast-cereals",
+            "en:cereals-and-their-products"
+        ],
+        "Dough Based Products / Meals": [
+            "en:meals",
+            "en:cereals-and-their-products"
+        ],
+        "Biscuits/Cookies": [
+            "en:biscuits"
+        ],
+        "Canned Vegetables": [
+            "en:canned-vegetables"
+        ],
+        "Frozen Vegetables": [
+            "en:vegetables",
+            "en:frozen-foods"
+        ],
+        "Non Alcoholic Beverages  Ready to Drink": [
+            "en:beverages"
+        ],
+        "Nuts/Seeds - Prepared/Processed": [
+            "en:nuts",
+            "en:seeds"
+        ],
+        "Entrees, Sides & Small Meals": [
+            "en:meals"
+        ],
+        "Poultry, Chicken & Turkey": [
+            "en:poultries",
+            "en:meats-and-their-products"
+        ],
+        "Grains/Flour": [
+            "en:flours",
+            "en:cereal-grains"
+        ],
+        "Pepperoni, Salami & Cold Cuts": [
+            "en:prepared-meats",
+            "en:meats-and-their-products"
+        ],
+        "Pre-Packaged Fruit & Vegetables": [
+            "en:fruits-and-vegetables-based-foods"
+        ],
+        "Sweet Spreads": [
+            "en:sweet-spreads",
+            "en:spreads"
+        ],
+        "Cakes, Cupcakes, Snack Cakes": [
+            "en:cakes",
+            "en:biscuits-and-cakes"
+        ],
+        "Grain Based Products / Meals": [
+            "en:cereals-and-their-products",
+            "en:meals"
+        ],
+        "Ketchup, Mustard, BBQ & Cheese Sauce": [
+            "en:sauces",
+            "en:condiments"
+        ],
+        "Pickles, Olives, Peppers & Relishes": [
+            "en:fruit-and-vegetable-preserves",
+            "en:condiments"
+        ],
+        "Sweet Bakery Products": [
+            "en:biscuits-and-cakes",
+            "en:desserts"
+        ],
+        "All Noodles": [
+            "en:pastas"
+        ],
+        "Bread": [
+            "en:breads"
+        ],
+        "Canned Seafood": [
+            "en:fishes-and-their-products",
+            "en:canned-foods"
+        ],
+        "Croissants, Sweet Rolls, Muffins & Other Pastries": [
+            "en:biscuits-and-cakes",
+            "en:desserts"
+        ],
+        "Frozen Pancakes, Waffles, French Toast & Crepes": [
+            "en:breakfasts",
+            "en:frozen-foods"
+        ],
+        "Frozen Prepared Sides": [
+            "en:meals",
+            "en:frozen-foods"
+        ],
+        "Liquid Water Enhancer": [
+            "en:beverages"
+        ],
+        "Yogurt/Yogurt Substitutes": [
+            "en:yogurts",
+            "en:dairy-substitutes"
+        ],
+        "Canned Meat": [
+            "en:meats-and-their-products",
+            "en:canned-foods"
+        ],
+        "Cream": [
+            "en:dairies",
+            "en:creams"
+        ],
+        "Flavored Rice Dishes": [
+            "en:rices",
+            "en:meals"
+        ],
+        "Flours & Corn Meal": [
+            "en:flours"
+        ],
+        "French Fries, Potatoes & Onion Rings": [
+            "en:chips-and-fries",
+            "en:frozen-foods"
+        ],
+        "Frozen Bread & Dough": [
+            "en:breads",
+            "en:frozen-foods"
+        ],
+        "Oriental, Mexican & Ethnic Sauces": [
+            "en:sauces",
+            "en:condiments"
+        ],
+        "Sauces/Spreads/Dips/Condiments": [
+            "en:sauces",
+            "en:condiments"
+        ],
+        "Savoury Bakery Products": [
+            "en:breads",
+            "en:cereals-and-their-products"
+        ],
+        "Seasoning Mixes, Salts, Marinades & Tenderizers": [
+            "en:condiments",
+            "en:sauces"
+        ],
+        "Sport Drinks": [
+            "en:beverages"
+        ],
+        "Bacon, Sausages & Ribs": [
+            "en:prepared-meats",
+            "en:meats-and-their-products"
+        ],
+        "Chili & Stew": [
+            "en:meals",
+            "en:soups"
+        ],
+        "Desserts/Dessert Sauces/Toppings": [
+            "en:desserts",
+            "en:sweet-spreads"
+        ],
+        "Flavored Snack Crackers": [
+            "en:biscuits-and-crackers",
+            "en:salty-snacks"
+        ],
+        "Frozen Breakfast Sandwiches, Biscuits & Meals": [
+            "en:breakfasts",
+            "en:frozen-foods"
+        ],
+        "Frozen Fruit & Fruit Juice Concentrates": [
+            "en:fruits-based-foods",
+            "en:frozen-foods"
+        ],
+        "Frozen Poultry, Chicken & Turkey": [
+            "en:chicken-and-its-products",
+            "en:poultries"
+        ],
+        "Herbs & Spices": [
+            "en:condiments"
+        ],
+        "Herbs/Spices/Extracts": [
+            "en:condiments"
+        ],
+        "Honey": [
+            "en:honeys",
+            "en:bee-products"
+        ],
+        "Meat/Poultry/Other Animals - Prepared/Processed": [
+            "en:prepared-meats",
+            "en:meats-and-their-products"
+        ],
+        "Pasta Dinners": [
+            "en:pastas",
+            "en:meals"
+        ],
+        "Pizza Mixes & Other Dry Dinners": [
+            "en:pizzas",
+            "en:meals"
+        ],
+        "Sushi": [
+            "en:meals",
+            "en:fishes-and-their-products"
+        ],
+        "Vegetables  Prepared/Processed": [
+            "en:vegetables",
+            "en:canned-vegetables"
+        ],
+        "Baking Additives & Extracts": [
+            "en:condiments"
+        ],
+        "Baking/Cooking Mixes/Supplies": [
+            "en:cereals-and-their-products"
+        ],
+        "Bread & Muffin Mixes": [
+            "en:breads",
+            "en:cereals-and-their-products"
+        ],
+        "Breakfast Drinks": [
+            "en:beverages",
+            "en:breakfasts"
+        ],
+        "Cake, Cookie & Cupcake Mixes": [
+            "en:cakes",
+            "en:biscuits-and-cakes"
+        ],
+        "Cakes - Sweet (Frozen)": [
+            "en:cakes",
+            "en:frozen-desserts"
+        ],
+        "Canned Condensed Soup": [
+            "en:soups",
+            "en:canned-foods"
+        ],
+        "Coffee/Coffee Substitutes": [
+            "en:coffees"
+        ],
+        "Confectionery Products": [
+            "en:confectioneries",
+            "en:candies"
+        ],
+        "Cookies & Biscuits": [
+            "en:biscuits"
+        ],
+        "Cream/Cream Substitutes": [
+            "en:creams",
+            "en:dairy-substitutes"
+        ],
+        "Dairy/Egg Based Products / Meals": [
+            "en:dairies",
+            "en:eggs"
+        ],
+        "Fish - Prepared/Processed": [
+            "en:fishes-and-their-products",
+            "en:seafood"
+        ],
+        "Fish & Seafood": [
+            "en:fishes-and-their-products",
+            "en:seafood"
+        ],
+        "Meat/Poultry/Other Animals - Unprepared/Unprocessed": [
+            "en:meats",
+            "en:meats-and-their-products"
+        ],
+        "Oils Edible": [
+            "en:cooking-oils",
+            "en:fats"
+        ],
+        "Other Cooking Sauces": [
+            "en:sauces",
+            "en:condiments"
+        ],
+        "Other Frozen Meats": [
+            "en:meats-and-their-products",
+            "en:frozen-foods"
+        ],
+        "Pasta/Noodles": [
+            "en:pastas"
+        ],
+        "Prepared Subs & Sandwiches": [
+            "en:meals"
+        ],
+        "Ready-Made Combination Meals": [
+            "en:meals"
+        ],
+        "Salad Dressing & Mayonnaise": [
+            "en:sauces",
+            "en:condiments"
+        ],
+        "Sausages, Hotdogs & Brats": [
+            "en:sausages",
+            "en:prepared-meats"
+        ],
+        "Spreads": [
+            "en:spreads"
+        ],
+        "Tea and Infusions/Tisanes": [
+            "en:teas"
+        ],
+        "Vegetables - Unprepared/Unprocessed (Shelf Stable)": [
+            "en:vegetables",
+            "en:canned-vegetables"
+        ],
+        "Nut & Seed Butters ": [
+            "en:nut-butters",
+            "en:spreads"
+        ],
+        "Bread & Buns": [
+            "en:breads"
+        ],
+        "Frozen Poultry": [
+            "en:chicken-and-its-products",
+            "en:poultries"
+        ],
+        "Sauces & Marinades": [
+            "en:sauces",
+            "en:condiments"
+        ],
+        "Butter & Spreads": [
+            "en:butters",
+            "en:spreads"
+        ],
+        "Protein Bars": [
+            "en:protein-bars"
+        ],
+        "Juice": [
+            "en:juices-and-nectars"
+        ],
+        "Pasta": [
+            "en:pastas"
         ],
         "Cheese - Natural": [
             "en:cheeses"
@@ -274,32 +770,14 @@
         "Cheese - Processed": [
             "en:cheeses"
         ],
-        "Yogurt": [
-            "en:yogurts"
-        ],
-        "Yogurt/Yogurt Substitutes": [
-            "en:yogurts"
-        ],
-        "Milk": [
-            "en:milks"
-        ],
-        "Milk/Milk Substitutes": [
-            "en:milks"
-        ],
         "Butter & Spread": [
             "en:butters"
         ],
         "Butter/Butter Substitutes": [
             "en:butters"
         ],
-        "Ice Cream & Frozen Yogurt": [
-            "en:ice-creams"
-        ],
         "Ice Cream/Frozen Yogurt/Novelties": [
             "en:ice-creams"
-        ],
-        "Cereal": [
-            "en:breakfast-cereals"
         ],
         "Breakfast Cereals": [
             "en:breakfast-cereals"
@@ -307,43 +785,16 @@
         "Breakfast Foods": [
             "en:breakfast-cereals"
         ],
-        "Bread & Buns": [
-            "en:breads"
-        ],
         "Bread & Muffins": [
             "en:breads"
-        ],
-        "Breads & Buns": [
-            "en:breads"
-        ],
-        "Pasta by Shape & Type": [
-            "en:pastas"
-        ],
-        "Pasta Dinners": [
-            "en:pastas"
         ],
         "Prepared Pasta & Pizza Mixes": [
             "en:pastas",
             "en:pizzas"
         ],
-        "Rice": [
-            "en:rices"
-        ],
         "Rice/Grains/Beans/Legumes - Prepared/Processed": [
             "en:rices",
             "en:legumes"
-        ],
-        "Flours & Corn Meal": [
-            "en:flours"
-        ],
-        "Baking Additives & Extracts": [
-            "en:flours"
-        ],
-        "Cookies & Biscuits": [
-            "en:cookies"
-        ],
-        "Cakes, Cupcakes, Snack Cakes": [
-            "en:cakes"
         ],
         "Cakes - Prepared/Processed": [
             "en:cakes"
@@ -354,24 +805,8 @@
         "Pastry Shells & Fillings": [
             "en:pastries"
         ],
-        "Popcorn, Peanuts, Seeds & Related Snacks": [
-            "en:popcorns",
-            "en:nuts"
-        ],
-        "Chips, Pretzels & Snacks": [
-            "en:chips-and-fries"
-        ],
-        "Snack, Energy & Granola Bars": [
-            "en:protein-bars"
-        ],
-        "Chocolate": [
-            "en:chocolates"
-        ],
         "Chocolate Candy": [
             "en:chocolates",
-            "en:candies"
-        ],
-        "Candy": [
             "en:candies"
         ],
         "Candy/Chocolate/Gum - Prepared/Processed": [
@@ -384,14 +819,8 @@
         "Nuts, Seeds & Trail Mix": [
             "en:nuts"
         ],
-        "Water": [
-            "en:waters"
-        ],
         "Water - Flavored/Enhanced": [
             "en:waters"
-        ],
-        "Soda": [
-            "en:carbonated-drinks"
         ],
         "Carbonated Drinks": [
             "en:carbonated-drinks"
@@ -402,35 +831,20 @@
         "Fruit Juice": [
             "en:juices"
         ],
-        "Fruit & Vegetable Juice, Nectars & Fruit Drinks": [
-            "en:juices"
-        ],
         "Tea Bags & Loose Tea": [
             "en:teas"
         ],
         "Tea - Ready To Drink": [
             "en:teas"
         ],
-        "Coffee": [
-            "en:coffees"
-        ],
         "Coffee - Ready To Drink": [
             "en:coffees"
-        ],
-        "Pizza": [
-            "en:pizzas"
         ],
         "Pizza - Frozen": [
             "en:pizzas"
         ],
-        "Prepared Soups": [
-            "en:soups"
-        ],
         "Soups - Prepared": [
             "en:soups"
-        ],
-        "Frozen Dinners & Entrees": [
-            "en:meals"
         ],
         "Meals & Sides - Prepared/Processed": [
             "en:meals"
@@ -438,41 +852,14 @@
         "Prepared Meals": [
             "en:meals"
         ],
-        "Herbs & Spices": [
-            "en:condiments"
-        ],
-        "Seasoning Mixes, Salts, Marinades & Tenderizers": [
-            "en:condiments",
-            "en:sauces"
-        ],
-        "Sauces & Marinades": [
-            "en:sauces"
-        ],
         "Pasta Sauce": [
             "en:sauces"
         ],
         "Gravies, Sauces & Marinades": [
             "en:sauces"
         ],
-        "Ketchup, Mustard, BBQ & Cheese Sauce": [
-            "en:condiments",
-            "en:sauces"
-        ],
-        "Salad Dressing & Mayonnaise": [
-            "en:condiments",
-            "en:sauces"
-        ],
-        "Pickles, Olives, Peppers & Relishes": [
-            "en:condiments"
-        ],
-        "Vegetable & Cooking Oils": [
-            "en:cooking-oils"
-        ],
         "Olive Oil": [
             "en:cooking-oils"
-        ],
-        "Eggs & Egg Substitutes": [
-            "en:eggs"
         ],
         "Beans": [
             "en:legumes"
@@ -483,29 +870,11 @@
         "Tofu & Meat Alternatives": [
             "en:tofu-and-products"
         ],
-        "Meat/Poultry/Other Animals - Prepared/Processed": [
-            "en:meat-preparations",
-            "en:meats-and-their-products"
-        ],
         "Meat/Poultry/Other Animals Sausages": [
             "en:meat-preparations",
             "en:meats-and-their-products"
         ],
-        "Frozen Poultry, Chicken & Turkey": [
-            "en:chicken-preparations",
-            "en:poultry"
-        ],
-        "Bacon, Sausages & Ribs": [
-            "en:meat-preparations",
-            "en:meats-and-their-products"
-        ],
-        "Frozen Fish & Seafood": [
-            "en:fish-and-seafood"
-        ],
         "Fish & Seafood - Prepared/Processed": [
-            "en:fish-and-seafood"
-        ],
-        "Fish & Seafood": [
             "en:fish-and-seafood"
         ],
         "Frozen Bacon, Sausages & Ribs": [
@@ -516,21 +885,8 @@
             "en:meat-preparations",
             "en:meats-and-their-products"
         ],
-        "Canned Meat": [
-            "en:meat-preparations",
-            "en:meats-and-their-products"
-        ],
-        "Vegetables - Prepared/Processed": [
-            "en:vegetables"
-        ],
         "Fruits - Prepared/Processed": [
             "en:fruits"
-        ],
-        "Jam, Jelly & Fruit Spreads": [
-            "en:sweet-spreads"
-        ],
-        "Honey": [
-            "en:sweet-spreads"
         ],
         "Syrups & Molasses": [
             "en:sweeteners"
