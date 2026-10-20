@@ -21,3 +21,11 @@ the App Store. The app blocks only when the installed version is below
 `minVersion` and the App Store version is at or above it, so a `minVersion`
 the store does not have yet does not force anyone. Missing or invalid JSON
 fails open. The monthly rules updater does not touch this file.
+
+## The update message
+
+`ios.message` is shown on the update screen under the headline. Keep it to a
+single line of 240 characters or fewer, and make sure it contains
+`Aisle Hero`. The app collapses whitespace and falls back to its built-in
+default message if the text is longer than 240 characters or does not
+contain `Aisle Hero`.
