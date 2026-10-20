@@ -1,12 +1,12 @@
 {
-    "version": 11,
-    "lastUpdated": "2026-10-01",
+    "version": 12,
+    "lastUpdated": "2026-10-20",
     "harmfulIngredients": [
         {
             "name": "palm oil",
             "reason": "About 50% saturated fat — raises LDL cholesterol and cardiovascular risk. Production is also a leading driver of tropical deforestation.",
-            "source": "Harvard Health",
-            "sourceUrl": "https://www.health.harvard.edu/healthy-aging-and-longevity/by_the_way_doctor_is_palm_oil_good_for_you",
+            "source": "J Nutr (2015)",
+            "sourceUrl": "https://doi.org/10.3945/jn.115.210575",
             "penalty": 15
         },
         {
@@ -19,36 +19,36 @@
         {
             "name": "corn syrup",
             "reason": "A glucose syrup with a high glycemic load. Drives rapid blood-sugar spikes and contributes to total added-sugar intake far above AHA daily limits.",
-            "source": "Harvard Health",
-            "sourceUrl": "https://www.health.harvard.edu/staying-healthy/which-is-better-high-fructose-corn-syrup-or-table-sugar",
+            "source": "AHA Scientific Statement",
+            "sourceUrl": "https://doi.org/10.1161/CIRCULATIONAHA.109.192627",
             "penalty": 15
         },
         {
-            "name": "hydrogenated",
+            "name": "partially hydrogenated",
             "reason": "Industrial trans fats. Raise LDL ('bad') cholesterol and lower HDL ('good') cholesterol — the only dietary fat with no safe intake level. Banned by the FDA in PHOs since 2018 but residuals remain.",
-            "source": "AHA Guidelines",
-            "sourceUrl": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/trans-fat",
+            "source": "N Engl J Med (2006)",
+            "sourceUrl": "https://doi.org/10.1056/NEJMra054035",
             "penalty": 20
         },
         {
             "name": "red 40",
             "reason": "Petroleum-derived synthetic dye (Allura Red AC). Linked to hyperactivity and attentional issues in sensitive children. Subject of the FDA's 2025 phase-out commitment.",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
+            "source": "EFSA Opinion",
+            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/1327",
             "penalty": 10
         },
         {
             "name": "yellow 5",
             "reason": "Tartrazine — petroleum-derived synthetic dye linked to hypersensitivity reactions (urticaria, asthma) and behavioural effects in sensitive children.",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
+            "source": "EFSA Opinion",
+            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/1331",
             "penalty": 10
         },
         {
             "name": "yellow 6",
             "reason": "Sunset Yellow FCF — petroleum-derived synthetic dye; one of the 'Southampton six' linked to hypersensitivity reactions and behavioural effects (hyperactivity) in sensitive children.",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes",
+            "source": "EFSA Opinion",
+            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/1330",
             "penalty": 10
         },
         {
@@ -61,36 +61,36 @@
         {
             "name": "sucralose",
             "reason": "Heat-stable synthetic sweetener. Recent research on its metabolite sucralose-6-acetate raises genotoxicity concerns. May also disrupt gut microbiome composition.",
-            "source": "WHO Guidelines",
-            "sourceUrl": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline",
+            "source": "J Toxicol Environ Health B (2023)",
+            "sourceUrl": "https://doi.org/10.1080/10937404.2023.2213903",
             "penalty": 10
         },
         {
             "name": "maltodextrin",
             "reason": "Refers to standard (non-resistant) maltodextrin — a highly processed starch with a high glycemic index (~85–105) that can spike blood glucose. Distinct from resistant maltodextrin, a prebiotic soluble fibre, which this entry does not flag.",
-            "source": "Medical News Today",
-            "sourceUrl": "https://www.medicalnewstoday.com/articles/322426",
+            "source": "Crit Rev Food Sci Nutr (2016)",
+            "sourceUrl": "https://doi.org/10.1080/10408398.2014.940415",
             "penalty": 15
         },
         {
             "name": "sodium nitrite",
             "reason": "Curing agent in processed meats. WHO/IARC classifies processed meats as Group 1 carcinogenic, in part driven by N-nitroso compounds formed from nitrites during cooking and digestion.",
-            "source": "IARC Monographs",
-            "sourceUrl": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
+            "source": "IARC Monographs Vol. 94",
+            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Ingested-Nitrate-And-Nitrite-And-Cyanobacterial-Peptide-Toxins-2010",
             "penalty": 15
         },
         {
             "name": "sodium nitrate",
             "reason": "Converted to sodium nitrite during digestion; same N-nitroso carcinogenicity pathway as nitrite. Found primarily in cured and processed meats.",
-            "source": "IARC Monographs",
-            "sourceUrl": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
+            "source": "IARC Monographs Vol. 94",
+            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Ingested-Nitrate-And-Nitrite-And-Cyanobacterial-Peptide-Toxins-2010",
             "penalty": 15
         },
         {
             "name": "titanium dioxide",
             "reason": "White pigment (E171) in candies, gum, and frosting. The European Food Safety Authority concluded in 2021 it can no longer be considered safe due to potential genotoxicity; banned as a food additive across the EU since 2022. Still permitted in the U.S.",
             "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/news/titanium-dioxide-e171-no-longer-considered-safe-when-used-food-additive",
+            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/6585",
             "penalty": 15
         },
         {
@@ -111,7 +111,7 @@
             "name": "tbhq",
             "reason": "Tert-butylhydroquinone — synthetic preservative used to extend shelf life of oils and processed snacks. JECFA's acceptable daily intake is 0.7 mg/kg; chronic exposure above this is associated with immunological concerns in animal studies.",
             "source": "WHO JECFA",
-            "sourceUrl": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2098",
+            "sourceUrl": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1900",
             "penalty": 10
         },
         {
@@ -125,7 +125,7 @@
             "name": "propylparaben",
             "reason": "Antimicrobial preservative removed from the EU permitted-additives list over endocrine-disruption (estrogenic) concerns; the EFSA was unable to set a safe acceptable daily intake.",
             "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/1110",
+            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/83",
             "penalty": 10
         },
         {
