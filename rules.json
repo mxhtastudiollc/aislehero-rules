@@ -1,6 +1,6 @@
 {
-    "version": 12,
-    "lastUpdated": "2026-10-20",
+    "version": 13,
+    "lastUpdated": "2026-10-21",
     "harmfulIngredients": [
         {
             "name": "palm oil",
@@ -11,16 +11,16 @@
         },
         {
             "name": "high fructose corn syrup",
-            "reason": "Concentrated free fructose is metabolised primarily by the liver and is linked to non-alcoholic fatty liver disease, elevated triglycerides, and insulin resistance at typical Western intake levels.",
-            "source": "NIH PubMed Central (Nutrients review, 2017)",
-            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5622741/",
+            "reason": "A concentrated added sugar; excess fructose and added sugar are linked to liver fat and higher triglycerides.",
+            "source": "Nutrients (2017)",
+            "sourceUrl": "https://doi.org/10.3390/nu9090981",
             "penalty": 15
         },
         {
-            "name": "corn syrup",
-            "reason": "A glucose syrup with a high glycemic load. Drives rapid blood-sugar spikes and contributes to total added-sugar intake far above AHA daily limits.",
-            "source": "AHA Scientific Statement",
-            "sourceUrl": "https://doi.org/10.1161/CIRCULATIONAHA.109.192627",
+            "name": "high-fructose corn syrup",
+            "reason": "A concentrated added sugar; excess fructose and added sugar are linked to liver fat and higher triglycerides.",
+            "source": "Nutrients (2017)",
+            "sourceUrl": "https://doi.org/10.3390/nu9090981",
             "penalty": 15
         },
         {
@@ -60,17 +60,10 @@
         },
         {
             "name": "sucralose",
-            "reason": "Heat-stable synthetic sweetener. Recent research on its metabolite sucralose-6-acetate raises genotoxicity concerns. May also disrupt gut microbiome composition.",
+            "reason": "One lab study screened sucralose and a manufacturing impurity, sucralose-6-acetate. In that study's cell tests, the impurity was genotoxic. This is a single in-vitro study, not a regulator review.",
             "source": "J Toxicol Environ Health B (2023)",
             "sourceUrl": "https://doi.org/10.1080/10937404.2023.2213903",
             "penalty": 10
-        },
-        {
-            "name": "maltodextrin",
-            "reason": "Refers to standard (non-resistant) maltodextrin — a highly processed starch with a high glycemic index (~85–105) that can spike blood glucose. Distinct from resistant maltodextrin, a prebiotic soluble fibre, which this entry does not flag.",
-            "source": "Crit Rev Food Sci Nutr (2016)",
-            "sourceUrl": "https://doi.org/10.1080/10408398.2014.940415",
-            "penalty": 15
         },
         {
             "name": "sodium nitrite",
@@ -109,13 +102,27 @@
         },
         {
             "name": "tbhq",
-            "reason": "Tert-butylhydroquinone — synthetic preservative used to extend shelf life of oils and processed snacks. JECFA's acceptable daily intake is 0.7 mg/kg; chronic exposure above this is associated with immunological concerns in animal studies.",
+            "reason": "Synthetic preservative in oils and snacks. JECFA's acceptable daily intake is 0–0.7 mg/kg body weight. Some high consumers may exceed that intake.",
+            "source": "WHO JECFA",
+            "sourceUrl": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1900",
+            "penalty": 10
+        },
+        {
+            "name": "tert-butylhydroquinone",
+            "reason": "Synthetic preservative in oils and snacks. JECFA's acceptable daily intake is 0–0.7 mg/kg body weight. Some high consumers may exceed that intake.",
             "source": "WHO JECFA",
             "sourceUrl": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1900",
             "penalty": 10
         },
         {
             "name": "red 3",
+            "reason": "Erythrosine — synthetic dye the FDA formally revoked authorisation for in food and ingested drugs in January 2025 after evidence of carcinogenicity in animal studies (thyroid tumours in rats).",
+            "source": "U.S. FDA",
+            "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
+            "penalty": 15
+        },
+        {
+            "name": "erythrosine",
             "reason": "Erythrosine — synthetic dye the FDA formally revoked authorisation for in food and ingested drugs in January 2025 after evidence of carcinogenicity in animal studies (thyroid tumours in rats).",
             "source": "U.S. FDA",
             "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
@@ -129,7 +136,21 @@
             "penalty": 10
         },
         {
+            "name": "propyl paraben",
+            "reason": "Antimicrobial preservative removed from the EU permitted-additives list over endocrine-disruption (estrogenic) concerns; the EFSA was unable to set a safe acceptable daily intake.",
+            "source": "EFSA Opinion",
+            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/83",
+            "penalty": 10
+        },
+        {
             "name": "bha",
+            "reason": "Butylated hydroxyanisole — synthetic antioxidant preservative listed by the U.S. National Toxicology Program as 'reasonably anticipated to be a human carcinogen' based on rodent forestomach tumours.",
+            "source": "NTP Report on Carcinogens",
+            "sourceUrl": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/butylatedhydroxyanisole.pdf",
+            "penalty": 12
+        },
+        {
+            "name": "butylated hydroxyanisole",
             "reason": "Butylated hydroxyanisole — synthetic antioxidant preservative listed by the U.S. National Toxicology Program as 'reasonably anticipated to be a human carcinogen' based on rodent forestomach tumours.",
             "source": "NTP Report on Carcinogens",
             "sourceUrl": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/butylatedhydroxyanisole.pdf",
