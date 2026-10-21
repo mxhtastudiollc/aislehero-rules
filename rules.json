@@ -108,21 +108,7 @@
             "penalty": 10
         },
         {
-            "name": "tert-butylhydroquinone",
-            "reason": "Synthetic preservative in oils and snacks. JECFA's acceptable daily intake is 0–0.7 mg/kg body weight. Some high consumers may exceed that intake.",
-            "source": "WHO JECFA",
-            "sourceUrl": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1900",
-            "penalty": 10
-        },
-        {
             "name": "red 3",
-            "reason": "Erythrosine — synthetic dye the FDA formally revoked authorisation for in food and ingested drugs in January 2025 after evidence of carcinogenicity in animal studies (thyroid tumours in rats).",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
-            "penalty": 15
-        },
-        {
-            "name": "erythrosine",
             "reason": "Erythrosine — synthetic dye the FDA formally revoked authorisation for in food and ingested drugs in January 2025 after evidence of carcinogenicity in animal studies (thyroid tumours in rats).",
             "source": "U.S. FDA",
             "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
@@ -144,13 +130,6 @@
         },
         {
             "name": "bha",
-            "reason": "Butylated hydroxyanisole — synthetic antioxidant preservative listed by the U.S. National Toxicology Program as 'reasonably anticipated to be a human carcinogen' based on rodent forestomach tumours.",
-            "source": "NTP Report on Carcinogens",
-            "sourceUrl": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/butylatedhydroxyanisole.pdf",
-            "penalty": 12
-        },
-        {
-            "name": "butylated hydroxyanisole",
             "reason": "Butylated hydroxyanisole — synthetic antioxidant preservative listed by the U.S. National Toxicology Program as 'reasonably anticipated to be a human carcinogen' based on rodent forestomach tumours.",
             "source": "NTP Report on Carcinogens",
             "sourceUrl": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/butylatedhydroxyanisole.pdf",
