@@ -1,5 +1,5 @@
 {
-    "version": 13,
+    "version": 14,
     "lastUpdated": "2026-10-21",
     "harmfulIngredients": [
         {
@@ -134,6 +134,223 @@
             "source": "NTP Report on Carcinogens",
             "sourceUrl": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/butylatedhydroxyanisole.pdf",
             "penalty": 12
+        },
+        {
+            "name": "quinoline yellow",
+            "reason": "A synthetic dye that, in mixtures tested in a UK trial, was linked to small increases in hyperactivity in some children; the EU requires a warning label.",
+            "source": "Lancet (2007)",
+            "sourceUrl": "https://doi.org/10.1016/S0140-6736(07)61306-3",
+            "penalty": 0
+        },
+        {
+            "name": "carmoisine",
+            "reason": "A synthetic dye that, in mixtures tested in a UK trial, was linked to small increases in hyperactivity in some children; the EU requires a warning label.",
+            "source": "Lancet (2007)",
+            "sourceUrl": "https://doi.org/10.1016/S0140-6736(07)61306-3",
+            "penalty": 0
+        },
+        {
+            "name": "ponceau 4r",
+            "reason": "A synthetic dye that, in mixtures tested in a UK trial, was linked to small increases in hyperactivity in some children; the EU requires a warning label.",
+            "source": "Lancet (2007)",
+            "sourceUrl": "https://doi.org/10.1016/S0140-6736(07)61306-3",
+            "penalty": 0
+        },
+        {
+            "name": "sodium aluminum phosphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "sodium aluminium phosphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "aluminium sodium sulphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "aluminium sodium sulfate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "aluminum sodium sulphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "aluminum sodium sulfate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "sodium aluminium sulphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "sodium aluminium sulfate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "sodium aluminum sulphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "sodium aluminum sulfate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "aluminium potassium sulphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "aluminium potassium sulfate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "aluminum potassium sulphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "aluminum potassium sulfate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "potassium aluminium sulphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "potassium aluminium sulfate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "potassium aluminum sulphate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "potassium aluminum sulfate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "sodium aluminosilicate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "sodium aluminium silicate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "sodium aluminum silicate",
+            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
+            "source": "EFSA (2008)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
+            "penalty": 0
+        },
+        {
+            "name": "sodium phosphate",
+            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
+            "source": "EFSA (2019)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
+            "penalty": 0
+        },
+        {
+            "name": "potassium phosphate",
+            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
+            "source": "EFSA (2019)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
+            "penalty": 0
+        },
+        {
+            "name": "sodium acid pyrophosphate",
+            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
+            "source": "EFSA (2019)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
+            "penalty": 0
+        },
+        {
+            "name": "disodium pyrophosphate",
+            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
+            "source": "EFSA (2019)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
+            "penalty": 0
+        },
+        {
+            "name": "tetrasodium pyrophosphate",
+            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
+            "source": "EFSA (2019)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
+            "penalty": 0
+        },
+        {
+            "name": "sodium tripolyphosphate",
+            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
+            "source": "EFSA (2019)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
+            "penalty": 0
+        },
+        {
+            "name": "sodium hexametaphosphate",
+            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
+            "source": "EFSA (2019)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
+            "penalty": 0
         }
     ],
     "thresholds": {
