@@ -1,0 +1,82 @@
+# Citation link-rot gate for rules.json.
+# Checks out mxhtastudiollc/aislehero scripts with the repository secret
+# APP_REPO_READ_TOKEN (read-only Contents on that repo). Until that secret
+# exists, this check fails when it runs and is skipped when no citation
+# path changed.
+name: citation-pr-gate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  changes:
+    name: changes
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+    outputs:
+      rules: ${{ steps.filter.outputs.rules }}
+    steps:
+      - name: Detect citation paths
+        id: filter
+        uses: dorny/paths-filter@ceb8a2b8f2d89434be7ff52d3de7ec3738c5cc9d # v4.0.3
+        with:
+          filters: |
+            rules:
+              - 'rules.json'
+              - '.github/workflows/aislehero-rules-citation-link-rot.yml'
+
+  citation-pr-gate:
+    name: citation-pr-gate
+    needs: changes
+    if: always() && !cancelled() && (needs.changes.result != 'success' || needs.changes.outputs.rules == 'true' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout rules repo
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Require APP_REPO_READ_TOKEN
+        env:
+          APP_REPO_READ_TOKEN: ${{ secrets.APP_REPO_READ_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${APP_REPO_READ_TOKEN}" ]; then
+            echo "::error::Repository secret APP_REPO_READ_TOKEN is not set. Add a token whose only scope is read-only Contents on mxhtastudiollc/aislehero. The citation gate cannot check out that repo's scripts until the secret exists."
+            exit 1
+          fi
+
+      - name: Checkout app scripts
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: mxhtastudiollc/aislehero
+          token: ${{ secrets.APP_REPO_READ_TOKEN }}
+          path: aislehero
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+
+      - name: Citation link-rot
+        working-directory: aislehero
+        env:
+          CITATION_SKIP_LIVE: "0"
+          CITATION_SKIP_ADDITIVES: "1"
+        run: |
+          set -euo pipefail
+          script=scripts/citation-link-rot.ts
+          if [ ! -f "${script}" ]; then
+            echo "::error::Expected ${script} in mxhtastudiollc/aislehero (checked out with APP_REPO_READ_TOKEN)."
+            ls -la scripts 2>/dev/null || true
+            exit 1
+          fi
+          npx --yes tsx@4.23.15 "${script}" "${GITHUB_WORKSPACE}/rules.json"
