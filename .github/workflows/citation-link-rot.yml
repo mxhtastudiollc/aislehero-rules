@@ -117,3 +117,5 @@ jobs:
           CITATION_SKIP_LIVE: '1'
           CITATION_SKIP_ADDITIVES: '1'
         run: npx --yes tsx@4.23.15 scripts/verify-citations.ts --gate
+
+# gate auth test, do not merge
