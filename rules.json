@@ -150,13 +150,6 @@
             "penalty": 0
         },
         {
-            "name": "azorubine",
-            "reason": "A synthetic dye that, in mixtures tested in a UK trial, was linked to small increases in hyperactivity in some children; the EU requires a warning label.",
-            "source": "Lancet (2007)",
-            "sourceUrl": "https://doi.org/10.1016/S0140-6736(07)61306-3",
-            "penalty": 0
-        },
-        {
             "name": "ponceau 4r",
             "reason": "A synthetic dye that, in mixtures tested in a UK trial, was linked to small increases in hyperactivity in some children; the EU requires a warning label.",
             "source": "Lancet (2007)",
@@ -318,7 +311,7 @@
             "penalty": 0
         },
         {
-            "name": "dipotassium phosphate",
+            "name": "potassium phosphate",
             "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
             "source": "EFSA (2019)",
             "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
@@ -326,6 +319,13 @@
         },
         {
             "name": "sodium acid pyrophosphate",
+            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
+            "source": "EFSA (2019)",
+            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
+            "penalty": 0
+        },
+        {
+            "name": "disodium pyrophosphate",
             "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
             "source": "EFSA (2019)",
             "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
