@@ -1,0 +1,122 @@
+
+# Copy this file into the PUBLIC data repo:
+#
+#   mxhtastudiollc/aislehero-rules:.github/workflows/citation-link-rot.yml
+#
+# Do not push it from the app repo. aislehero-rules is what phones fetch
+# (services/rulesService.ts). A bad sourceUrl merged there ships with no app
+# release. This workflow is the merge gate for that file.
+#
+# What it does
+#   On every pull request, a changes job checks whether rules.json, this
+#   workflow, or the citation scripts changed. When one did, the
+#   citation-pr-gate job checks the whole rules.json (every citation, not
+#   only the rows the diff touched) with the app repo's citation script.
+#   If the filter job fails, the gate still runs. Unrelated pull requests
+#   skip the job; the skipped check passes. The job fails on: no source
+#   (missing URL or an Open Food Facts-only link), a wrong document, HTTP
+#   404/410, or a redirect onto a different document (different host,
+#   homepage, search page, or a different JECFA / EFSA / PMC / DOI record).
+#   A link stuck on 403 or 5xx only ever warns. The same for HTTP 401/429,
+#   a bot wall (including a redirect onto a login, cookie, or captcha page),
+#   and an unreachable host.
+#   The live-vs-bundled comparison is skipped (CITATION_SKIP_LIVE): the file
+#   in the pull request IS the prospective live copy. The app repo's monthly
+#   job already re-checks raw main and refreshes the citation-rot Issue.
+#   Additive URLs live in the app repo's utils/additives.ts, not here
+#   (CITATION_SKIP_ADDITIVES). The app repo's own gate checks those.
+#
+# Install
+#   1. Copy this file to .github/workflows/citation-link-rot.yml on
+#      aislehero-rules main. Open that pull request by hand.
+#   2. Create a secret APP_REPO_READ_TOKEN on aislehero-rules.
+#      Fine-grained PAT, contents: read, on mxhtastudiollc/aislehero only.
+#      The app repo is private, so the default GITHUB_TOKEN cannot check it out.
+#      The same PAT already used as DATA_REPO_TOKEN on the app repo also works
+#      if it can read aislehero. Never commit the token.
+#   3. In the data repo's branch protection for main, require the check
+#      citation-pr-gate. The workflow runs on every pull request and skips
+#      that job when rules.json did not change, so the required check is
+#      reported (skipped, passing) on unrelated pull requests.
+#
+# Why pull_request_target
+#   The workflow file that runs is the one on main, not the one in the pull
+#   request, and it can read APP_REPO_READ_TOKEN. It checks out the pull
+#   request only to READ rules.json. It runs scripts from aislehero main,
+#   never from the data-repo checkout. Do not change this to execute a script
+#   that arrived in the pull request — that would hand the token to untrusted
+#   code. pull_request (without _target) would not receive the secret from a
+#   fork and, on a same-repo pull request, would run the pull request's own
+#   workflow with the secret.
+
+name: Citation check (data repo)
+
+on:
+  pull_request_target:
+  workflow_dispatch:
+
+jobs:
+  changes:
+    if: github.event_name == 'pull_request_target'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      citations: ${{ steps.filter.outputs.citations }}
+    steps:
+      - name: Detect rules.json changes
+        id: filter
+        uses: dorny/paths-filter@ceb8a2b8f2d89434be7ff52d3de7ec3738c5cc9d # v4.0.3
+        with:
+          filters: |
+            citations:
+              - 'rules.json'
+              - 'scripts/verify-citations.ts'
+              - 'scripts/citationCheck.ts'
+              - 'scripts/citationAudit.ts'
+              - 'scripts/citationExpects.ts'
+              - 'scripts/citationCheck.test.ts'
+              - '.github/workflows/citation-link-rot.yml'
+
+  citation-pr-gate:
+    needs: changes
+    # A failed filter must run the full gate: a skipped required check would
+    # pass branch protection. workflow_dispatch skips `changes` (result is
+    # not success), so a manual run still executes the gate. A pull request
+    # whose filter succeeded with output other than 'true' stays skipped.
+    if: ${{ always() && !cancelled() && (github.event_name == 'pull_request_target' || github.event_name == 'workflow_dispatch') && (needs.changes.result != 'success' || needs.changes.outputs.citations == 'true') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout the rules.json under review
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          path: data
+
+      - name: Checkout app repo (citation scripts, trusted ref)
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+          repository: mxhtastudiollc/aislehero
+          ref: main
+          path: aislehero
+          token: ${{ secrets.APP_REPO_READ_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '20'
+
+      - name: Fail the pull request on a bad citation
+        working-directory: aislehero
+        env:
+          RULES_PATH: ${{ github.workspace }}/data/rules.json
+          CITATION_SKIP_LIVE: '1'
+          CITATION_SKIP_ADDITIVES: '1'
+        run: npx --yes tsx@4.23.15 scripts/verify-citations.ts --gate
+
+
