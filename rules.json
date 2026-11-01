@@ -1,356 +1,251 @@
 {
-    "version": 14,
-    "lastUpdated": "2026-10-21",
+    "version": 15,
+    "lastUpdated": "2026-11-01",
     "harmfulIngredients": [
         {
-            "name": "palm oil",
-            "reason": "About 50% saturated fat — raises LDL cholesterol and cardiovascular risk. Production is also a leading driver of tropical deforestation.",
-            "source": "J Nutr (2015)",
-            "sourceUrl": "https://doi.org/10.3945/jn.115.210575",
-            "penalty": 15
-        },
-        {
-            "name": "high fructose corn syrup",
-            "reason": "A concentrated added sugar; excess fructose and added sugar are linked to liver fat and higher triglycerides.",
-            "source": "Nutrients (2017)",
-            "sourceUrl": "https://doi.org/10.3390/nu9090981",
-            "penalty": 15
-        },
-        {
-            "name": "high-fructose corn syrup",
-            "reason": "A concentrated added sugar; excess fructose and added sugar are linked to liver fat and higher triglycerides.",
-            "source": "Nutrients (2017)",
-            "sourceUrl": "https://doi.org/10.3390/nu9090981",
-            "penalty": 15
-        },
-        {
-            "name": "partially hydrogenated",
-            "reason": "Industrial trans fats. Raise LDL ('bad') cholesterol and lower HDL ('good') cholesterol — the only dietary fat with no safe intake level. Banned by the FDA in PHOs since 2018 but residuals remain.",
-            "source": "N Engl J Med (2006)",
-            "sourceUrl": "https://doi.org/10.1056/NEJMra054035",
-            "penalty": 20
-        },
-        {
             "name": "red 40",
-            "reason": "Petroleum-derived synthetic dye (Allura Red AC). Linked to hyperactivity and attentional issues in sensitive children. Subject of the FDA's 2025 phase-out commitment.",
-            "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/1327",
-            "penalty": 10
+            "reason": "Synthetic dye from the Southampton six, linked to increased hyperactivity in some children.",
+            "source": "EFSA 2008",
+            "penalty": 15,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-evaluates-southampton-study-food-additives-and-child-behaviour"
         },
         {
             "name": "yellow 5",
-            "reason": "Tartrazine — petroleum-derived synthetic dye linked to hypersensitivity reactions (urticaria, asthma) and behavioural effects in sensitive children.",
-            "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/1331",
-            "penalty": 10
+            "reason": "Synthetic azo dye from the Southampton six, linked to increased hyperactivity in some children.",
+            "source": "EFSA 2008",
+            "penalty": 15,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-evaluates-southampton-study-food-additives-and-child-behaviour"
         },
         {
             "name": "yellow 6",
-            "reason": "Sunset Yellow FCF — petroleum-derived synthetic dye; one of the 'Southampton six' linked to hypersensitivity reactions and behavioural effects (hyperactivity) in sensitive children.",
-            "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/1330",
-            "penalty": 10
-        },
-        {
-            "name": "aspartame",
-            "reason": "Non-nutritive sweetener classified by the WHO/IARC in 2023 as 'possibly carcinogenic to humans' (Group 2B), based on limited evidence. The WHO's JECFA reviewed the same data and retained the acceptable daily intake of 40 mg/kg body weight, finding no sufficient reason to change it.",
-            "source": "WHO/IARC",
-            "sourceUrl": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released",
-            "penalty": 10
-        },
-        {
-            "name": "sucralose",
-            "reason": "One lab study screened sucralose and a manufacturing impurity, sucralose-6-acetate. In that study's cell tests, the impurity was genotoxic. This is a single in-vitro study, not a regulator review.",
-            "source": "J Toxicol Environ Health B (2023)",
-            "sourceUrl": "https://doi.org/10.1080/10937404.2023.2213903",
-            "penalty": 10
-        },
-        {
-            "name": "sodium nitrite",
-            "reason": "Curing agent in processed meats. WHO/IARC classifies processed meats as Group 1 carcinogenic, in part driven by N-nitroso compounds formed from nitrites during cooking and digestion.",
-            "source": "IARC Monographs Vol. 94",
-            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Ingested-Nitrate-And-Nitrite-And-Cyanobacterial-Peptide-Toxins-2010",
-            "penalty": 15
-        },
-        {
-            "name": "sodium nitrate",
-            "reason": "Converted to sodium nitrite during digestion; same N-nitroso carcinogenicity pathway as nitrite. Found primarily in cured and processed meats.",
-            "source": "IARC Monographs Vol. 94",
-            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Ingested-Nitrate-And-Nitrite-And-Cyanobacterial-Peptide-Toxins-2010",
-            "penalty": 15
-        },
-        {
-            "name": "titanium dioxide",
-            "reason": "White pigment (E171) in candies, gum, and frosting. The European Food Safety Authority concluded in 2021 it can no longer be considered safe due to potential genotoxicity; banned as a food additive across the EU since 2022. Still permitted in the U.S.",
-            "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/6585",
-            "penalty": 15
-        },
-        {
-            "name": "potassium bromate",
-            "reason": "Flour 'improver' used in commercial bread and rolls. Classified by IARC as 'possibly carcinogenic to humans' (Group 2B). Banned for food use in the EU, UK, Canada, Brazil, and several U.S. states; still federally permitted in the U.S.",
-            "source": "IARC Monographs",
-            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Some-Chemicals-That-Cause-Tumours-Of-The-Kidney-Or-Urinary-Bladder-In-Rodents-And-Some-Other-Substances-1999",
-            "penalty": 15
-        },
-        {
-            "name": "brominated vegetable oil",
-            "reason": "Emulsifier formerly used in citrus-flavoured sodas. The FDA revoked authorisation for its use in food in 2024 over concerns about bromine accumulation in body tissues, but stocks may persist on shelves.",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/cfsan-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food",
-            "penalty": 15
-        },
-        {
-            "name": "tbhq",
-            "reason": "Synthetic preservative in oils and snacks. JECFA's acceptable daily intake is 0–0.7 mg/kg body weight. Some high consumers may exceed that intake.",
-            "source": "WHO JECFA",
-            "sourceUrl": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1900",
-            "penalty": 10
-        },
-        {
-            "name": "red 3",
-            "reason": "Erythrosine — synthetic dye the FDA formally revoked authorisation for in food and ingested drugs in January 2025 after evidence of carcinogenicity in animal studies (thyroid tumours in rats).",
-            "source": "U.S. FDA",
-            "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
-            "penalty": 15
-        },
-        {
-            "name": "propylparaben",
-            "reason": "Antimicrobial preservative removed from the EU permitted-additives list over endocrine-disruption (estrogenic) concerns; the EFSA was unable to set a safe acceptable daily intake.",
-            "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/83",
-            "penalty": 10
-        },
-        {
-            "name": "propyl paraben",
-            "reason": "Antimicrobial preservative removed from the EU permitted-additives list over endocrine-disruption (estrogenic) concerns; the EFSA was unable to set a safe acceptable daily intake.",
-            "source": "EFSA Opinion",
-            "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/83",
-            "penalty": 10
-        },
-        {
-            "name": "bha",
-            "reason": "Butylated hydroxyanisole — synthetic antioxidant preservative listed by the U.S. National Toxicology Program as 'reasonably anticipated to be a human carcinogen' based on rodent forestomach tumours.",
-            "source": "NTP Report on Carcinogens",
-            "sourceUrl": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/butylatedhydroxyanisole.pdf",
-            "penalty": 12
+            "reason": "Synthetic dye from the Southampton six, linked to increased hyperactivity in some children.",
+            "source": "EFSA 2008",
+            "penalty": 15,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-evaluates-southampton-study-food-additives-and-child-behaviour"
         },
         {
             "name": "quinoline yellow",
-            "reason": "A synthetic dye that, in mixtures tested in a UK trial, was linked to small increases in hyperactivity in some children; the EU requires a warning label.",
-            "source": "Lancet (2007)",
-            "sourceUrl": "https://doi.org/10.1016/S0140-6736(07)61306-3",
-            "penalty": 0
+            "reason": "Synthetic dye from the Southampton six, linked to increased hyperactivity in some children; carries an EU warning label.",
+            "source": "EFSA 2008",
+            "penalty": 15,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-evaluates-southampton-study-food-additives-and-child-behaviour"
         },
         {
             "name": "carmoisine",
-            "reason": "A synthetic dye that, in mixtures tested in a UK trial, was linked to small increases in hyperactivity in some children; the EU requires a warning label.",
-            "source": "Lancet (2007)",
-            "sourceUrl": "https://doi.org/10.1016/S0140-6736(07)61306-3",
-            "penalty": 0
+            "reason": "Synthetic dye from the Southampton six, linked to increased hyperactivity in some children; carries an EU warning label.",
+            "source": "EFSA 2008",
+            "penalty": 15,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-evaluates-southampton-study-food-additives-and-child-behaviour"
         },
         {
             "name": "ponceau 4r",
-            "reason": "A synthetic dye that, in mixtures tested in a UK trial, was linked to small increases in hyperactivity in some children; the EU requires a warning label.",
-            "source": "Lancet (2007)",
-            "sourceUrl": "https://doi.org/10.1016/S0140-6736(07)61306-3",
-            "penalty": 0
+            "reason": "Synthetic dye from the Southampton six, linked to increased hyperactivity in some children; carries an EU warning label.",
+            "source": "EFSA 2008",
+            "penalty": 15,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-evaluates-southampton-study-food-additives-and-child-behaviour"
         },
         {
-            "name": "sodium aluminum phosphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
+            "name": "red 3",
+            "reason": "Color additive whose food authorization the FDA revoked in 2025 over carcinogenicity (thyroid tumors in animal studies).",
+            "source": "FDA 2025",
+            "penalty": 20,
+            "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs"
+        },
+        {
+            "name": "brominated vegetable oil",
+            "reason": "Additive whose food use the FDA revoked in 2024 over bromine accumulation in the body.",
+            "source": "FDA 2024",
+            "penalty": 20,
+            "sourceUrl": "https://www.fda.gov/food/hfp-constituent-updates/fda-revokes-regulation-allowing-use-brominated-vegetable-oil-bvo-food"
+        },
+        {
+            "name": "titanium dioxide",
+            "reason": "Whitening additive EFSA concluded can no longer be considered safe because genotoxicity cannot be ruled out; banned in the EU.",
+            "source": "EFSA 2021",
+            "penalty": 18,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/titanium-dioxide-e171-no-longer-considered-safe-when-used-food-additive"
+        },
+        {
+            "name": "bha",
+            "reason": "Preservative that the US National Toxicology Program lists as reasonably anticipated to be a human carcinogen.",
+            "source": "NTP RoC 15th",
+            "penalty": 15,
+            "sourceUrl": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/butylatedhydroxyanisole.pdf"
+        },
+        {
+            "name": "sodium nitrite",
+            "reason": "Curing agent that forms N-nitroso compounds; IARC classifies processed meat preserved this way as a Group 1 carcinogen.",
+            "source": "IARC Monographs Vol. 94",
+            "penalty": 15,
+            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Ingested-Nitrate-And-Nitrite-And-Cyanobacterial-Peptide-Toxins-2010"
+        },
+        {
+            "name": "sodium nitrate",
+            "reason": "Curing agent that converts to nitrite and forms N-nitroso compounds; IARC classifies processed meat as a Group 1 carcinogen.",
+            "source": "IARC Monographs Vol. 94",
+            "penalty": 15,
+            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Ingested-Nitrate-And-Nitrite-And-Cyanobacterial-Peptide-Toxins-2010"
+        },
+        {
+            "name": "propylparaben",
+            "reason": "Preservative EFSA excluded from the group ADI over effects on sex hormones; banned from food use in the EU.",
+            "source": "EFSA 2004",
+            "penalty": 15,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-advises-safety-paraben-usage-food"
+        },
+        {
+            "name": "propyl paraben",
+            "reason": "Preservative EFSA excluded from the group ADI over effects on sex hormones; banned from food use in the EU.",
+            "source": "EFSA 2004",
+            "penalty": 15,
+            "sourceUrl": "https://www.efsa.europa.eu/en/news/efsa-advises-safety-paraben-usage-food"
         },
         {
             "name": "sodium aluminium phosphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
+            "reason": "Aluminium additive; EFSA found dietary aluminium exposure exceeds the tolerable weekly intake for part of the population.",
+            "source": "EFSA 2008",
+            "penalty": 12,
+            "sourceUrl": "https://health.ec.europa.eu/system/files/2018-03/scheer_o_009_0.pdf"
+        },
+        {
+            "name": "potassium aluminium phosphate",
+            "reason": "Aluminium additive; EFSA found dietary aluminium exposure exceeds the tolerable weekly intake for part of the population.",
+            "source": "EFSA 2008",
+            "penalty": 12,
+            "sourceUrl": "https://health.ec.europa.eu/system/files/2018-03/scheer_o_009_0.pdf"
         },
         {
             "name": "aluminium sodium sulphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
+            "reason": "Aluminium additive; EFSA found dietary aluminium exposure exceeds the tolerable weekly intake for part of the population.",
+            "source": "EFSA 2008",
+            "penalty": 12,
+            "sourceUrl": "https://health.ec.europa.eu/system/files/2018-03/scheer_o_009_0.pdf"
         },
         {
             "name": "aluminium sodium sulfate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "aluminum sodium sulphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "aluminum sodium sulfate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "sodium aluminium sulphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "sodium aluminium sulfate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "sodium aluminum sulphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "sodium aluminum sulfate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
+            "reason": "Aluminium additive; EFSA found dietary aluminium exposure exceeds the tolerable weekly intake for part of the population.",
+            "source": "EFSA 2008",
+            "penalty": 12,
+            "sourceUrl": "https://health.ec.europa.eu/system/files/2018-03/scheer_o_009_0.pdf"
         },
         {
             "name": "aluminium potassium sulphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
+            "reason": "Aluminium additive; EFSA found dietary aluminium exposure exceeds the tolerable weekly intake for part of the population.",
+            "source": "EFSA 2008",
+            "penalty": 12,
+            "sourceUrl": "https://health.ec.europa.eu/system/files/2018-03/scheer_o_009_0.pdf"
         },
         {
             "name": "aluminium potassium sulfate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "aluminum potassium sulphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "aluminum potassium sulfate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "potassium aluminium sulphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "potassium aluminium sulfate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "potassium aluminum sulphate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "potassium aluminum sulfate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
+            "reason": "Aluminium additive; EFSA found dietary aluminium exposure exceeds the tolerable weekly intake for part of the population.",
+            "source": "EFSA 2008",
+            "penalty": 12,
+            "sourceUrl": "https://health.ec.europa.eu/system/files/2018-03/scheer_o_009_0.pdf"
         },
         {
             "name": "sodium aluminosilicate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
+            "reason": "Aluminium additive; EFSA found dietary aluminium exposure exceeds the tolerable weekly intake for part of the population.",
+            "source": "EFSA 2008",
+            "penalty": 12,
+            "sourceUrl": "https://health.ec.europa.eu/system/files/2018-03/scheer_o_009_0.pdf"
         },
         {
             "name": "sodium aluminium silicate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
-        },
-        {
-            "name": "sodium aluminum silicate",
-            "reason": "Adds aluminium to the diet; EFSA found many people may exceed its tolerable weekly intake, and the EU has since restricted these additives.",
-            "source": "EFSA (2008)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2008.754",
-            "penalty": 0
+            "reason": "Aluminium additive; EFSA found dietary aluminium exposure exceeds the tolerable weekly intake for part of the population.",
+            "source": "EFSA 2008",
+            "penalty": 12,
+            "sourceUrl": "https://health.ec.europa.eu/system/files/2018-03/scheer_o_009_0.pdf"
         },
         {
             "name": "sodium phosphate",
-            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
-            "source": "EFSA (2019)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
-            "penalty": 0
+            "reason": "Phosphate additive; EFSA found total dietary phosphate intake may exceed the safe level, a particular concern for kidney health.",
+            "source": "EFSA 2019",
+            "penalty": 10,
+            "sourceUrl": "https://www.efsa.europa.eu/en/press/news/190612"
         },
         {
             "name": "potassium phosphate",
-            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
-            "source": "EFSA (2019)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
-            "penalty": 0
+            "reason": "Phosphate additive; EFSA found total dietary phosphate intake may exceed the safe level, a particular concern for kidney health.",
+            "source": "EFSA 2019",
+            "penalty": 10,
+            "sourceUrl": "https://www.efsa.europa.eu/en/press/news/190612"
         },
         {
             "name": "sodium acid pyrophosphate",
-            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
-            "source": "EFSA (2019)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
-            "penalty": 0
+            "reason": "Phosphate additive; EFSA found total dietary phosphate intake may exceed the safe level, a particular concern for kidney health.",
+            "source": "EFSA 2019",
+            "penalty": 10,
+            "sourceUrl": "https://www.efsa.europa.eu/en/press/news/190612"
         },
         {
             "name": "disodium pyrophosphate",
-            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
-            "source": "EFSA (2019)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
-            "penalty": 0
+            "reason": "Phosphate additive; EFSA found total dietary phosphate intake may exceed the safe level, a particular concern for kidney health.",
+            "source": "EFSA 2019",
+            "penalty": 10,
+            "sourceUrl": "https://www.efsa.europa.eu/en/press/news/190612"
         },
         {
             "name": "tetrasodium pyrophosphate",
-            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
-            "source": "EFSA (2019)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
-            "penalty": 0
+            "reason": "Phosphate additive; EFSA found total dietary phosphate intake may exceed the safe level, a particular concern for kidney health.",
+            "source": "EFSA 2019",
+            "penalty": 10,
+            "sourceUrl": "https://www.efsa.europa.eu/en/press/news/190612"
         },
         {
             "name": "sodium tripolyphosphate",
-            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
-            "source": "EFSA (2019)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
-            "penalty": 0
+            "reason": "Phosphate additive; EFSA found total dietary phosphate intake may exceed the safe level, a particular concern for kidney health.",
+            "source": "EFSA 2019",
+            "penalty": 10,
+            "sourceUrl": "https://www.efsa.europa.eu/en/press/news/190612"
         },
         {
             "name": "sodium hexametaphosphate",
-            "reason": "A phosphate additive; EFSA found total phosphate intake can exceed safe levels in children and high consumers, and it's a particular concern for people with kidney disease.",
-            "source": "EFSA (2019)",
-            "sourceUrl": "https://doi.org/10.2903/j.efsa.2019.5674",
-            "penalty": 0
+            "reason": "Phosphate additive; EFSA found total dietary phosphate intake may exceed the safe level, a particular concern for kidney health.",
+            "source": "EFSA 2019",
+            "penalty": 10,
+            "sourceUrl": "https://www.efsa.europa.eu/en/press/news/190612"
+        },
+        {
+            "name": "aspartame",
+            "reason": "Artificial sweetener IARC classified as possibly carcinogenic to humans (Group 2B) in 2023.",
+            "source": "WHO/IARC",
+            "penalty": 10,
+            "sourceUrl": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released"
+        },
+        {
+            "name": "potassium bromate",
+            "reason": "Flour treatment agent IARC classifies as possibly carcinogenic to humans (Group 2B); banned for food use in the EU, UK, Canada and Brazil.",
+            "source": "IARC Monographs",
+            "penalty": 15,
+            "sourceUrl": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Some-Chemicals-That-Cause-Tumours-Of-The-Kidney-Or-Urinary-Bladder-In-Rodents-And-Some-Other-Substances-1999"
+        },
+        {
+            "name": "partially hydrogenated",
+            "reason": "Industrial trans fat that raises LDL and lowers HDL cholesterol with no safe intake level; the FDA removed it from GRAS status.",
+            "source": "N Engl J Med (2006)",
+            "penalty": 20,
+            "sourceUrl": "https://doi.org/10.1056/NEJMra054035"
+        },
+        {
+            "name": "high fructose corn syrup",
+            "reason": "Concentrated added sugar linked to raised liver fat and triglycerides when consumed in excess.",
+            "source": "Nutrients (2017)",
+            "penalty": 8,
+            "sourceUrl": "https://doi.org/10.3390/nu9090981"
+        },
+        {
+            "name": "high-fructose corn syrup",
+            "reason": "Concentrated added sugar linked to raised liver fat and triglycerides when consumed in excess.",
+            "source": "Nutrients (2017)",
+            "penalty": 8,
+            "sourceUrl": "https://doi.org/10.3390/nu9090981"
+        },
+        {
+            "name": "palm oil",
+            "reason": "High in saturated fat (around 50%), which raises LDL cholesterol and is a cardiovascular concern.",
+            "source": "J Nutr (2015)",
+            "penalty": 6,
+            "sourceUrl": "https://doi.org/10.3945/jn.115.210575"
         }
     ],
     "thresholds": {
@@ -395,21 +290,21 @@
         "en:meats": "Meat",
         "en:desserts": "Desserts",
         "en:biscuits-and-cakes": "Cookies & Cakes",
-        "en:meals": "Ready Meals",
+        "en:meals": "Prepared Meals",
         "en:cereals-and-their-products": null,
         "en:spreads": "Spreads",
         "en:cheeses": "Cheese",
-        "en:sauces": "Condiments & Sauces",
+        "en:sauces": "Sauces",
         "en:confectioneries": "Candy & Confectionery",
         "en:frozen-foods": null,
         "en:breakfasts": null,
         "en:groceries": null,
-        "en:prepared-meats": "Deli & Prepared Meats",
-        "en:plant-based-beverages": "Plant-Based Drinks",
+        "en:prepared-meats": "Deli & Cured Meats",
+        "en:plant-based-beverages": "Plant-Based Milk",
         "en:beverages-and-beverages-preparations": null,
         "en:vegetables-based-foods": null,
         "en:cocoa-and-its-products": "Cocoa & Chocolate",
-        "en:seafood": "Fish & Seafood",
+        "en:seafood": "Seafood",
         "en:canned-foods": null,
         "en:biscuits": "Cookies & Biscuits",
         "en:sweet-spreads": "Sweet Spreads",
@@ -420,10 +315,10 @@
         "en:fats": "Fats & Oils",
         "en:fishes-and-their-products": "Fish & Seafood",
         "en:fermented-dairy-desserts": "Dairy Desserts",
-        "en:salty-snacks": "Savory Snacks",
-        "en:fishes": "Fish & Seafood",
+        "en:salty-snacks": "Salty Snacks",
+        "en:fishes": "Fish",
         "en:pastas": "Pasta",
-        "en:alcoholic-beverages": "Alcoholic Drinks",
+        "en:alcoholic-beverages": "Alcoholic Beverages",
         "en:yogurts": "Yogurt",
         "en:poultries": "Poultry",
         "en:sweeteners": "Sweeteners",
@@ -431,28 +326,28 @@
         "en:seeds": "Seeds",
         "en:appetizers": "Appetizers",
         "en:frozen-desserts": "Frozen Desserts",
-        "en:vegetable-fats": "Fats & Oils",
+        "en:vegetable-fats": "Vegetable Fats",
         "en:cakes": "Cakes",
         "en:canned-plant-based-foods": null,
         "en:chocolates": "Chocolate",
         "en:nuts-and-their-products": "Nuts",
-        "en:fruit-based-beverages": "Fruit Drinks",
+        "en:fruit-based-beverages": "Fruit Juice & Drinks",
         "en:farming-products": null,
         "en:vegetables": "Vegetables",
         "en:dried-products": null,
-        "en:fatty-fishes": "Fish & Seafood",
+        "en:fatty-fishes": "Fatty Fish",
         "en:vegetable-oils": "Cooking Oils",
-        "en:dietary-supplements": "Supplements",
+        "en:dietary-supplements": "Dietary Supplements",
         "en:juices-and-nectars": "Juices & Nectars",
         "en:chocolate-candies": "Chocolate Candy",
         "en:breakfast-cereals": "Breakfast Cereal",
-        "en:hot-beverages": "Hot Drinks",
+        "en:hot-beverages": "Hot Beverages",
         "en:chicken-and-its-products": "Chicken",
         "en:carbonated-drinks": "Soda & Soft Drinks",
         "en:fruit-and-vegetable-preserves": "Preserves",
         "en:bee-products": "Honey & Bee Products",
         "en:legumes": "Beans & Legumes",
-        "en:olive-tree-products": "Olives & Olive Products",
+        "en:olive-tree-products": "Olives & Olive Oil",
         "en:cow-cheeses": "Cheese",
         "en:honeys": "Honey",
         "en:chickens": "Chicken",
@@ -466,28 +361,30 @@
         "en:salted-spreads": "Savory Spreads",
         "en:ice-creams-and-sorbets": "Ice Cream & Sorbet",
         "en:sausages": "Sausages",
-        "en:jams": "Jam",
+        "en:jams": "Jams & Jellies",
         "en:hams": "Ham",
         "en:milks": "Milk",
-        "en:cereal-grains": "Grains",
+        "en:cereal-grains": "Cereal Grains",
         "en:canned-vegetables": "Canned Vegetables",
         "en:soups": "Soup",
+        "en:biscuits-and-crackers": "Crackers & Biscuits",
         "en:dried-plant-based-foods": null,
-        "en:biscuits-and-crackers": "Cookies & Crackers",
-        "en:dairy-substitutes": "Dairy Alternatives",
+        "en:dairy-substitutes": "Dairy Substitutes",
         "en:teas": "Tea",
         "en:wines": "Wine",
-        "en:meals-with-meat": "Ready Meals",
+        "en:meals-with-meat": "Meat Meals",
         "en:olive-oils": "Olive Oil",
         "en:waters": "Water"
     },
     "usdaCategoryMap": {
         "Vegetable & Cooking Oils": [
             "en:cooking-oils",
+            "en:vegetable-oils",
             "en:fats"
         ],
         "Water": [
-            "en:waters"
+            "en:waters",
+            "en:beverages"
         ],
         "Cereal": [
             "en:breakfast-cereals"
@@ -520,6 +417,7 @@
         ],
         "Chips, Pretzels & Snacks": [
             "en:chips-and-fries",
+            "en:crisps",
             "en:salty-snacks"
         ],
         "Cheese": [
@@ -534,7 +432,8 @@
             "en:canned-vegetables"
         ],
         "Yogurt": [
-            "en:yogurts"
+            "en:yogurts",
+            "en:fermented-milk-products"
         ],
         "Eggs & Egg Substitutes": [
             "en:eggs"
@@ -561,13 +460,13 @@
         "Milk": [
             "en:milks"
         ],
-        "Snack, Energy & Granola Bars": [
-            "en:protein-bars",
-            "en:snacks"
-        ],
         "Other Meats": [
             "en:meats",
             "en:meats-and-their-products"
+        ],
+        "Snack, Energy & Granola Bars": [
+            "en:protein-bars",
+            "en:snacks"
         ],
         "Pizza": [
             "en:pizzas"
@@ -576,37 +475,48 @@
             "en:teas"
         ],
         "Rice": [
-            "en:rices"
+            "en:rices",
+            "en:cereal-grains"
         ],
         "Ice Cream & Frozen Yogurt": [
             "en:ice-creams-and-sorbets",
             "en:frozen-desserts"
         ],
-        "Iced & Bottle Tea": [
-            "en:teas",
+        "Non Alcoholic Beverages - Ready to Drink": [
             "en:beverages"
         ],
-        "Vegetable and Lentil Mixes": [
-            "en:legumes",
-            "en:vegetables"
+        "Non Alcoholic Beverages  Ready to Drink": [
+            "en:beverages"
         ],
-        "Non Alcoholic Beverages - Ready to Drink": [
+        "Iced & Bottle Tea": [
+            "en:teas",
             "en:beverages"
         ],
         "Other Soups": [
             "en:soups"
         ],
+        "Vegetable and Lentil Mixes": [
+            "en:legumes",
+            "en:vegetables-based-foods"
+        ],
         "Crackers & Biscotti": [
             "en:biscuits-and-crackers",
             "en:biscuits"
         ],
-        "Vegetables - Prepared/Processed": [
-            "en:vegetables",
-            "en:canned-vegetables"
-        ],
         "Plant Based Water": [
             "en:waters",
             "en:plant-based-beverages"
+        ],
+        "Vegetables - Prepared/Processed": [
+            "en:vegetables-based-foods",
+            "en:vegetables"
+        ],
+        "Vegetables  Prepared/Processed": [
+            "en:vegetables-based-foods",
+            "en:vegetables"
+        ],
+        "Vegetables - Unprepared/Unprocessed (Shelf Stable)": [
+            "en:vegetables"
         ],
         "Frozen Dinners & Entrees": [
             "en:meals",
@@ -649,38 +559,35 @@
         "Coffee": [
             "en:coffees"
         ],
-        "Frozen Appetizers & Hors D'oeuvres": [
-            "en:appetizers",
-            "en:frozen-foods"
-        ],
         "Canned Soup": [
             "en:soups",
             "en:canned-foods"
+        ],
+        "Frozen Appetizers & Hors D'oeuvres": [
+            "en:appetizers",
+            "en:frozen-foods"
         ],
         "Chocolate": [
             "en:chocolates",
             "en:cocoa-and-its-products"
         ],
         "Processed Cereal Products": [
-            "en:breakfast-cereals",
             "en:cereals-and-their-products"
         ],
         "Dough Based Products / Meals": [
-            "en:meals",
-            "en:cereals-and-their-products"
+            "en:meals"
         ],
         "Biscuits/Cookies": [
-            "en:biscuits"
+            "en:biscuits",
+            "en:cookies"
         ],
         "Canned Vegetables": [
-            "en:canned-vegetables"
+            "en:canned-vegetables",
+            "en:canned-foods"
         ],
         "Frozen Vegetables": [
             "en:vegetables",
             "en:frozen-foods"
-        ],
-        "Non Alcoholic Beverages  Ready to Drink": [
-            "en:beverages"
         ],
         "Nuts/Seeds - Prepared/Processed": [
             "en:nuts",
@@ -735,22 +642,25 @@
             "en:breads"
         ],
         "Canned Seafood": [
-            "en:fishes-and-their-products",
+            "en:fish-and-seafood",
             "en:canned-foods"
         ],
         "Croissants, Sweet Rolls, Muffins & Other Pastries": [
-            "en:biscuits-and-cakes",
-            "en:desserts"
+            "en:pastries",
+            "en:biscuits-and-cakes"
         ],
         "Frozen Pancakes, Waffles, French Toast & Crepes": [
-            "en:breakfasts",
-            "en:frozen-foods"
+            "en:frozen-foods",
+            "en:breakfasts"
         ],
         "Frozen Prepared Sides": [
             "en:meals",
             "en:frozen-foods"
         ],
         "Liquid Water Enhancer": [
+            "en:beverages-and-beverages-preparations"
+        ],
+        "Sport Drinks": [
             "en:beverages"
         ],
         "Yogurt/Yogurt Substitutes": [
@@ -762,8 +672,8 @@
             "en:canned-foods"
         ],
         "Cream": [
-            "en:dairies",
-            "en:creams"
+            "en:creams",
+            "en:dairies"
         ],
         "Flavored Rice Dishes": [
             "en:rices",
@@ -773,16 +683,26 @@
             "en:flours"
         ],
         "French Fries, Potatoes & Onion Rings": [
-            "en:chips-and-fries",
-            "en:frozen-foods"
+            "en:chips-and-fries"
         ],
         "Frozen Bread & Dough": [
             "en:breads",
             "en:frozen-foods"
         ],
+        "Meat/Poultry/Other Animals - Prepared/Processed": [
+            "en:meat-preparations",
+            "en:meats-and-their-products"
+        ],
+        "Meat/Poultry/Other Animals - Unprepared/Unprocessed": [
+            "en:meats-and-their-products"
+        ],
         "Oriental, Mexican & Ethnic Sauces": [
             "en:sauces",
             "en:condiments"
+        ],
+        "Pasta Dinners": [
+            "en:pastas",
+            "en:meals"
         ],
         "Sauces/Spreads/Dips/Condiments": [
             "en:sauces",
@@ -790,14 +710,10 @@
         ],
         "Savoury Bakery Products": [
             "en:breads",
-            "en:cereals-and-their-products"
+            "en:savoury-snacks"
         ],
         "Seasoning Mixes, Salts, Marinades & Tenderizers": [
-            "en:condiments",
-            "en:sauces"
-        ],
-        "Sport Drinks": [
-            "en:beverages"
+            "en:condiments"
         ],
         "Bacon, Sausages & Ribs": [
             "en:prepared-meats",
@@ -808,23 +724,22 @@
             "en:soups"
         ],
         "Desserts/Dessert Sauces/Toppings": [
-            "en:desserts",
-            "en:sweet-spreads"
+            "en:desserts"
         ],
         "Flavored Snack Crackers": [
             "en:biscuits-and-crackers",
             "en:salty-snacks"
         ],
         "Frozen Breakfast Sandwiches, Biscuits & Meals": [
-            "en:breakfasts",
+            "en:meals",
             "en:frozen-foods"
         ],
         "Frozen Fruit & Fruit Juice Concentrates": [
-            "en:fruits-based-foods",
+            "en:fruits",
             "en:frozen-foods"
         ],
         "Frozen Poultry, Chicken & Turkey": [
-            "en:chicken-and-its-products",
+            "en:chicken-preparations",
             "en:poultries"
         ],
         "Herbs & Spices": [
@@ -837,35 +752,26 @@
             "en:honeys",
             "en:bee-products"
         ],
-        "Meat/Poultry/Other Animals - Prepared/Processed": [
-            "en:prepared-meats",
-            "en:meats-and-their-products"
-        ],
-        "Pasta Dinners": [
-            "en:pastas",
-            "en:meals"
-        ],
         "Pizza Mixes & Other Dry Dinners": [
             "en:pizzas",
             "en:meals"
         ],
+        "Sausages, Hotdogs & Brats": [
+            "en:sausages",
+            "en:prepared-meats"
+        ],
         "Sushi": [
             "en:meals",
-            "en:fishes-and-their-products"
-        ],
-        "Vegetables  Prepared/Processed": [
-            "en:vegetables",
-            "en:canned-vegetables"
+            "en:fish-and-seafood"
         ],
         "Baking Additives & Extracts": [
             "en:condiments"
         ],
         "Baking/Cooking Mixes/Supplies": [
-            "en:cereals-and-their-products"
+            "en:meals"
         ],
         "Bread & Muffin Mixes": [
-            "en:breads",
-            "en:cereals-and-their-products"
+            "en:breads"
         ],
         "Breakfast Drinks": [
             "en:beverages",
@@ -873,11 +779,11 @@
         ],
         "Cake, Cookie & Cupcake Mixes": [
             "en:cakes",
-            "en:biscuits-and-cakes"
+            "en:cookies"
         ],
         "Cakes - Sweet (Frozen)": [
             "en:cakes",
-            "en:frozen-desserts"
+            "en:frozen-foods"
         ],
         "Canned Condensed Soup": [
             "en:soups",
@@ -887,10 +793,10 @@
             "en:coffees"
         ],
         "Confectionery Products": [
-            "en:confectioneries",
-            "en:candies"
+            "en:confectioneries"
         ],
         "Cookies & Biscuits": [
+            "en:cookies",
             "en:biscuits"
         ],
         "Cream/Cream Substitutes": [
@@ -899,19 +805,13 @@
         ],
         "Dairy/Egg Based Products / Meals": [
             "en:dairies",
-            "en:eggs"
+            "en:meals"
         ],
         "Fish - Prepared/Processed": [
-            "en:fishes-and-their-products",
-            "en:seafood"
+            "en:fishes-and-their-products"
         ],
         "Fish & Seafood": [
-            "en:fishes-and-their-products",
-            "en:seafood"
-        ],
-        "Meat/Poultry/Other Animals - Unprepared/Unprocessed": [
-            "en:meats",
-            "en:meats-and-their-products"
+            "en:fish-and-seafood"
         ],
         "Oils Edible": [
             "en:cooking-oils",
@@ -938,34 +838,62 @@
             "en:sauces",
             "en:condiments"
         ],
-        "Sausages, Hotdogs & Brats": [
-            "en:sausages",
-            "en:prepared-meats"
-        ],
         "Spreads": [
             "en:spreads"
         ],
         "Tea and Infusions/Tisanes": [
             "en:teas"
         ],
-        "Vegetables - Unprepared/Unprocessed (Shelf Stable)": [
-            "en:vegetables",
-            "en:canned-vegetables"
+        "Yogurt/Yoghurt": [
+            "en:yogurts"
+        ],
+        "Bread & Buns": [
+            "en:breads"
+        ],
+        "Sauces & Marinades": [
+            "en:sauces",
+            "en:condiments"
+        ],
+        "Butter & Spread": [
+            "en:butters",
+            "en:spreads"
+        ],
+        "Ice Cream & Novelties": [
+            "en:ice-creams-and-sorbets",
+            "en:frozen-desserts"
+        ],
+        "Protein & Meal Replacement": [
+            "en:protein-bars",
+            "en:beverages"
+        ],
+        "Juice": [
+            "en:juices",
+            "en:fruit-juices"
+        ],
+        "Tofu & Meat Alternatives": [
+            "en:tofu-and-products",
+            "en:meat-analogues"
+        ],
+        "Nuts": [
+            "en:nuts"
+        ],
+        "Popcorn": [
+            "en:popcorns"
+        ],
+        "Pretzels": [
+            "en:salty-snacks"
+        ],
+        "Cereal Bars": [
+            "en:protein-bars",
+            "en:breakfast-cereals"
         ],
         "Nut & Seed Butters ": [
             "en:nut-butters",
             "en:spreads"
         ],
-        "Bread & Buns": [
-            "en:breads"
-        ],
         "Frozen Poultry": [
             "en:chicken-and-its-products",
             "en:poultries"
-        ],
-        "Sauces & Marinades": [
-            "en:sauces",
-            "en:condiments"
         ],
         "Butter & Spreads": [
             "en:butters",
@@ -973,9 +901,6 @@
         ],
         "Protein Bars": [
             "en:protein-bars"
-        ],
-        "Juice": [
-            "en:juices-and-nectars"
         ],
         "Pasta": [
             "en:pastas"
@@ -985,9 +910,6 @@
         ],
         "Cheese - Processed": [
             "en:cheeses"
-        ],
-        "Butter & Spread": [
-            "en:butters"
         ],
         "Butter/Butter Substitutes": [
             "en:butters"
@@ -1028,9 +950,6 @@
         "Candy/Chocolate/Gum - Prepared/Processed": [
             "en:candies",
             "en:chocolates"
-        ],
-        "Nuts": [
-            "en:nuts"
         ],
         "Nuts, Seeds & Trail Mix": [
             "en:nuts"
@@ -1083,9 +1002,6 @@
         "Beans, Peas & Lentils - Prepared/Processed": [
             "en:legumes"
         ],
-        "Tofu & Meat Alternatives": [
-            "en:tofu-and-products"
-        ],
         "Meat/Poultry/Other Animals Sausages": [
             "en:meat-preparations",
             "en:meats-and-their-products"
@@ -1124,7 +1040,7 @@
             "kept simple",
             "mostly whole-food",
             "close to its raw form",
-            "barely touched"
+            "barely altered"
         ],
         "seedOils.flagged": [
             "heavy on seed oils",
@@ -1148,13 +1064,14 @@
             "sodium-forward",
             "high on the salt",
             "carries a heavy salt load",
-            "leans salty"
+            "runs salty"
         ],
         "sugars.high": [
             "sweet enough to watch",
             "sugar-forward",
             "heavy on added sugar",
-            "loaded with added sugar"
+            "loaded with added sugar",
+            "runs sweet"
         ],
         "nutrient.excellent": [
             "nutrient-dense",
